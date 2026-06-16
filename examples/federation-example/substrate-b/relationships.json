@@ -9,6 +9,9 @@
       "visibility": "secondary",
       "external": true,
       "target_substrate": "example.researcher_a",
+      "asserted_by": "Researcher B",
+      "asserted_at": "2026-01-01T00:00:00Z",
+      "confidence": "0.78",
       "summary": "Researcher B records the reciprocal possible-match edge while preserving the local memory-substrate framing."
     }
   ]

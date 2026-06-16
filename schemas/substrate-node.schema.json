@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://xananode.org/schemas/substrate-node.schema.json",
+  "title": "Substrate Node",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["id", "title", "type", "importance", "summary", "relationships"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_-]*(\\.[a-z][a-z0-9_-]*)*:[a-z][a-z0-9_-]*/[^\\s#]+$"
+    },
+    "title": { "type": "string" },
+    "type": {
+      "type": "string",
+      "pattern": "^([a-z][a-z0-9_-]*(\\.[a-z][a-z0-9_-]*)*:)?[a-z][a-z0-9_-]*$"
+    },
+    "status": { "type": "string" },
+    "importance": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "summary": { "type": "string" },
+    "created_by": { "type": "string" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "source_url": { "type": "string", "format": "uri" },
+    "rights_status": { "type": "string" },
+    "confidence": { "type": "string" },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "type", "direction"],
+        "properties": {
+          "id": { "type": "string" },
+          "type": {
+            "type": "string",
+            "pattern": "^([a-z][a-z0-9_-]*(\\.[a-z][a-z0-9_-]*)*:)?[a-z][a-z0-9_-]*$"
+          },
+          "source": { "type": "string" },
+          "target": { "type": "string" },
+          "direction": {
+            "type": "string",
+            "enum": ["incoming", "outgoing"]
+          },
+          "external": { "type": "boolean" },
+          "target_substrate": { "type": "string" }
+        }
+      }
+    }
+  }
+}

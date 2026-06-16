@@ -15,3 +15,5 @@ Examples:
 - `deep_links_to`
 
 Relationships may be simple edges or first-class nodes when the relationship itself needs evidence, provenance, dispute, or revision history.
+
+Relationship records should preserve assertion provenance when available. Common fields include `asserted_by`, `asserted_at`, `confidence`, and `evidence`.

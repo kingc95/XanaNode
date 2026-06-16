@@ -11,6 +11,8 @@ Core files:
 - [xananode-relationship-types.v0.4.0.json](xananode-relationship-types.v0.4.0.json)
 - [xananode-relationship-types.schema.v0.4.0.json](xananode-relationship-types.schema.v0.4.0.json)
 - [substrate-manifest.schema.json](substrate-manifest.schema.json)
+- [substrate-node.schema.json](substrate-node.schema.json)
+- [substrate-relationships.schema.json](substrate-relationships.schema.json)
 - [namespace.schema.json](namespace.schema.json)
 - [merge-report.schema.json](merge-report.schema.json)
 - [compatibility-report.schema.json](compatibility-report.schema.json)

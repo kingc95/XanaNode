@@ -7,6 +7,9 @@
       "type": "supports",
       "weight": 5,
       "visibility": "primary",
+      "asserted_by": "Example Maintainer",
+      "asserted_at": "2026-01-01T00:00:00Z",
+      "confidence": "interpretive",
       "summary": "Bush's essay is used as source evidence for the claim that substrate structure matters."
     },
     {
@@ -16,6 +19,9 @@
       "type": "discusses",
       "weight": 5,
       "visibility": "primary",
+      "asserted_by": "Example Maintainer",
+      "asserted_at": "2026-01-01T00:00:00Z",
+      "confidence": "high",
       "summary": "The source discusses associative trails as a way to navigate knowledge by meaningful connections."
     },
     {
@@ -25,6 +31,9 @@
       "type": "related_to",
       "weight": 4,
       "visibility": "primary",
+      "asserted_by": "Example Maintainer",
+      "asserted_at": "2026-01-01T00:00:00Z",
+      "confidence": "interpretive",
       "summary": "Associative trails provide historical and conceptual context for the knowledge substrate concept."
     },
     {
@@ -34,6 +43,9 @@
       "type": "defines",
       "weight": 5,
       "visibility": "primary",
+      "asserted_by": "Example Maintainer",
+      "asserted_at": "2026-01-01T00:00:00Z",
+      "confidence": "interpretive",
       "summary": "The claim gives the defining explanation of what a knowledge substrate is."
     },
     {
@@ -43,6 +55,9 @@
       "type": "has_claim",
       "weight": 5,
       "visibility": "primary",
+      "asserted_by": "Example Maintainer",
+      "asserted_at": "2026-01-01T00:00:00Z",
+      "confidence": "high",
       "summary": "The concept is built from the claim rather than floating as an unsupported idea."
     },
     {
@@ -52,6 +67,9 @@
       "type": "starts_with",
       "weight": 3,
       "visibility": "secondary",
+      "asserted_by": "Example Maintainer",
+      "asserted_at": "2026-01-01T00:00:00Z",
+      "confidence": "curatorial",
       "summary": "The reading trail starts with the source."
     },
     {
@@ -61,6 +79,9 @@
       "type": "continues_to",
       "weight": 3,
       "visibility": "secondary",
+      "asserted_by": "Example Maintainer",
+      "asserted_at": "2026-01-01T00:00:00Z",
+      "confidence": "curatorial",
       "summary": "The trail continues from source evidence to the claim derived from it."
     },
     {
@@ -70,6 +91,9 @@
       "type": "continues_to",
       "weight": 3,
       "visibility": "secondary",
+      "asserted_by": "Example Maintainer",
+      "asserted_at": "2026-01-01T00:00:00Z",
+      "confidence": "curatorial",
       "summary": "The trail continues from the defining claim to the concept it helps construct."
     },
     {
@@ -79,6 +103,9 @@
       "type": "features",
       "weight": 3,
       "visibility": "secondary",
+      "asserted_by": "Example Maintainer",
+      "asserted_at": "2026-01-01T00:00:00Z",
+      "confidence": "curatorial",
       "summary": "The trail features the background concept that explains why relationship-based navigation matters."
     }
   ]

@@ -5,6 +5,7 @@ A substrate is an independently authored XanaNode-compatible knowledge graph.
 A substrate includes:
 
 - a manifest
+- a declared namespace
 - nodes
 - relationships
 - schema declarations

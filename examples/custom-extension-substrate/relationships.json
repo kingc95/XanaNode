@@ -6,7 +6,11 @@
       "target": "example.museum:concept/memex",
       "type": "represents",
       "weight": 4,
-      "visibility": "primary"
+      "visibility": "primary",
+      "asserted_by": "Example Museum Curator",
+      "asserted_at": "2026-01-01T00:00:00Z",
+      "confidence": "curatorial",
+      "summary": "The exhibit illustration is used as a representative artifact for the Memex concept."
     },
     {
       "id": "example.museum:rel/artifact-context",
@@ -14,7 +18,11 @@
       "target": "example.museum:concept/memex",
       "type": "example.museum:curatorial_context_for",
       "weight": 3,
-      "visibility": "secondary"
+      "visibility": "secondary",
+      "asserted_by": "Example Museum Curator",
+      "asserted_at": "2026-01-01T00:00:00Z",
+      "confidence": "curatorial",
+      "summary": "The artifact provides curatorial framing for how the Memex concept is presented in the exhibit."
     }
   ]
 }

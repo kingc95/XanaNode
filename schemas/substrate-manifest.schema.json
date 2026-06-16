@@ -4,7 +4,7 @@
   "title": "Substrate Manifest",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "name", "version"],
+  "required": ["id", "name", "version", "namespace"],
   "properties": {
     "id": { "type": "string" },
     "name": { "type": "string" },
