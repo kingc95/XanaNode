@@ -2,8 +2,6 @@
 
 ![XanaNode Logo](media/images/xananode-icon.svg)
 
-**XanaNode is an open protocol for building interoperable knowledge substrates that preserve relationships, provenance, lineage, and disagreement across independently authored and federated knowledge systems.**
-
 ## What is XanaNode?
 
 XanaNode is a protocol, ontology, and publishing architecture for building interoperable knowledge substrates.
