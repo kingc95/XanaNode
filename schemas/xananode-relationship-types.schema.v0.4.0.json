@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://builtbybots.com/schemas/xananode-relationship-types.schema.json",
+  "$id": "https://xananode.org/schemas/xananode-relationship-types.schema.v0.4.0.json",
   "title": "XanaNode Relationship Type Registry",
   "description": "Canonical and extension relationship type registry for XanaNode-compatible knowledge substrates.",
   "type": "object",
@@ -31,11 +31,11 @@
         "properties": {
           "namespace": {
             "type": "string",
-            "pattern": "^[a-z][a-z0-9_-]*$"
+            "pattern": "^[a-z][a-z0-9_-]*(\\.[a-z][a-z0-9_-]*)*$"
           },
           "id": {
             "type": "string",
-            "pattern": "^[a-z][a-z0-9_-]*:[a-z][a-z0-9_-]*$"
+            "pattern": "^[a-z][a-z0-9_-]*(\\.[a-z][a-z0-9_-]*)*:[a-z][a-z0-9_-]*$"
           },
           "type": {
             "type": "string",
@@ -93,7 +93,7 @@
               "string",
               "null"
             ],
-            "pattern": "^[a-z][a-z0-9_-]*(:[a-z][a-z0-9_-]*)?$"
+            "pattern": "^[a-z][a-z0-9_-]*(\\.[a-z][a-z0-9_-]*)*(:[a-z][a-z0-9_-]*)?$"
           },
           "default_weight": {
             "type": "integer",

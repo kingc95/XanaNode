@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://builtbybots.com/schemas/xananode-node-types.schema.json",
+  "$id": "https://xananode.org/schemas/xananode-node-types.schema.v0.3.0.json",
   "title": "XanaNode Node Type Registry",
   "description": "Canonical and extension node type registry for XanaNode-compatible knowledge substrates.",
   "type": "object",
@@ -30,11 +30,11 @@
         "properties": {
           "namespace": {
             "type": "string",
-            "pattern": "^[a-z][a-z0-9_-]*$"
+            "pattern": "^[a-z][a-z0-9_-]*(\\.[a-z][a-z0-9_-]*)*$"
           },
           "id": {
             "type": "string",
-            "pattern": "^[a-z][a-z0-9_-]*:[a-z][a-z0-9_-]*$"
+            "pattern": "^[a-z][a-z0-9_-]*(\\.[a-z][a-z0-9_-]*)*:[a-z][a-z0-9_-]*$"
           },
           "type": {
             "type": "string",
@@ -54,7 +54,7 @@
               "string",
               "null"
             ],
-            "pattern": "^[a-z][a-z0-9_-]*(:[a-z][a-z0-9_-]*)?$"
+            "pattern": "^[a-z][a-z0-9_-]*(\\.[a-z][a-z0-9_-]*)*(:[a-z][a-z0-9_-]*)?$"
           },
           "allowed_subtypes": {
             "type": "array",
