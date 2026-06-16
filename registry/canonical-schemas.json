@@ -1,0 +1,16 @@
+{
+  "schemas": [
+    {
+      "id": "xananode-node-types",
+      "version": "0.3.0",
+      "path": "../schemas/xananode-node-types.v0.3.0.json",
+      "schema": "../schemas/xananode-node-types.schema.v0.3.0.json"
+    },
+    {
+      "id": "xananode-relationship-types",
+      "version": "0.4.0",
+      "path": "../schemas/xananode-relationship-types.v0.4.0.json",
+      "schema": "../schemas/xananode-relationship-types.schema.v0.4.0.json"
+    }
+  ]
+}

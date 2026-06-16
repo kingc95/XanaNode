@@ -1,0 +1,10 @@
+{
+  "implementations": [
+    {
+      "name": "XanaNode Hugo Theme",
+      "type": "static-site-reference-implementation",
+      "status": "external",
+      "url": "https://github.com/kingc95/xananode-hugo"
+    }
+  ]
+}

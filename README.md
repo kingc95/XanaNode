@@ -1,5 +1,7 @@
 # XanaNode
 
+![XanaNode Logo](media/images/xananode-icon.svg)
+
 **XanaNode is an open protocol for building interoperable knowledge substrates that preserve relationships, provenance, lineage, and disagreement across independently authored and federated knowledge systems.**
 
 ## What is XanaNode?
@@ -201,32 +203,20 @@ XanaNode uses a layered schema model.
 
 ## Core Schema
 
-Provides canonical node and relationship types.
+Provides the canonical node and relationship registries for the protocol.
 
-Examples:
+The current core registry files are versioned and live in [schemas/](schemas):
 
-Node types:
+* [xananode-node-types.v0.3.0.json](schemas/xananode-node-types.v0.3.0.json)
+* [xananode-node-types.schema.v0.3.0.json](schemas/xananode-node-types.schema.v0.3.0.json)
+* [xananode-relationship-types.v0.4.0.json](schemas/xananode-relationship-types.v0.4.0.json)
+* [xananode-relationship-types.schema.v0.4.0.json](schemas/xananode-relationship-types.schema.v0.4.0.json)
 
-* person
-* concept
-* claim
-* source
-* event
-* organization
-* technology
-* media
-* trail
+The node registry currently centers on core types such as person, concept, claim, source, essay, and observation.
 
-Relationship types:
+The relationship registry currently centers on core types such as defines, has_claim, supports, contradicts, documents, and derived_from.
 
-* supports
-* contradicts
-* documents
-* created_by
-* derived_from
-* explains
-
-The core schema provides interoperability.
+The core schema provides interoperability while still allowing extension schemas to define namespaced custom types.
 
 ---
 
