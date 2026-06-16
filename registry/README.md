@@ -5,3 +5,5 @@ The registry directory lists known namespaces, schemas, implementations, and rel
 This is not a central authority over truth.
 
 It is a discovery aid.
+
+Known implementations are listed in [known-implementations.json](known-implementations.json). Implementation repositories should point back to the protocol version and schema artifacts they target.

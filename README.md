@@ -220,6 +220,16 @@ Validation tools live in [tools/](tools). The repository validator checks JSON S
 
 ---
 
+# Reference Implementation
+
+The protocol repository is implementation-neutral. The first reference implementation is maintained separately:
+
+* [XanaNode Hugo Theme](https://github.com/kingc95/xananode-hugo)
+
+The Hugo implementation is the static-site renderer and graph viewer for XanaNode-compatible substrates. This repository defines the protocol, schemas, examples, registry, and validation rules; the Hugo repository demonstrates how those artifacts can be rendered into a browsable knowledge substrate.
+
+---
+
 ## Extension Schema
 
 Substrates may define custom node types and relationship types.
