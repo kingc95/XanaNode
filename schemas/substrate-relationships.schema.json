@@ -33,6 +33,10 @@
           "asserted_by": { "type": "string" },
           "asserted_at": { "type": "string", "format": "date-time" },
           "confidence": { "type": "string" },
+          "tumbler": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_-]*(\\.[a-z][a-z0-9_-]*)*:[a-z][a-z0-9_-]*/[^\\s#]+(#fragment/[A-Za-z0-9._-]+)?$"
+          },
           "evidence": {
             "type": "array",
             "items": { "type": "string" }

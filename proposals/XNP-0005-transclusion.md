@@ -6,6 +6,8 @@ Status: Experimental
 
 Defines inclusion by reference rather than copying.
 
+The initial interoperable form uses a `transcludes` relationship from a consuming node to a fragment node with a stable `tumbler` address.
+
 ## Motivation
 
 XanaNode aims to support independently authored knowledge substrates that can later interoperate. This proposal records the design expectations for transclusion so implementations can converge without requiring centralized control.

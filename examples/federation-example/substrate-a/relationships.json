@@ -9,7 +9,7 @@
       "visibility": "secondary",
       "external": true,
       "target_substrate": "example.researcher_b",
-      "asserted_by": "Researcher A",
+      "asserted_by": "example.researcher_a:person/researcher-a",
       "asserted_at": "2026-01-01T00:00:00Z",
       "confidence": "0.78",
       "summary": "Researcher A marks Researcher B's memory-substrate concept as a possible match, not an automatic identity merge."

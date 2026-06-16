@@ -28,6 +28,23 @@
     "source_url": { "type": "string", "format": "uri" },
     "rights_status": { "type": "string" },
     "confidence": { "type": "string" },
+    "source_node": { "type": "string" },
+    "fragment_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9._-]+$"
+    },
+    "tumbler": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_-]*(\\.[a-z][a-z0-9_-]*)*:[a-z][a-z0-9_-]*/[^\\s#]+(#fragment/[A-Za-z0-9._-]+)?$"
+    },
+    "selector": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "type": { "type": "string" },
+        "value": { "type": "string" }
+      }
+    },
     "relationships": {
       "type": "array",
       "items": {

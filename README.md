@@ -216,6 +216,8 @@ The relationship registry currently centers on core types such as defines, has_c
 
 The core schema provides interoperability while still allowing extension schemas to define namespaced custom types.
 
+Validation tools live in [tools/](tools). The repository validator checks JSON Schema conformance plus XanaNode-specific integrity rules such as declared relationship types, registered namespaces, and resolvable relationship endpoints.
+
 ---
 
 ## Extension Schema

@@ -32,6 +32,12 @@
       "type": "continues_to",
       "target": "example.minimal:claim/substrate-is-structure",
       "direction": "outgoing"
+    },
+    {
+      "id": "example.minimal:rel/fragment-derived-from-source",
+      "type": "derived_from",
+      "source": "example.minimal:fragment/as-we-may-think-0004",
+      "direction": "incoming"
     }
   ]
 }

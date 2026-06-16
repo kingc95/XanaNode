@@ -9,6 +9,9 @@ This example uses only canonical XanaNode Core node types:
 - `source`
 - `concept`
 - `claim`
+- `person`
+- `essay`
+- `fragment`
 - `trail`
 
 It also uses canonical relationship types:
@@ -21,6 +24,9 @@ It also uses canonical relationship types:
 - `starts_with`
 - `continues_to`
 - `features`
+- `created`
+- `derived_from`
+- `transcludes`
 
 ## What this example demonstrates
 
@@ -42,6 +48,10 @@ As We May Think
 Start Here
   starts_with
     As We May Think
+
+Relationship Navigation Intro
+  transcludes
+    As We May Think Fragment 0004
 ```
 
 ## Why the relationships matter
@@ -56,6 +66,7 @@ XanaNode requires the relationship to say **how** they are related:
 - The source `discusses` associative trails.
 - Associative trails are `related_to` the knowledge substrate as historical and conceptual context.
 - The trail provides a human reading route, but it is not the only connection.
+- The essay `transcludes` a fragment using the stable tumbler address `example.minimal:source/as-we-may-think#fragment/0004`.
 
 ## Files
 

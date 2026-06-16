@@ -9,5 +9,6 @@ Potential tool categories for XanaNode:
 - duplicate detectors
 - relationship suggesters
 - substrate importers/exporters
+- repository validator: `tools/validate.py`
 
 This repository may link to tools here rather than include every implementation directly.

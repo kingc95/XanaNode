@@ -6,6 +6,13 @@ Status: Experimental
 
 Defines persistent addressing for nodes and fragments.
 
+The initial accepted profile is:
+
+```text
+<namespace>:<node-kind>/<local-id>
+<namespace>:<node-kind>/<local-id>#fragment/<fragment-id>
+```
+
 ## Motivation
 
 XanaNode aims to support independently authored knowledge substrates that can later interoperate. This proposal records the design expectations for tumbler addressing so implementations can converge without requiring centralized control.

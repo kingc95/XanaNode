@@ -1,0 +1,31 @@
+{
+  "id": "example.minimal:fragment/as-we-may-think-0004",
+  "title": "As We May Think Fragment 0004",
+  "type": "fragment",
+  "importance": 4,
+  "summary": "An addressable fragment of the source used to demonstrate stable fragment references and transclusion.",
+  "source_node": "example.minimal:source/as-we-may-think",
+  "fragment_id": "0004",
+  "tumbler": "example.minimal:source/as-we-may-think#fragment/0004",
+  "selector": {
+    "type": "semantic-anchor",
+    "value": "associative-trails-discussion"
+  },
+  "rights_status": "copyrighted",
+  "created_by": "example.minimal:person/example-maintainer",
+  "created_at": "2026-01-01T00:00:00Z",
+  "relationships": [
+    {
+      "id": "example.minimal:rel/fragment-derived-from-source",
+      "type": "derived_from",
+      "target": "example.minimal:source/as-we-may-think",
+      "direction": "outgoing"
+    },
+    {
+      "id": "example.minimal:rel/essay-transcludes-fragment",
+      "type": "transcluded_by",
+      "source": "example.minimal:essay/relationship-navigation-intro",
+      "direction": "incoming"
+    }
+  ]
+}

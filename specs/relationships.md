@@ -16,4 +16,6 @@ Examples:
 
 Relationships may be simple edges or first-class nodes when the relationship itself needs evidence, provenance, dispute, or revision history.
 
-Relationship records should preserve assertion provenance when available. Common fields include `asserted_by`, `asserted_at`, `confidence`, and `evidence`.
+Relationship records should preserve assertion provenance when available. Common fields include `asserted_by`, `asserted_at`, `confidence`, `evidence`, and `tumbler`.
+
+`asserted_by` should point to a person, organization, project, or external actor identifier when possible. If the actor is local to the substrate, it should be represented as a node.
