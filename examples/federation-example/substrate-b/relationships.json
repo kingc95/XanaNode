@@ -1,0 +1,15 @@
+{
+  "relationships": [
+    {
+      "id": "example.researcher_b:rel/memory-substrate-possible-match-knowledge-substrate",
+      "source": "example.researcher_b:concept/memory-substrate",
+      "target": "example.researcher_a:concept/knowledge-substrate",
+      "type": "possible_match",
+      "weight": 3,
+      "visibility": "secondary",
+      "external": true,
+      "target_substrate": "example.researcher_a",
+      "summary": "Researcher B records the reciprocal possible-match edge while preserving the local memory-substrate framing."
+    }
+  ]
+}

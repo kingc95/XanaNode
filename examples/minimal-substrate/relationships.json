@@ -1,0 +1,85 @@
+{
+  "relationships": [
+    {
+      "id": "example.minimal:rel/source-supports-claim",
+      "source": "example.minimal:source/as-we-may-think",
+      "target": "example.minimal:claim/substrate-is-structure",
+      "type": "supports",
+      "weight": 5,
+      "visibility": "primary",
+      "summary": "Bush's essay is used as source evidence for the claim that substrate structure matters."
+    },
+    {
+      "id": "example.minimal:rel/source-discusses-associative-trails",
+      "source": "example.minimal:source/as-we-may-think",
+      "target": "example.minimal:concept/associative-trails",
+      "type": "discusses",
+      "weight": 5,
+      "visibility": "primary",
+      "summary": "The source discusses associative trails as a way to navigate knowledge by meaningful connections."
+    },
+    {
+      "id": "example.minimal:rel/associative-trails-context-for-substrate",
+      "source": "example.minimal:concept/associative-trails",
+      "target": "example.minimal:concept/knowledge-substrate",
+      "type": "related_to",
+      "weight": 4,
+      "visibility": "primary",
+      "summary": "Associative trails provide historical and conceptual context for the knowledge substrate concept."
+    },
+    {
+      "id": "example.minimal:rel/claim-defines-concept",
+      "source": "example.minimal:claim/substrate-is-structure",
+      "target": "example.minimal:concept/knowledge-substrate",
+      "type": "defines",
+      "weight": 5,
+      "visibility": "primary",
+      "summary": "The claim gives the defining explanation of what a knowledge substrate is."
+    },
+    {
+      "id": "example.minimal:rel/concept-has-claim",
+      "source": "example.minimal:concept/knowledge-substrate",
+      "target": "example.minimal:claim/substrate-is-structure",
+      "type": "has_claim",
+      "weight": 5,
+      "visibility": "primary",
+      "summary": "The concept is built from the claim rather than floating as an unsupported idea."
+    },
+    {
+      "id": "example.minimal:rel/trail-starts-with-source",
+      "source": "example.minimal:trail/start-here",
+      "target": "example.minimal:source/as-we-may-think",
+      "type": "starts_with",
+      "weight": 3,
+      "visibility": "secondary",
+      "summary": "The reading trail starts with the source."
+    },
+    {
+      "id": "example.minimal:rel/trail-continues-to-claim",
+      "source": "example.minimal:source/as-we-may-think",
+      "target": "example.minimal:claim/substrate-is-structure",
+      "type": "continues_to",
+      "weight": 3,
+      "visibility": "secondary",
+      "summary": "The trail continues from source evidence to the claim derived from it."
+    },
+    {
+      "id": "example.minimal:rel/trail-continues-to-concept",
+      "source": "example.minimal:claim/substrate-is-structure",
+      "target": "example.minimal:concept/knowledge-substrate",
+      "type": "continues_to",
+      "weight": 3,
+      "visibility": "secondary",
+      "summary": "The trail continues from the defining claim to the concept it helps construct."
+    },
+    {
+      "id": "example.minimal:rel/trail-includes-associative-trails",
+      "source": "example.minimal:trail/start-here",
+      "target": "example.minimal:concept/associative-trails",
+      "type": "features",
+      "weight": 3,
+      "visibility": "secondary",
+      "summary": "The trail features the background concept that explains why relationship-based navigation matters."
+    }
+  ]
+}

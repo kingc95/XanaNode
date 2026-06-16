@@ -1,0 +1,10 @@
+{
+  "id": "example.researcher_a",
+  "name": "Federation Example A",
+  "version": "0.1.0",
+  "namespace": "example.researcher_a",
+  "schema_version": "xananode-core@0.4.0",
+  "imports": [
+    "xananode:core"
+  ]
+}

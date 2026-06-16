@@ -1,0 +1,32 @@
+{
+  "version": "0.1.0",
+  "namespace": "example.museum",
+  "relationship_types": [
+    {
+      "id": "example.museum:curatorial_context_for",
+      "namespace": "example.museum",
+      "type": "curatorial_context_for",
+      "label": "Curatorial context for",
+      "category": "representation",
+      "meaning": "The source artifact is presented as exhibit context for the target concept, source, event, person, or other knowledge object.",
+      "inverse": "example.museum:has_curatorial_context",
+      "core": false,
+      "extends": "xananode:related_to",
+      "default_weight": 3,
+      "default_visibility": "secondary"
+    },
+    {
+      "id": "example.museum:has_curatorial_context",
+      "namespace": "example.museum",
+      "type": "has_curatorial_context",
+      "label": "Has curatorial context",
+      "category": "representation",
+      "meaning": "The source knowledge object is given curatorial context by the target artifact.",
+      "inverse": "example.museum:curatorial_context_for",
+      "core": false,
+      "extends": "xananode:related_to",
+      "default_weight": 3,
+      "default_visibility": "secondary"
+    }
+  ]
+}

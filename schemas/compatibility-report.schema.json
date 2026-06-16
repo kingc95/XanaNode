@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://xananode.org/schemas/compatibility-report.schema.json",
+  "title": "Compatibility Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["status", "compatibilityLevel"],
+  "properties": {
+    "status": { "type": "string" },
+    "compatibilityLevel": { "type": "string" },
+    "details": { "type": "string" }
+  }
+}
