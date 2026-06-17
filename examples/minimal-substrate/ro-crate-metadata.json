@@ -25,6 +25,9 @@
         },
         {
           "@id": "nodes/claim-substrate-structure.json"
+        },
+        {
+          "@id": "nodes/fragment-as-we-may-think-0004.json"
         }
       ]
     }

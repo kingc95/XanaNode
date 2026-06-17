@@ -66,7 +66,7 @@ XanaNode requires the relationship to say **how** they are related:
 - The source `discusses` associative trails.
 - Associative trails are `related_to` the knowledge substrate as historical and conceptual context.
 - The trail provides a human reading route, but it is not the only connection.
-- The essay `transcludes` a fragment using the stable tumbler address `example.minimal:source/as-we-may-think#fragment/0004`.
+- The essay `transcludes` a fragment using the versioned tumbler address `example.minimal:source/as-we-may-think@git:8e47e70:examples/minimal-substrate/nodes/source-as-we-may-think.json#fragment/0004@sha256:example-as-we-may-think-fragment-0004`.
 
 ## Files
 

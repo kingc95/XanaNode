@@ -38,7 +38,7 @@
           "signature": { "type": "string" },
           "tumbler": {
             "type": "string",
-            "pattern": "^[a-z][a-z0-9_-]*(\\.[a-z][a-z0-9_-]*)*:[a-z][a-z0-9_-]*/[^\\s#]+(#fragment/[A-Za-z0-9._-]+)?$"
+            "pattern": "^[a-z][a-z0-9_-]*(\\.[a-z][a-z0-9_-]*)*:[a-z][a-z0-9_-]*/[^\\s#@]+(@[^\\s#]+)?(#fragment/[A-Za-z0-9._-]+(@[^\\s#]+)?)?$"
           },
           "evidence": {
             "type": "array",

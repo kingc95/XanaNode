@@ -37,6 +37,8 @@
     "selector": "oa:hasSelector",
     "content_id": "xana:contentId",
     "version_id": "xana:versionId",
+    "source_content_id": "xana:sourceContentId",
+    "source_version_id": "xana:sourceVersionId",
     "relationships": "xana:relationships",
     "evidence": {
       "@id": "xana:evidence",

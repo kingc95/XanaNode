@@ -114,6 +114,10 @@ def node_ids(substrate_dir: Path) -> set[str]:
     return ids
 
 
+def is_versioned_fragment_tumbler(value: str) -> bool:
+    return "@" in value and "#fragment/" in value and value.rsplit("#fragment/", 1)[1].count("@") == 1
+
+
 def substrate_dirs() -> list[Path]:
     return [
         ROOT / "examples" / "minimal-substrate",
@@ -158,6 +162,23 @@ def validate_xananode_integrity(errors: list[str]) -> None:
                 errors.append(f"{rel_path.relative_to(ROOT)}: unresolved source: {rel['source']}")
             if rel["target"] not in local_nodes and not rel.get("external"):
                 errors.append(f"{rel_path.relative_to(ROOT)}: unresolved target: {rel['target']}")
+            if rel["type"] == "transcludes":
+                tumbler = rel.get("tumbler")
+                if not tumbler or not is_versioned_fragment_tumbler(tumbler):
+                    errors.append(
+                        f"{rel_path.relative_to(ROOT)}: transcludes relationship must carry a versioned fragment tumbler: {rel['id']}"
+                    )
+
+        for node_path in (substrate_dir / "nodes").glob("*.json"):
+            node = load_json(node_path)
+            if node.get("type") == "fragment":
+                tumbler = node.get("tumbler", "")
+                if not is_versioned_fragment_tumbler(tumbler):
+                    errors.append(f"{node_path.relative_to(ROOT)}: fragment tumbler must include source and fragment versions")
+                if node.get("source_version_id") not in tumbler:
+                    errors.append(f"{node_path.relative_to(ROOT)}: fragment tumbler must include source_version_id")
+                if node.get("version_id") not in tumbler:
+                    errors.append(f"{node_path.relative_to(ROOT)}: fragment tumbler must include fragment version_id")
 
 
 def main() -> int:

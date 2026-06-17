@@ -10,7 +10,8 @@ The initial accepted profile is:
 
 ```text
 <namespace>:<node-kind>/<local-id>
-<namespace>:<node-kind>/<local-id>#fragment/<fragment-id>
+<namespace>:<node-kind>/<local-id>@<version-id>
+<namespace>:<node-kind>/<local-id>@<source-version-id>#fragment/<fragment-id>@<fragment-version-id>
 ```
 
 ## Motivation
