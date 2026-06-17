@@ -16,5 +16,7 @@ Key documents:
 - [transclusion.md](transclusion.md)
 - [tumbler-addressing.md](tumbler-addressing.md)
 - [compatibility-levels.md](compatibility-levels.md)
+- [interoperability.md](interoperability.md)
+- [studio.md](studio.md)
 
 The current core registry files are versioned and define the protocol vocabulary used throughout the repository.

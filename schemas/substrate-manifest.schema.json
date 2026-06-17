@@ -25,6 +25,33 @@
         "commit": { "type": "string" }
       }
     },
+    "federation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "inbox": { "type": "string", "format": "uri" },
+        "outbox": { "type": "string", "format": "uri" },
+        "feed": { "type": "string", "format": "uri" },
+        "merge_reports": { "type": "string", "format": "uri" },
+        "mapping_endpoint": { "type": "string", "format": "uri" }
+      }
+    },
+    "trust": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "signed": { "type": "boolean" },
+        "signature": { "type": "string" },
+        "public_key": { "type": "string" },
+        "trust_scope": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["local_substrate", "imported_schema", "mapping", "assertion"]
+          }
+        }
+      }
+    },
     "description": { "type": "string" },
     "schema_version": { "type": "string" },
     "license": { "type": "string" },

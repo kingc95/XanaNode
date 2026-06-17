@@ -16,5 +16,9 @@ Core files:
 - [namespace.schema.json](namespace.schema.json)
 - [merge-report.schema.json](merge-report.schema.json)
 - [compatibility-report.schema.json](compatibility-report.schema.json)
+- [substrate-diff.schema.json](substrate-diff.schema.json)
+- [author-profile.schema.json](author-profile.schema.json)
+- [nanopublication.schema.json](nanopublication.schema.json)
+- [ro-crate-metadata.schema.json](ro-crate-metadata.schema.json)
 
 The versioned registry files define the canonical core node and relationship types. The schema files describe the required structure of each registry plus related substrate and compatibility documents.

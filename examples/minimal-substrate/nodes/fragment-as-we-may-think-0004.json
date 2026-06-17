@@ -2,14 +2,18 @@
   "id": "example.minimal:fragment/as-we-may-think-0004",
   "title": "As We May Think Fragment 0004",
   "type": "fragment",
+  "protocol_id": "example.minimal:fragment/as-we-may-think-0004",
+  "content_id": "sha256:example-as-we-may-think-fragment-0004",
+  "version_id": "git:HEAD:examples/minimal-substrate/nodes/fragment-as-we-may-think-0004.json",
   "importance": 4,
   "summary": "An addressable fragment of the source used to demonstrate stable fragment references and transclusion.",
   "source_node": "example.minimal:source/as-we-may-think",
   "fragment_id": "0004",
   "tumbler": "example.minimal:source/as-we-may-think#fragment/0004",
   "selector": {
-    "type": "semantic-anchor",
-    "value": "associative-trails-discussion"
+    "type": "TextQuoteSelector",
+    "value": "associative-trails-discussion",
+    "exact": "associative trails"
   },
   "rights_status": "copyrighted",
   "created_by": "example.minimal:person/example-maintainer",

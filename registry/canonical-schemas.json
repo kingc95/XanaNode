@@ -36,6 +36,26 @@
       "id": "compatibility-report",
       "version": "0.1.0",
       "schema": "../schemas/compatibility-report.schema.json"
+    },
+    {
+      "id": "substrate-diff",
+      "version": "0.1.0",
+      "schema": "../schemas/substrate-diff.schema.json"
+    },
+    {
+      "id": "author-profile",
+      "version": "0.1.0",
+      "schema": "../schemas/author-profile.schema.json"
+    },
+    {
+      "id": "nanopublication",
+      "version": "0.1.0",
+      "schema": "../schemas/nanopublication.schema.json"
+    },
+    {
+      "id": "ro-crate-metadata",
+      "version": "0.1.0",
+      "schema": "../schemas/ro-crate-metadata.schema.json"
     }
   ]
 }

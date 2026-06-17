@@ -18,6 +18,10 @@
       "minimum": 0,
       "maximum": 5
     },
+    "base": { "type": "string" },
+    "ours": { "type": "string" },
+    "theirs": { "type": "string" },
+    "signature": { "type": "string" },
     "mappings": {
       "type": "array",
       "items": {

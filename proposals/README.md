@@ -12,6 +12,9 @@ Use proposals for changes that affect:
 - tumbler addressing
 - Git-backed substrates
 - derived inverse relationships
+- standards alignment profiles
+- federation discovery and trust
+- Studio local-first authoring
 - governance
 
 Proposal statuses:

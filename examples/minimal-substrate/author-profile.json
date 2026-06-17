@@ -1,0 +1,9 @@
+{
+  "id": "example.minimal:person/example-maintainer",
+  "name": "Example Maintainer",
+  "github": "example-maintainer",
+  "website": "https://example.com",
+  "default_rights": "open-example",
+  "default_license": "CC0-1.0",
+  "default_role": "maintainer"
+}

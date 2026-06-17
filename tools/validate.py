@@ -75,6 +75,18 @@ def validate_schema_sets(errors: list[str]) -> None:
     for path in ROOT.glob("examples/**/compatibility-report.json"):
         validate_json(schema_dir / "compatibility-report.schema.json", path, errors)
 
+    for path in ROOT.glob("examples/**/substrate-diff.json"):
+        validate_json(schema_dir / "substrate-diff.schema.json", path, errors)
+
+    for path in ROOT.glob("examples/**/author-profile.json"):
+        validate_json(schema_dir / "author-profile.schema.json", path, errors)
+
+    for path in ROOT.glob("examples/**/*nanopublication*.json"):
+        validate_json(schema_dir / "nanopublication.schema.json", path, errors)
+
+    for path in ROOT.glob("examples/**/ro-crate-metadata.json"):
+        validate_json(schema_dir / "ro-crate-metadata.schema.json", path, errors)
+
 
 def registered_namespaces() -> set[str]:
     data = load_json(ROOT / "registry" / "namespaces.json")
