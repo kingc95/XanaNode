@@ -10,6 +10,8 @@ Use proposals for changes that affect:
 - compatibility levels
 - transclusion
 - tumbler addressing
+- Git-backed substrates
+- derived inverse relationships
 - governance
 
 Proposal statuses:

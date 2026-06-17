@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://xananode.org/schemas/xananode-relationship-types.schema.v0.4.0.json",
+  "$id": "https://xananode.org/schemas/xananode-relationship-types.schema.v0.5.0.json",
   "title": "XanaNode Relationship Type Registry",
   "description": "Canonical and extension relationship type registry for XanaNode-compatible knowledge substrates.",
   "type": "object",

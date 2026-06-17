@@ -4,12 +4,27 @@
   "title": "Substrate Manifest",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "name", "version", "namespace"],
+  "required": ["id", "name", "version", "namespace", "repository"],
   "properties": {
     "id": { "type": "string" },
     "name": { "type": "string" },
     "version": { "type": "string" },
     "namespace": { "type": "string" },
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "url", "default_branch"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["git"]
+        },
+        "url": { "type": "string" },
+        "default_branch": { "type": "string" },
+        "path": { "type": "string" },
+        "commit": { "type": "string" }
+      }
+    },
     "description": { "type": "string" },
     "schema_version": { "type": "string" },
     "license": { "type": "string" },

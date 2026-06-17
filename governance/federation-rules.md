@@ -5,12 +5,13 @@ Federation connects independently authored substrates without forcing one source
 A federation process should:
 
 1. Load each substrate manifest.
-2. Validate each substrate against declared schemas.
-3. Preserve original node IDs and namespaces.
-4. Detect likely overlaps.
-5. Generate mapping relationships.
-6. Preserve conflicts and uncertainty.
-7. Avoid destructive merging.
+2. Resolve each substrate's Git repository metadata.
+3. Validate each substrate against declared schemas.
+4. Preserve original node IDs and namespaces.
+5. Detect likely overlaps.
+6. Generate mapping relationships.
+7. Preserve conflicts and uncertainty.
+8. Avoid destructive merging.
 
 Federation should create more knowledge, not erase local context.
 

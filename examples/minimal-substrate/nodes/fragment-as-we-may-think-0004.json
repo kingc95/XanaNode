@@ -23,7 +23,7 @@
     },
     {
       "id": "example.minimal:rel/essay-transcludes-fragment",
-      "type": "transcluded_by",
+      "type": "transcludes",
       "source": "example.minimal:essay/relationship-navigation-intro",
       "direction": "incoming"
     }

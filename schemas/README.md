@@ -8,8 +8,8 @@ Core files:
 
 - [xananode-node-types.v0.3.0.json](xananode-node-types.v0.3.0.json)
 - [xananode-node-types.schema.v0.3.0.json](xananode-node-types.schema.v0.3.0.json)
-- [xananode-relationship-types.v0.4.0.json](xananode-relationship-types.v0.4.0.json)
-- [xananode-relationship-types.schema.v0.4.0.json](xananode-relationship-types.schema.v0.4.0.json)
+- [xananode-relationship-types.v0.5.0.json](xananode-relationship-types.v0.5.0.json)
+- [xananode-relationship-types.schema.v0.5.0.json](xananode-relationship-types.schema.v0.5.0.json)
 - [substrate-manifest.schema.json](substrate-manifest.schema.json)
 - [substrate-node.schema.json](substrate-node.schema.json)
 - [substrate-relationships.schema.json](substrate-relationships.schema.json)

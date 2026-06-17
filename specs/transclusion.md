@@ -10,7 +10,7 @@ In XanaNode, transclusion should preserve:
 - fragment address
 - rights metadata
 
-The relationship types `transcludes` and `transcluded_by` describe transclusion at the graph level.
+The relationship type `transcludes` describes transclusion at the graph level. A viewer may derive the inverse view `transcluded_by` when looking from the fragment back to the consuming node.
 
 The minimal interoperable form is:
 

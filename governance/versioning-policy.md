@@ -10,11 +10,13 @@ Schemas should be versioned independently from individual substrates.
 
 Substrates should declare which core schema version they target.
 
+Substrate history should be tracked in Git. Protocol version fields describe schema compatibility; Git commits describe concrete substrate revisions.
+
 Example:
 
 ```json
 {
-  "schema_version": "xananode-core@0.4.0"
+  "schema_version": "xananode-core@0.5.0"
 }
 ```
 

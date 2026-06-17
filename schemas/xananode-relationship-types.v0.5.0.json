@@ -1,5 +1,5 @@
 {
-  "version": "0.4.0",
+  "version": "0.5.0",
   "relationship_types": [
     {
       "type": "defines",
@@ -11,19 +11,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:defines",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "defined_by",
-      "label": "Defined by",
-      "category": "definition",
-      "meaning": "The source is defined by the target.",
-      "inverse": "defines",
-      "default_weight": 5,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:defined_by",
       "core": true,
       "extends": null
     },
@@ -41,19 +28,6 @@
       "extends": null
     },
     {
-      "type": "claim_of",
-      "label": "Claim of",
-      "category": "claim_structure",
-      "meaning": "The source claim belongs to or helps construct the target node.",
-      "inverse": "has_claim",
-      "default_weight": 5,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:claim_of",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "supports",
       "label": "Supports",
       "category": "evidence",
@@ -63,19 +37,6 @@
       "default_visibility": "secondary",
       "namespace": "xananode",
       "id": "xananode:supports",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "supported_by",
-      "label": "Supported by",
-      "category": "evidence",
-      "meaning": "The source is supported by the target.",
-      "inverse": "supports",
-      "default_weight": 3,
-      "default_visibility": "secondary",
-      "namespace": "xananode",
-      "id": "xananode:supported_by",
       "core": true,
       "extends": null
     },
@@ -93,19 +54,6 @@
       "extends": null
     },
     {
-      "type": "contradicted_by",
-      "label": "Contradicted by",
-      "category": "evidence",
-      "meaning": "The source is contradicted by the target.",
-      "inverse": "contradicts",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:contradicted_by",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "demonstrates",
       "label": "Demonstrates",
       "category": "evidence",
@@ -115,19 +63,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:demonstrates",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "demonstrated_by",
-      "label": "Demonstrated by",
-      "category": "evidence",
-      "meaning": "The source is demonstrated by the target.",
-      "inverse": "demonstrates",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:demonstrated_by",
       "core": true,
       "extends": null
     },
@@ -145,19 +80,6 @@
       "extends": null
     },
     {
-      "type": "documented_by",
-      "label": "Documented by",
-      "category": "evidence",
-      "meaning": "The source is documented by the target.",
-      "inverse": "documents",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:documented_by",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "evidence_for",
       "label": "Evidence for",
       "category": "evidence",
@@ -167,19 +89,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:evidence_for",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "has_evidence",
-      "label": "Has evidence",
-      "category": "evidence",
-      "meaning": "The source has the target as evidence.",
-      "inverse": "evidence_for",
-      "default_weight": 5,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:has_evidence",
       "core": true,
       "extends": null
     },
@@ -197,32 +106,6 @@
       "extends": null
     },
     {
-      "type": "originates",
-      "label": "Originates",
-      "category": "lineage",
-      "meaning": "The source is an origin point for the target.",
-      "inverse": "derived_from",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:originates",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "derived_into",
-      "label": "Derived into",
-      "category": "lineage",
-      "meaning": "The source originated or gave rise to the target.",
-      "inverse": "derived_from",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:derived_into",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "extends",
       "label": "Extends",
       "category": "lineage",
@@ -232,19 +115,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:extends",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "extended_by",
-      "label": "Extended by",
-      "category": "lineage",
-      "meaning": "The source is extended by the target.",
-      "inverse": "extends",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:extended_by",
       "core": true,
       "extends": null
     },
@@ -262,19 +132,6 @@
       "extends": null
     },
     {
-      "type": "created_by",
-      "label": "Created by",
-      "category": "creation",
-      "meaning": "The source was created by the target.",
-      "inverse": "created",
-      "default_weight": 5,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:created_by",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "authored",
       "label": "Authored",
       "category": "creation",
@@ -284,19 +141,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:authored",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "authored_by",
-      "label": "Authored by",
-      "category": "creation",
-      "meaning": "The source was authored by the target.",
-      "inverse": "authored",
-      "default_weight": 5,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:authored_by",
       "core": true,
       "extends": null
     },
@@ -314,19 +158,6 @@
       "extends": null
     },
     {
-      "type": "coined_by",
-      "label": "Coined by",
-      "category": "creation",
-      "meaning": "The source term was coined by the target.",
-      "inverse": "coined",
-      "default_weight": 5,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:coined_by",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "introduced",
       "label": "Introduced",
       "category": "creation",
@@ -336,19 +167,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:introduced",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "introduced_by",
-      "label": "Introduced by",
-      "category": "creation",
-      "meaning": "The source was introduced or first formally presented by the target.",
-      "inverse": "introduced",
-      "default_weight": 5,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:introduced_by",
       "core": true,
       "extends": null
     },
@@ -366,19 +184,6 @@
       "extends": null
     },
     {
-      "type": "proposed_by",
-      "label": "Proposed by",
-      "category": "creation",
-      "meaning": "The source was proposed or put forward by the target.",
-      "inverse": "proposed",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:proposed_by",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "identified",
       "label": "Identified",
       "category": "creation",
@@ -388,19 +193,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:identified",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "identified_by",
-      "label": "Identified by",
-      "category": "creation",
-      "meaning": "The source was identified, named, or recognized by the target.",
-      "inverse": "identified",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:identified_by",
       "core": true,
       "extends": null
     },
@@ -418,19 +210,6 @@
       "extends": null
     },
     {
-      "type": "implemented_by",
-      "label": "Implemented by",
-      "category": "composition",
-      "meaning": "The source is implemented by the target.",
-      "inverse": "implements",
-      "default_weight": 5,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:implemented_by",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "preserves",
       "label": "Preserves",
       "category": "composition",
@@ -440,19 +219,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:preserves",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "preserved_by",
-      "label": "Preserved by",
-      "category": "composition",
-      "meaning": "The source is preserved by the target.",
-      "inverse": "preserves",
-      "default_weight": 5,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:preserved_by",
       "core": true,
       "extends": null
     },
@@ -470,19 +236,6 @@
       "extends": null
     },
     {
-      "type": "enabled_by",
-      "label": "Enabled by",
-      "category": "composition",
-      "meaning": "The source is enabled by the target.",
-      "inverse": "enables",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:enabled_by",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "cites",
       "label": "Cites",
       "category": "citation",
@@ -492,19 +245,6 @@
       "default_visibility": "secondary",
       "namespace": "xananode",
       "id": "xananode:cites",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "cited_by",
-      "label": "Cited by",
-      "category": "citation",
-      "meaning": "The source is cited by the target.",
-      "inverse": "cites",
-      "default_weight": 3,
-      "default_visibility": "secondary",
-      "namespace": "xananode",
-      "id": "xananode:cited_by",
       "core": true,
       "extends": null
     },
@@ -522,19 +262,6 @@
       "extends": null
     },
     {
-      "type": "quoted_by",
-      "label": "Quoted by",
-      "category": "citation",
-      "meaning": "The source is quoted by the target.",
-      "inverse": "quotes",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:quoted_by",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "mentions",
       "label": "Mentions",
       "category": "citation",
@@ -544,19 +271,6 @@
       "default_visibility": "background",
       "namespace": "xananode",
       "id": "xananode:mentions",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "mentioned_by",
-      "label": "Mentioned by",
-      "category": "citation",
-      "meaning": "The source is mentioned by the target.",
-      "inverse": "mentions",
-      "default_weight": 2,
-      "default_visibility": "background",
-      "namespace": "xananode",
-      "id": "xananode:mentioned_by",
       "core": true,
       "extends": null
     },
@@ -574,19 +288,6 @@
       "extends": null
     },
     {
-      "type": "discussed_in",
-      "label": "Discussed in",
-      "category": "citation",
-      "meaning": "The source is discussed, explored, or analyzed in the target.",
-      "inverse": "discusses",
-      "default_weight": 3,
-      "default_visibility": "secondary",
-      "namespace": "xananode",
-      "id": "xananode:discussed_in",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "participated_in",
       "label": "Participated in",
       "category": "participation",
@@ -596,19 +297,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:participated_in",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "had_participant",
-      "label": "Had participant",
-      "category": "participation",
-      "meaning": "The source event, project, or organization had the target as a participant.",
-      "inverse": "participated_in",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:had_participant",
       "core": true,
       "extends": null
     },
@@ -626,19 +314,6 @@
       "extends": null
     },
     {
-      "type": "featured_speaker",
-      "label": "Featured speaker",
-      "category": "participation",
-      "meaning": "The source event featured the target speaker.",
-      "inverse": "spoke_at",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:featured_speaker",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "features",
       "label": "Features",
       "category": "participation",
@@ -648,19 +323,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:features",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "featured_in",
-      "label": "Featured in",
-      "category": "participation",
-      "meaning": "The source is featured in the target.",
-      "inverse": "features",
-      "default_weight": 5,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:featured_in",
       "core": true,
       "extends": null
     },
@@ -678,19 +340,6 @@
       "extends": null
     },
     {
-      "type": "presented_by",
-      "label": "Presented by",
-      "category": "participation",
-      "meaning": "The source work, program, or media object was presented, hosted, narrated, or publicly introduced by the target.",
-      "inverse": "presented",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:presented_by",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "appears_in",
       "label": "Appears in",
       "category": "participation",
@@ -700,19 +349,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:appears_in",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "has_appearance",
-      "label": "Has appearance",
-      "category": "participation",
-      "meaning": "The source work, collection, or event features the target as an appearance.",
-      "inverse": "appears_in",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:has_appearance",
       "core": true,
       "extends": null
     },
@@ -730,19 +366,6 @@
       "extends": null
     },
     {
-      "type": "introduction_venue_of",
-      "label": "Introduction venue of",
-      "category": "participation",
-      "meaning": "The source event, work, or venue was where the target was first introduced or debuted.",
-      "inverse": "introduced_in",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:introduction_venue_of",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "influenced",
       "label": "Influenced",
       "category": "influence",
@@ -752,19 +375,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:influenced",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "influenced_by",
-      "label": "Influenced by",
-      "category": "influence",
-      "meaning": "The source was influenced by the target.",
-      "inverse": "influenced",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:influenced_by",
       "core": true,
       "extends": null
     },
@@ -782,19 +392,6 @@
       "extends": null
     },
     {
-      "type": "popularized_by",
-      "label": "Popularized by",
-      "category": "influence",
-      "meaning": "The source was popularized or brought to wider attention by the target.",
-      "inverse": "popularized",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:popularized_by",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "anticipated",
       "label": "Anticipated",
       "category": "influence",
@@ -804,19 +401,6 @@
       "default_visibility": "secondary",
       "namespace": "xananode",
       "id": "xananode:anticipated",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "anticipated_by",
-      "label": "Anticipated by",
-      "category": "influence",
-      "meaning": "The source was anticipated by the target.",
-      "inverse": "anticipated",
-      "default_weight": 3,
-      "default_visibility": "secondary",
-      "namespace": "xananode",
-      "id": "xananode:anticipated_by",
       "core": true,
       "extends": null
     },
@@ -843,19 +427,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:shapes",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "shaped_by",
-      "label": "Shaped by",
-      "category": "influence",
-      "meaning": "The source was significantly shaped or molded in form, direction, or character by the target.",
-      "inverse": "shapes",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:shaped_by",
       "core": true,
       "extends": null
     },
@@ -915,25 +486,12 @@
       "type": "explains",
       "label": "Explains",
       "category": "explanation",
-      "meaning": "The source provides an explanation of the target — its causes, mechanisms, or meaning.",
+      "meaning": "The source provides an explanation of the target \u00e2\u20ac\u201d its causes, mechanisms, or meaning.",
       "inverse": "explained_by",
       "default_weight": 4,
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:explains",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "explained_by",
-      "label": "Explained by",
-      "category": "explanation",
-      "meaning": "The source is explained by the target.",
-      "inverse": "explains",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:explained_by",
       "core": true,
       "extends": null
     },
@@ -951,19 +509,6 @@
       "extends": null
     },
     {
-      "type": "has_context",
-      "label": "Has context",
-      "category": "explanation",
-      "meaning": "The source requires or is enriched by the target as background or framing.",
-      "inverse": "context_for",
-      "default_weight": 3,
-      "default_visibility": "secondary",
-      "namespace": "xananode",
-      "id": "xananode:has_context",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "clarifies",
       "label": "Clarifies",
       "category": "explanation",
@@ -973,32 +518,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:clarifies",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "clarified_by",
-      "label": "Clarified by",
-      "category": "explanation",
-      "meaning": "The source is clarified or made more precise by the target.",
-      "inverse": "clarifies",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:clarified_by",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "motivated",
-      "label": "Motivated",
-      "category": "causation",
-      "meaning": "The source was a motivation or driving cause for the target.",
-      "inverse": "motivated_by",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:motivated",
       "core": true,
       "extends": null
     },
@@ -1016,19 +535,6 @@
       "extends": null
     },
     {
-      "type": "motivates",
-      "label": "Motivates",
-      "category": "causation",
-      "meaning": "The source drives or motivates the target into being.",
-      "inverse": "motivated_by",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:motivates",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "results_from",
       "label": "Results from",
       "category": "causation",
@@ -1042,19 +548,6 @@
       "extends": null
     },
     {
-      "type": "produces",
-      "label": "Produces",
-      "category": "causation",
-      "meaning": "The source produces, causes, or gives rise to the target as an outcome.",
-      "inverse": "results_from",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:produces",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "arrives_at",
       "label": "Arrives at",
       "category": "reasoning",
@@ -1064,32 +557,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:arrives_at",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "arrived_from",
-      "label": "Arrived from",
-      "category": "reasoning",
-      "meaning": "The source conclusion or position was reached via the target reasoning, argument, or inquiry.",
-      "inverse": "arrives_at",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:arrived_from",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "part_of",
-      "label": "Part of",
-      "category": "composition",
-      "meaning": "The source is part of the target.",
-      "inverse": "contains",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:part_of",
       "core": true,
       "extends": null
     },
@@ -1120,32 +587,6 @@
       "extends": null
     },
     {
-      "type": "required_by",
-      "label": "Required by",
-      "category": "composition",
-      "meaning": "The source is required by the target.",
-      "inverse": "depends_on",
-      "default_weight": 3,
-      "default_visibility": "secondary",
-      "namespace": "xananode",
-      "id": "xananode:required_by",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "dependency_of",
-      "label": "Dependency of",
-      "category": "composition",
-      "meaning": "The source is a dependency of the target — the target depends on the source to function or exist.",
-      "inverse": "depends_on",
-      "default_weight": 3,
-      "default_visibility": "secondary",
-      "namespace": "xananode",
-      "id": "xananode:dependency_of",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "requires",
       "label": "Requires",
       "category": "composition",
@@ -1155,19 +596,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:requires",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "required_for",
-      "label": "Required for",
-      "category": "composition",
-      "meaning": "The source is a required prerequisite, input, or condition for the target.",
-      "inverse": "requires",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:required_for",
       "core": true,
       "extends": null
     },
@@ -1185,19 +613,6 @@
       "extends": null
     },
     {
-      "type": "used_by",
-      "label": "Used by",
-      "category": "composition",
-      "meaning": "The source is used, employed, or relied upon by the target.",
-      "inverse": "uses",
-      "default_weight": 3,
-      "default_visibility": "secondary",
-      "namespace": "xananode",
-      "id": "xananode:used_by",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "trained_on",
       "label": "Trained on",
       "category": "composition",
@@ -1207,19 +622,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:trained_on",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "used_to_train",
-      "label": "Used to train",
-      "category": "composition",
-      "meaning": "The source dataset, corpus, or collection was used to train the target system or model.",
-      "inverse": "trained_on",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:used_to_train",
       "core": true,
       "extends": null
     },
@@ -1237,19 +639,6 @@
       "extends": null
     },
     {
-      "type": "included_in",
-      "label": "Included in",
-      "category": "composition",
-      "meaning": "The source is included in or is a member of the target.",
-      "inverse": "includes",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:included_in",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "depicts",
       "label": "Depicts",
       "category": "representation",
@@ -1263,32 +652,6 @@
       "extends": null
     },
     {
-      "type": "depicted_by",
-      "label": "Depicted by",
-      "category": "representation",
-      "meaning": "The source is depicted by the target media.",
-      "inverse": "depicts",
-      "default_weight": 5,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:depicted_by",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "represented_by",
-      "label": "Represented by",
-      "category": "representation",
-      "meaning": "The source uses the target as its primary representative media or symbol.",
-      "inverse": "represents",
-      "default_weight": 5,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:represented_by",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "represents",
       "label": "Represents",
       "category": "representation",
@@ -1298,19 +661,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:represents",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "used_as_primary_media_for",
-      "label": "Used as primary media for",
-      "category": "representation",
-      "meaning": "The source media node is designated as the primary representative image or icon for the target node.",
-      "inverse": "has_primary_media",
-      "default_weight": 5,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:used_as_primary_media_for",
       "core": true,
       "extends": null
     },
@@ -1341,19 +691,6 @@
       "extends": null
     },
     {
-      "type": "has_alias",
-      "label": "Has alias",
-      "category": "representation",
-      "meaning": "The source has the target as an alternative name.",
-      "inverse": "alias_of",
-      "default_weight": 5,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:has_alias",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "occurred_at",
       "label": "Occurred at",
       "category": "location",
@@ -1367,19 +704,6 @@
       "extends": null
     },
     {
-      "type": "site_of",
-      "label": "Site of",
-      "category": "location",
-      "meaning": "The source place was the site of the target event.",
-      "inverse": "occurred_at",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:site_of",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "preceded",
       "label": "Preceded",
       "category": "temporal",
@@ -1389,19 +713,6 @@
       "default_visibility": "secondary",
       "namespace": "xananode",
       "id": "xananode:preceded",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "followed",
-      "label": "Followed",
-      "category": "temporal",
-      "meaning": "The source came after the target.",
-      "inverse": "preceded",
-      "default_weight": 3,
-      "default_visibility": "secondary",
-      "namespace": "xananode",
-      "id": "xananode:followed",
       "core": true,
       "extends": null
     },
@@ -1432,19 +743,6 @@
       "extends": null
     },
     {
-      "type": "is_start_of",
-      "label": "Is start of",
-      "category": "temporal",
-      "meaning": "The source is the opening element of the target sequence, work, or argument.",
-      "inverse": "starts_with",
-      "default_weight": 3,
-      "default_visibility": "secondary",
-      "namespace": "xananode",
-      "id": "xananode:is_start_of",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "continues_to",
       "label": "Continues to",
       "category": "temporal",
@@ -1454,19 +752,6 @@
       "default_visibility": "secondary",
       "namespace": "xananode",
       "id": "xananode:continues_to",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "continued_from",
-      "label": "Continued from",
-      "category": "temporal",
-      "meaning": "The source continues or picks up from the target.",
-      "inverse": "continues_to",
-      "default_weight": 3,
-      "default_visibility": "secondary",
-      "namespace": "xananode",
-      "id": "xananode:continued_from",
       "core": true,
       "extends": null
     },
@@ -1510,19 +795,6 @@
       "extends": null
     },
     {
-      "type": "interviewed_by",
-      "label": "Interviewed by",
-      "category": "social",
-      "meaning": "The source was interviewed by the target.",
-      "inverse": "interviewed",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:interviewed_by",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "memorializes",
       "label": "Memorializes",
       "category": "social",
@@ -1532,19 +804,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:memorializes",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "memorialized_by",
-      "label": "Memorialized by",
-      "category": "social",
-      "meaning": "The source is commemorated, honored, or remembered by the target.",
-      "inverse": "memorializes",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:memorialized_by",
       "core": true,
       "extends": null
     },
@@ -1562,19 +821,6 @@
       "extends": null
     },
     {
-      "type": "approved_by",
-      "label": "Approved by",
-      "category": "governance",
-      "meaning": "The source was approved by the target.",
-      "inverse": "approved",
-      "default_weight": 3,
-      "default_visibility": "secondary",
-      "namespace": "xananode",
-      "id": "xananode:approved_by",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "disputes",
       "label": "Disputes",
       "category": "governance",
@@ -1584,19 +830,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:disputes",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "disputed_by",
-      "label": "Disputed by",
-      "category": "governance",
-      "meaning": "The source is disputed by the target.",
-      "inverse": "disputes",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:disputed_by",
       "core": true,
       "extends": null
     },
@@ -1614,19 +847,6 @@
       "extends": null
     },
     {
-      "type": "threatened_by",
-      "label": "Threatened by",
-      "category": "governance",
-      "meaning": "The source is threatened, endangered, or at risk from the target.",
-      "inverse": "threatens",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:threatened_by",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "supersedes",
       "label": "Supersedes",
       "category": "revision",
@@ -1640,19 +860,6 @@
       "extends": null
     },
     {
-      "type": "superseded_by",
-      "label": "Superseded by",
-      "category": "revision",
-      "meaning": "The source is replaced by the target.",
-      "inverse": "supersedes",
-      "default_weight": 5,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:superseded_by",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "refines",
       "label": "Refines",
       "category": "revision",
@@ -1662,19 +869,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:refines",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "refined_by",
-      "label": "Refined by",
-      "category": "revision",
-      "meaning": "The source is refined, sharpened, or improved by the target.",
-      "inverse": "refines",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:refined_by",
       "core": true,
       "extends": null
     },
@@ -1705,19 +899,6 @@
       "extends": null
     },
     {
-      "type": "transcluded_by",
-      "label": "Transcluded by",
-      "category": "representation",
-      "meaning": "The source is included by reference inside the target as a specific versioned fragment.",
-      "inverse": "transcludes",
-      "default_weight": 5,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:transcluded_by",
-      "core": true,
-      "extends": null
-    },
-    {
       "type": "deep_links_to",
       "label": "Deep links to",
       "category": "representation",
@@ -1727,19 +908,6 @@
       "default_visibility": "primary",
       "namespace": "xananode",
       "id": "xananode:deep_links_to",
-      "core": true,
-      "extends": null
-    },
-    {
-      "type": "deep_linked_from",
-      "label": "Deep linked from",
-      "category": "representation",
-      "meaning": "The source is addressed as a specific fragment by the target.",
-      "inverse": "deep_links_to",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "namespace": "xananode",
-      "id": "xananode:deep_linked_from",
       "core": true,
       "extends": null
     },
@@ -1797,38 +965,12 @@
     },
     {
       "namespace": "xananode",
-      "id": "xananode:mapped_from",
-      "type": "mapped_from",
-      "label": "Mapped from",
-      "category": "schema_mapping",
-      "meaning": "The source schema type, field, node, or relationship is mapped from the target schema type, field, node, or relationship.",
-      "inverse": "maps_to",
-      "default_weight": 5,
-      "default_visibility": "primary",
-      "core": true,
-      "extends": "related_to"
-    },
-    {
-      "namespace": "xananode",
       "id": "xananode:broader_than",
       "type": "broader_than",
       "label": "Broader than",
       "category": "schema_mapping",
       "meaning": "The source schema type, concept, or relationship is broader or more general than the target.",
       "inverse": "narrower_than",
-      "default_weight": 4,
-      "default_visibility": "primary",
-      "core": true,
-      "extends": "related_to"
-    },
-    {
-      "namespace": "xananode",
-      "id": "xananode:narrower_than",
-      "type": "narrower_than",
-      "label": "Narrower than",
-      "category": "schema_mapping",
-      "meaning": "The source schema type, concept, or relationship is narrower or more specific than the target.",
-      "inverse": "broader_than",
       "default_weight": 4,
       "default_visibility": "primary",
       "core": true,
@@ -1859,19 +1001,6 @@
       "default_visibility": "primary",
       "core": true,
       "extends": "extends"
-    },
-    {
-      "namespace": "xananode",
-      "id": "xananode:has_extension",
-      "type": "has_extension",
-      "label": "Has extension",
-      "category": "schema_mapping",
-      "meaning": "The source core schema, type, field, or relationship is extended by the target custom schema, type, field, or relationship.",
-      "inverse": "extension_of",
-      "default_weight": 5,
-      "default_visibility": "primary",
-      "core": true,
-      "extends": "extended_by"
     }
   ]
 }

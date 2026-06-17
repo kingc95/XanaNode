@@ -49,8 +49,8 @@ def validate_schema_sets(errors: list[str]) -> None:
         errors,
     )
     validate_json(
-        schema_dir / "xananode-relationship-types.schema.v0.4.0.json",
-        schema_dir / "xananode-relationship-types.v0.4.0.json",
+        schema_dir / "xananode-relationship-types.schema.v0.5.0.json",
+        schema_dir / "xananode-relationship-types.v0.5.0.json",
         errors,
     )
 
@@ -58,7 +58,7 @@ def validate_schema_sets(errors: list[str]) -> None:
         validate_json(schema_dir / "xananode-node-types.schema.v0.3.0.json", path, errors)
 
     for path in ROOT.glob("examples/**/schemas/relationship-types*.json"):
-        validate_json(schema_dir / "xananode-relationship-types.schema.v0.4.0.json", path, errors)
+        validate_json(schema_dir / "xananode-relationship-types.schema.v0.5.0.json", path, errors)
 
     for path in ROOT.glob("examples/**/substrate.json"):
         validate_json(schema_dir / "substrate-manifest.schema.json", path, errors)
@@ -82,7 +82,7 @@ def registered_namespaces() -> set[str]:
 
 
 def declared_relationship_types(substrate_dir: Path) -> set[str]:
-    core = load_json(ROOT / "schemas" / "xananode-relationship-types.v0.4.0.json")
+    core = load_json(ROOT / "schemas" / "xananode-relationship-types.v0.5.0.json")
     declared = {item["type"] for item in core["relationship_types"]}
     declared.update(item["id"] for item in core["relationship_types"])
 
@@ -113,6 +113,18 @@ def substrate_dirs() -> list[Path]:
 
 def validate_xananode_integrity(errors: list[str]) -> None:
     namespaces = registered_namespaces()
+    core_relationships = load_json(ROOT / "schemas" / "xananode-relationship-types.v0.5.0.json")[
+        "relationship_types"
+    ]
+    core_types = {item["type"] for item in core_relationships}
+
+    for item in core_relationships:
+        inverse = item.get("inverse")
+        if inverse and inverse != item["type"] and inverse in core_types:
+            errors.append(
+                "schemas/xananode-relationship-types.v0.5.0.json: "
+                f"inverse relationship type should be derived, not separately registered: {item['type']} / {inverse}"
+            )
 
     for manifest_path in ROOT.glob("examples/**/substrate.json"):
         manifest = load_json(manifest_path)

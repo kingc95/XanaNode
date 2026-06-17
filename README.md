@@ -81,7 +81,7 @@ Examples:
 * contradicts
 * explains
 * derived_from
-* created_by
+* created
 * memorializes
 * documents
 * participates_in
@@ -154,6 +154,8 @@ Machines should be able to query, reason over, and analyze it.
 
 A knowledge substrate is an independently authored graph of knowledge.
 
+In XanaNode, a production substrate is backed by a Git repository. Git supplies history, branching, review, merge, and synchronization; XanaNode supplies the knowledge model, schemas, validation rules, and federation semantics.
+
 Examples:
 
 * personal knowledge substrates
@@ -207,8 +209,8 @@ The current core registry files are versioned and live in [schemas/](schemas):
 
 * [xananode-node-types.v0.3.0.json](schemas/xananode-node-types.v0.3.0.json)
 * [xananode-node-types.schema.v0.3.0.json](schemas/xananode-node-types.schema.v0.3.0.json)
-* [xananode-relationship-types.v0.4.0.json](schemas/xananode-relationship-types.v0.4.0.json)
-* [xananode-relationship-types.schema.v0.4.0.json](schemas/xananode-relationship-types.schema.v0.4.0.json)
+* [xananode-relationship-types.v0.5.0.json](schemas/xananode-relationship-types.v0.5.0.json)
+* [xananode-relationship-types.schema.v0.5.0.json](schemas/xananode-relationship-types.schema.v0.5.0.json)
 
 The node registry currently centers on core types such as person, concept, claim, source, essay, and observation.
 

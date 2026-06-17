@@ -11,6 +11,6 @@ example.museum
 It adds:
 
 - a custom node type: `example.museum:artifact`
-- custom relationship types: `example.museum:curatorial_context_for` and `example.museum:has_curatorial_context`
+- a custom relationship type: `example.museum:curatorial_context_for`
 
 A reader that does not understand these custom types should still preserve them as declared, namespaced, versioned schema extensions. A reader that does understand them can validate and render them more precisely.

@@ -9,7 +9,7 @@
   "relationships": [
     {
       "id": "example.minimal:rel/maintainer-created-intro-essay",
-      "type": "created_by",
+      "type": "created",
       "source": "example.minimal:person/example-maintainer",
       "direction": "incoming"
     },

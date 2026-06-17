@@ -14,19 +14,6 @@
       "extends": "xananode:related_to",
       "default_weight": 3,
       "default_visibility": "secondary"
-    },
-    {
-      "id": "example.museum:has_curatorial_context",
-      "namespace": "example.museum",
-      "type": "has_curatorial_context",
-      "label": "Has curatorial context",
-      "category": "representation",
-      "meaning": "The source knowledge object is given curatorial context by the target artifact.",
-      "inverse": "example.museum:curatorial_context_for",
-      "core": false,
-      "extends": "xananode:related_to",
-      "default_weight": 3,
-      "default_visibility": "secondary"
     }
   ]
 }

@@ -13,9 +13,9 @@
     },
     {
       "id": "example.museum:rel/artifact-context",
-      "type": "example.museum:has_curatorial_context",
-      "target": "example.museum:artifact/memex-illustration",
-      "direction": "outgoing"
+      "type": "example.museum:curatorial_context_for",
+      "source": "example.museum:artifact/memex-illustration",
+      "direction": "incoming"
     }
   ]
 }
