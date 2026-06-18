@@ -222,13 +222,34 @@ Validation tools live in [tools/](tools). The repository validator checks JSON S
 
 ---
 
-# Reference Implementation
+# Implementations
 
-The protocol repository is implementation-neutral. The first reference implementation is maintained separately:
+The protocol repository is implementation-neutral. It defines the canonical schemas, registries, examples, governance material, and validation rules. The active implementation stack is maintained in separate repositories that consume this protocol:
 
-* [XanaNode Hugo Theme](https://github.com/kingc95/xananode-hugo)
+* [XanaNode Core SDK](https://github.com/kingc95/XanaNode-Core-SDK) is the renderer-independent parser, validator, graph builder, fragment engine, and exporter. It includes this protocol repository as `vendor/xananode-protocol`.
+* [XanaNode Workspace](https://github.com/kingc95/XanaNode-Workspace) is the local-first workspace engine used by Studio, CLIs, and editor integrations. It includes Core SDK as `vendor/xananode-core`.
+* [XanaNode Hugo Theme](https://github.com/kingc95/XanaNode-Hugo) is the static-site renderer and graph viewer for XanaNode-compatible substrates.
+* [XanaNode Studio](https://github.com/kingc95/XanaNode-Studio) is the desktop authoring workbench. It includes Hugo and Workspace as submodules.
 
-The Hugo implementation is the static-site renderer and graph viewer for XanaNode-compatible substrates. This repository defines the protocol, schemas, examples, registry, and validation rules; the Hugo repository demonstrates how those artifacts can be rendered into a browsable knowledge substrate.
+The intended dependency chain is:
+
+```text
+xananode protocol
+  -> XanaNode-Core-SDK
+    -> XanaNode-Workspace
+      -> XanaNode-Studio
+
+XanaNode-Hugo consumes the protocol artifacts as the published/static preview renderer.
+```
+
+For a full local Studio checkout:
+
+```bash
+git clone --recurse-submodules https://github.com/kingc95/XanaNode-Studio.git
+cd XanaNode-Studio
+npm install
+npm test
+```
 
 ---
 
