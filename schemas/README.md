@@ -13,6 +13,8 @@ Core files:
 - [substrate-manifest.schema.json](substrate-manifest.schema.json)
 - [substrate-node.schema.json](substrate-node.schema.json)
 - [substrate-relationships.schema.json](substrate-relationships.schema.json)
+- [property-registry.schema.json](property-registry.schema.json)
+- [xananode-property-registry.v0.1.0.json](xananode-property-registry.v0.1.0.json)
 - [namespace.schema.json](namespace.schema.json)
 - [merge-report.schema.json](merge-report.schema.json)
 - [compatibility-report.schema.json](compatibility-report.schema.json)
@@ -21,4 +23,4 @@ Core files:
 - [nanopublication.schema.json](nanopublication.schema.json)
 - [ro-crate-metadata.schema.json](ro-crate-metadata.schema.json)
 
-The versioned registry files define the canonical core node and relationship types. The schema files describe the required structure of each registry plus related substrate and compatibility documents.
+The versioned registry files define the canonical core node, relationship, and property types. The schema files describe the required structure of each registry plus related substrate and compatibility documents.

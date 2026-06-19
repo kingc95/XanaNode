@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import json
 import sys
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -51,6 +52,11 @@ def validate_schema_sets(errors: list[str]) -> None:
     validate_json(
         schema_dir / "xananode-relationship-types.schema.v0.5.0.json",
         schema_dir / "xananode-relationship-types.v0.5.0.json",
+        errors,
+    )
+    validate_json(
+        schema_dir / "property-registry.schema.json",
+        schema_dir / "xananode-property-registry.v0.1.0.json",
         errors,
     )
 
@@ -132,6 +138,12 @@ def validate_xananode_integrity(errors: list[str]) -> None:
     core_relationships = load_json(ROOT / "schemas" / "xananode-relationship-types.v0.5.0.json")[
         "relationship_types"
     ]
+
+
+def parse_datetime(value: str) -> datetime:
+    if value.endswith("Z"):
+        value = f"{value[:-1]}+00:00"
+    return datetime.fromisoformat(value)
     core_types = {item["type"] for item in core_relationships}
 
     for item in core_relationships:
@@ -168,6 +180,9 @@ def validate_xananode_integrity(errors: list[str]) -> None:
                     errors.append(
                         f"{rel_path.relative_to(ROOT)}: transcludes relationship must carry a versioned fragment tumbler: {rel['id']}"
                     )
+            if rel.get("valid_from") and rel.get("valid_to"):
+                if parse_datetime(rel["valid_from"]) > parse_datetime(rel["valid_to"]):
+                    errors.append(f"{rel_path.relative_to(ROOT)}: valid_from is after valid_to: {rel['id']}")
 
         for node_path in (substrate_dir / "nodes").glob("*.json"):
             node = load_json(node_path)

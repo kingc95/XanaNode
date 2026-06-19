@@ -20,6 +20,8 @@ Relationship records should preserve assertion provenance when available. Common
 
 `asserted_by` should point to a person, organization, project, or external actor identifier when possible. If the actor is local to the substrate, it should be represented as a node.
 
+Relationships may also carry temporal validity when the relationship was true during a specific historical interval. Use `valid_from` for the beginning of the interval and `valid_to` for the end. These fields describe the modeled reality, while `asserted_at` describes when the substrate recorded the assertion.
+
 ## Inverse Views
 
 Canonical relationship types are authored in one direction only. A type may name an `inverse` label for display or query purposes, but that inverse does not need to be registered as a second canonical type.
