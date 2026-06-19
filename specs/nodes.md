@@ -139,6 +139,27 @@ assets/
 
 Source page previews, Open Graph images, screenshots, transcripts, and archived copies should be captured as media nodes with provenance. The external `source_url` remains the live source. The media node records the captured representation and its rights status.
 
+## Branding As Knowledge
+
+Branding is part of substrate identity and provenance. A logo, icon, color palette, tagline, or author mark should not live only inside renderer configuration. If a project, organization, author, or substrate changes its branding, that change has context and should be traceable.
+
+Represent brand assets as `media` nodes, usually with `subtype: "logo"` or `subtype: "image"`. Reference those media nodes from substrate manifests or author profiles through their `branding` blocks:
+
+```json
+{
+  "branding": {
+    "brand_name": "XanaNode",
+    "tagline": "Relationships preserve knowledge",
+    "icon_media": "example.minimal:media/xananode-icon",
+    "primary_color": "#55D6BE",
+    "accent_color": "#FF8C00",
+    "reason": "Protocol branding is modeled as substrate metadata and media."
+  }
+}
+```
+
+Renderers should treat branding metadata as a projection input, not as the canonical source. The canonical source is the profile or manifest plus the referenced media node and its asset/provenance fields.
+
 ## Open Properties
 
 Substrate nodes may carry extra root-level properties so authors can describe domain-specific facts without waiting for a protocol release. Common extra properties should use the canonical property registry when possible.

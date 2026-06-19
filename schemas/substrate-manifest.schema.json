@@ -53,6 +53,9 @@
       }
     },
     "description": { "type": "string" },
+    "branding": {
+      "$ref": "#/$defs/branding"
+    },
     "schema_version": { "type": "string" },
     "license": { "type": "string" },
     "maintainers": {
@@ -147,6 +150,42 @@
     "extensions": {
       "type": "array",
       "items": { "type": "string" }
+    }
+  },
+  "$defs": {
+    "branding": {
+      "type": "object",
+      "description": "Portable branding metadata for a substrate or pack. Branding assets should be represented as media nodes and referenced here by node id.",
+      "additionalProperties": false,
+      "properties": {
+        "brand_name": { "type": "string" },
+        "tagline": { "type": "string" },
+        "description": { "type": "string" },
+        "primary_media": { "type": "string" },
+        "logo_media": { "type": "string" },
+        "icon_media": { "type": "string" },
+        "primary_color": {
+          "type": "string",
+          "pattern": "^#[0-9A-Fa-f]{6}$"
+        },
+        "accent_color": {
+          "type": "string",
+          "pattern": "^#[0-9A-Fa-f]{6}$"
+        },
+        "background_color": {
+          "type": "string",
+          "pattern": "^#[0-9A-Fa-f]{6}$"
+        },
+        "text_color": {
+          "type": "string",
+          "pattern": "^#[0-9A-Fa-f]{6}$"
+        },
+        "source_node": { "type": "string" },
+        "rights_status": { "type": "string" },
+        "license": { "type": "string" },
+        "updated_at": { "type": "string", "format": "date-time" },
+        "reason": { "type": "string" }
+      }
     }
   }
 }

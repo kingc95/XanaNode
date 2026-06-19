@@ -217,6 +217,18 @@
       "asserted_at": "2026-01-01T00:00:00Z",
       "confidence": "interpretive",
       "summary": "The response supports the existing claim that substrate structure changes epistemic capability."
+    },
+    {
+      "id": "example.minimal:rel/substrate-has-primary-media",
+      "source": "example.minimal:concept/knowledge-substrate",
+      "target": "example.minimal:media/xananode-icon",
+      "type": "has_primary_media",
+      "weight": 5,
+      "visibility": "primary",
+      "asserted_by": "example.minimal:person/example-maintainer",
+      "asserted_at": "2026-06-19T00:00:00Z",
+      "confidence": "high",
+      "summary": "The minimal substrate uses the canonical XanaNode icon as its primary branding media."
     }
   ]
 }
