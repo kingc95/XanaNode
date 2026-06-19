@@ -160,6 +160,34 @@ Represent brand assets as `media` nodes, usually with `subtype: "logo"` or `subt
 
 Renderers should treat branding metadata as a projection input, not as the canonical source. The canonical source is the profile or manifest plus the referenced media node and its asset/provenance fields.
 
+## Software And Build Metadata
+
+Software projects, SDKs, renderers, workspace layers, desktop applications, and generated packs should carry version and build provenance when known.
+
+Use `software_version` for the package or release version. Use `build_metadata` for the exact build context:
+
+```json
+{
+  "software_version": "0.1.0",
+  "build_metadata": {
+    "git_commit": "abc123",
+    "git_branch": "main",
+    "built_at": "2026-06-19T00:00:00Z",
+    "built_by": "@xananode/core",
+    "runtime": "node",
+    "dependencies": [
+      {
+        "name": "@xananode/core",
+        "version": "0.1.0",
+        "relationship": "uses"
+      }
+    ]
+  }
+}
+```
+
+Compiled applications should record the version and compile/build date in their own metadata and, when represented in a substrate, on the project or technology node that describes that application. Generated canonical packs should include enough build metadata to identify which protocol, core, renderer, and workspace versions produced them.
+
 ## Open Properties
 
 Substrate nodes may carry extra root-level properties so authors can describe domain-specific facts without waiting for a protocol release. Common extra properties should use the canonical property registry when possible.

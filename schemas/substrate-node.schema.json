@@ -124,6 +124,41 @@
     "protocol_id": { "type": "string" },
     "content_id": { "type": "string" },
     "version_id": { "type": "string" },
+    "software_version": {
+      "type": "string",
+      "description": "Semantic or package version of a software project, component, renderer, SDK, or application."
+    },
+    "build_metadata": {
+      "type": "object",
+      "description": "Build and runtime provenance for software nodes, generated packs, and projection artifacts.",
+      "additionalProperties": false,
+      "properties": {
+        "version": { "type": "string" },
+        "git_commit": { "type": "string" },
+        "git_branch": { "type": "string" },
+        "repository": { "type": "string" },
+        "built_at": { "type": "string", "format": "date-time" },
+        "compiled_at": { "type": "string", "format": "date-time" },
+        "generated_at": { "type": "string", "format": "date-time" },
+        "built_by": { "type": "string" },
+        "runtime": { "type": "string" },
+        "platform": { "type": "string" },
+        "dependencies": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name"],
+            "properties": {
+              "name": { "type": "string" },
+              "version": { "type": "string" },
+              "repository": { "type": "string" },
+              "relationship": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
     "source_content_id": { "type": "string" },
     "source_version_id": { "type": "string" },
     "signature": { "type": "string" },
