@@ -24,3 +24,5 @@ Core files:
 - [ro-crate-metadata.schema.json](ro-crate-metadata.schema.json)
 
 The versioned registry files define the canonical core node, relationship, and property types. The schema files describe the required structure of each registry plus related substrate and compatibility documents.
+
+Schemas and schema registries are licensed under `Apache-2.0` so implementations can adopt them freely while preserving attribution and provenance.

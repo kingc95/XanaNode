@@ -141,7 +141,11 @@
         "social_profile",
         "support_page",
         "web_snapshot",
-        "archive"
+        "archive",
+        "license",
+        "legal_policy",
+        "trademark_policy",
+        "notice"
       ],
       "required_frontmatter": [
         "title",
@@ -256,7 +260,11 @@
         "logo",
         "thumbnail",
         "web_snapshot",
-        "source_snapshot"
+        "source_snapshot",
+        "favicon",
+        "touch_icon",
+        "app_icon",
+        "branding_icon"
       ],
       "required_frontmatter": [
         "title",
@@ -674,7 +682,18 @@
         "relationship_type_schema",
         "validation_rule",
         "governance_rule",
-        "style_rule"
+        "style_rule",
+        "node_subtype_schema",
+        "relationship_category_schema",
+        "property_registry_entry",
+        "canonical_schema_record",
+        "namespace_record",
+        "protocol_artifact",
+        "term",
+        "schema_term",
+        "schema_field",
+        "semantic_rule",
+        "projection_style_rule"
       ],
       "required_frontmatter": [
         "title",

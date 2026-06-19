@@ -18,5 +18,6 @@ Key documents:
 - [compatibility-levels.md](compatibility-levels.md)
 - [interoperability.md](interoperability.md)
 - [studio.md](studio.md)
+- [implementation-compatibility.md](implementation-compatibility.md)
 
 The current core registry files are versioned and define the protocol vocabulary used throughout the repository.

@@ -10,6 +10,15 @@ Rather than treating documents as the primary unit of knowledge, XanaNode treats
 
 XanaNode is designed to be both human-readable and machine-interpretable.
 
+Documentation is licensed under `CC-BY-4.0`. Schemas, validators, and reference code are licensed under `Apache-2.0`. The XanaNode name and logo are trademarks of the XanaNode project; see [LICENSE.md](LICENSE.md) and [TRADEMARK.md](TRADEMARK.md).
+
+Implementations should identify themselves as XanaNode-compatible and link to the canonical specification when accurate:
+
+```text
+This project is a XanaNode-compatible implementation.
+Canonical specification: https://github.com/kingc95/XanaNode
+```
+
 It is not a wiki.
 
 It is not a graph database.

@@ -93,6 +93,10 @@ Example:
 
 Use relationships to explain why a facet matters in context. For example, a quote can `supports` a claim, `derived_from` a source, or `defines` a concept. Facets describe secondary behavior; relationships describe meaning.
 
+Projection layers should show those secondary roles instead of hiding them. The primary `type` keeps authority over routing, validation, and default presentation, but a graph projection should visually mix the primary type color with any facet colors it recognizes. In other words, a quote that is primarily a `fragment` and also has `source` and `claim` facets should not look like only a fragment. Its visual mark should intertwingle the fragment, source, and claim colors by slices, bands, rings, or another accessible mixed-color treatment.
+
+If a projection cannot use color, it should preserve the distinction with labels, texture, stroke patterns, badges, or another cue. A renderer may simplify the treatment at tiny sizes, but it should not erase the fact that the node carries multiple roles while claiming full projection compliance.
+
 ## Media Assets
 
 Media should be represented as `media` nodes, then connected to other nodes with `has_primary_media`, `depicts`, `represents`, `transcribes`, or another appropriate relationship. A node that wants a representative image should use `primary_media` to reference a media node rather than embedding a renderer-specific image path.

@@ -27,6 +27,19 @@ Relationship records should preserve assertion provenance when available. Common
 
 Relationships may also carry temporal validity when the relationship was true during a specific historical interval. Use `valid_from` for the beginning of the interval and `valid_to` for the end. These fields describe the modeled reality, while `asserted_at` describes when the substrate recorded the assertion.
 
+## Projection Style
+
+Relationship type registries define canonical projection style metadata:
+
+- `color`
+- `inverse_color`
+- `line_style`
+- `inverse_line_style`
+
+Projection layers use these values for connective lines, arrows, trails, legends, and other relationship marks. This is not decoration only: visual stratification helps readers distinguish evidence, lineage, authorship, governance, uncertainty, communication, and other relationship families before reading every label.
+
+A protocol-compliant projection may adapt contrast for accessibility, theme, or media constraints, but it must preserve the registry-level distinction between relationship types and their inverse readings. If a renderer cannot display color, it should use line style, labels, or another accessible cue instead of flattening every relationship into the same visual treatment.
+
 ## Inquiry, Uncertainty, And Workflow
 
 XanaNode relationships should preserve knowledge states, not only settled assertions.
