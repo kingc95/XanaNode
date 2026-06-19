@@ -2,7 +2,7 @@
 
 Nodes are addressable knowledge objects.
 
-A node may represent a person, concept, claim, source, observation, essay, media item, event, place, organization, project, technology, publication, community, relationship, revision, trail, schema, or fragment.
+A node may represent a person, concept, claim, question, hypothesis, problem, knowledge gap, communication, response, source, observation, essay, media item, event, place, organization, project, technology, publication, community, relationship, revision, trail, schema, or fragment.
 
 Nodes should have stable IDs and human-readable summaries.
 
@@ -11,6 +11,63 @@ Nodes should carry provenance metadata when it is known. Common provenance field
 `created_by` should point to a person, organization, project, or external actor identifier when possible. If the actor is local to the substrate, it should be represented as a node.
 
 A node is not automatically true. It is an object in the substrate that can be connected to evidence, claims, sources, disputes, and revisions.
+
+## Inquiry And Knowledge States
+
+Knowledge work is not only a collection of asserted facts. It also contains questions, provisional explanations, missing evidence, and unresolved problems. XanaNode models these as first-class nodes so a substrate can show what it knows, what it does not know, and what it is actively trying to find out.
+
+Use `question` for an explicit inquiry or prompt. A question may be answered, partially answered, raised by a source, asked in a communication, or connected to a knowledge gap.
+
+Use `hypothesis` for a provisional explanation or prediction. A hypothesis should be connected to tests, evidence, counterevidence, validation, falsification, and revision history.
+
+Use `problem` for a difficulty, risk, design challenge, or research problem that organizes work.
+
+Use `knowledge_gap` for a known absence: missing citation, unknown author, lost document, incomplete context, unresolved identity, or evidence that has not been found yet.
+
+Common epistemic workflow properties include `uncertainty_level`, `review_status`, `research_priority`, and `evidence_strength`. These fields are also listed in the property registry so tools can parse them consistently.
+
+Example:
+
+```json
+{
+  "id": "example.minimal:question/why-relationships-matter",
+  "title": "Why do relationships matter?",
+  "type": "question",
+  "status": "open",
+  "importance": 5,
+  "summary": "An inquiry into why preserving relationship structure changes what a knowledge system can do.",
+  "uncertainty_level": "medium",
+  "review_status": "needs_review",
+  "research_priority": 4,
+  "relationships": []
+}
+```
+
+## Communication Nodes
+
+Communication should not always be flattened into a simple edge such as `authored` or `discusses`. A communication can have topology, participants, directionality, feedback, medium, audience, and consequences. When those properties matter, model the communication itself as a `communication` node.
+
+Use `communication_model` to describe participant topology:
+
+- `one_to_one`
+- `one_to_many`
+- `many_to_one`
+- `many_to_many`
+
+Use `communication_pattern` to describe the semantic pattern:
+
+- `dialogue`
+- `broadcast`
+- `collection`
+- `coordination`
+- `negotiation`
+- `debate`
+- `consensus`
+- `instruction`
+- `query_response`
+- `publication`
+
+Use `response` for an answer, reply, rebuttal, clarification, or follow-up. Responses can `answers` a question, `replied_to` another response or communication, or be `answered_in` a communication context.
 
 ## Primary Type And Facets
 

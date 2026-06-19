@@ -9,8 +9,13 @@ Examples:
 - `supports`
 - `contradicts`
 - `explains`
+- `answers`
+- `investigates`
+- `requires_source`
+- `possibly_related_to`
 - `created`
 - `derived_from`
+- `communicated_to`
 - `transcludes`
 - `deep_links_to`
 
@@ -21,6 +26,75 @@ Relationship records should preserve assertion provenance when available. Common
 `asserted_by` should point to a person, organization, project, or external actor identifier when possible. If the actor is local to the substrate, it should be represented as a node.
 
 Relationships may also carry temporal validity when the relationship was true during a specific historical interval. Use `valid_from` for the beginning of the interval and `valid_to` for the end. These fields describe the modeled reality, while `asserted_at` describes when the substrate recorded the assertion.
+
+## Inquiry, Uncertainty, And Workflow
+
+XanaNode relationships should preserve knowledge states, not only settled assertions.
+
+Use inquiry relationships when a node participates in research or explanation:
+
+- `answers`
+- `partially_answers`
+- `fails_to_answer`
+- `raises`
+- `investigates`
+- `motivates_inquiry`
+- `tests`
+- `falsifies`
+- `validates`
+
+Use workflow and uncertainty relationships when a node needs additional work:
+
+- `requires_information`
+- `requires_source`
+- `requires_review`
+- `requires_validation`
+- `requires_context`
+- `insufficient_evidence`
+- `unresolved`
+- `under_review`
+- `speculative`
+
+These relationships make gaps explicit. A substrate should be able to say "this claim needs a source" or "this question remains unresolved" without pretending the missing knowledge is already known.
+
+## Discovery And Cognitive Relationships
+
+Not every useful connection is strong enough to be evidence, influence, or identity. Early research often begins with low-commitment associations.
+
+Use discovery and cognitive relationships for provisional connective tissue:
+
+- `possibly_related_to`
+- `shares_pattern_with`
+- `analogous_to`
+- `resonates_with`
+- `generalizes`
+- `specializes`
+- `abstraction_of`
+- `example_of`
+
+Authors should prefer more specific high-commitment relationships when the evidence supports them. Low-commitment relationships are still valuable because they preserve the path by which a stronger interpretation may later be discovered.
+
+## Communication Relationships
+
+Communication has structure. When the communication itself matters, represent it as a `communication` node and connect participants, questions, responses, audiences, and consequences with typed relationships.
+
+Canonical communication relationships include:
+
+- `asked`
+- `asked_in`
+- `answers`
+- `answered_in`
+- `replied_to`
+- `broadcast_to`
+- `communicated_to`
+- `presented_to`
+- `discussed_with`
+- `debated_with`
+- `negotiated_with`
+- `announced`
+- `reported_to`
+
+This lets a substrate model knowledge flow: who asked, who answered, where the exchange happened, how it reached an audience, and what claims, projects, or gaps emerged from it.
 
 ## Inverse Views
 

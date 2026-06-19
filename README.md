@@ -6,7 +6,7 @@
 
 XanaNode is a protocol, ontology, and publishing architecture for building interoperable knowledge substrates.
 
-Rather than treating documents as the primary unit of knowledge, XanaNode treats relationships as first-class entities and models knowledge as a connected network of people, concepts, claims, sources, events, media, organizations, technologies, and their relationships.
+Rather than treating documents as the primary unit of knowledge, XanaNode treats relationships as first-class entities and models knowledge as a connected network of people, concepts, claims, questions, hypotheses, problems, knowledge gaps, communications, responses, sources, events, media, organizations, technologies, and their relationships.
 
 XanaNode is designed to be both human-readable and machine-interpretable.
 
@@ -119,6 +119,10 @@ Instead it preserves:
 * evidence
 * disagreement
 * uncertainty
+* open questions
+* hypotheses
+* knowledge gaps
+* review status
 
 The goal is not enforced truth.
 
@@ -212,9 +216,11 @@ The current core registry files are versioned and live in [schemas/](schemas):
 * [xananode-relationship-types.v0.5.0.json](schemas/xananode-relationship-types.v0.5.0.json)
 * [xananode-relationship-types.schema.v0.5.0.json](schemas/xananode-relationship-types.schema.v0.5.0.json)
 
-The node registry currently centers on core types such as person, concept, claim, source, essay, and observation.
+The node registry currently centers on core types such as person, concept, claim, question, hypothesis, problem, knowledge_gap, communication, response, source, essay, and observation.
 
-The relationship registry currently centers on core types such as defines, has_claim, supports, contradicts, documents, and derived_from.
+The relationship registry currently centers on core types such as defines, has_claim, supports, contradicts, documents, derived_from, answers, investigates, requires_source, possibly_related_to, and communicated_to.
+
+The core property registry standardizes common open properties such as `uncertainty_level`, `review_status`, `research_priority`, `evidence_strength`, `communication_model`, and `communication_pattern`.
 
 The core schema provides interoperability while still allowing extension schemas to define namespaced custom types.
 

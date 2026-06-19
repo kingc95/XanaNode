@@ -145,6 +145,78 @@
       "confidence": "high",
       "tumbler": "example.minimal:source/as-we-may-think@git:8e47e70:examples/minimal-substrate/nodes/source-as-we-may-think.json#fragment/0004@sha256:example-as-we-may-think-fragment-0004",
       "summary": "The essay includes the source fragment by stable reference instead of duplicating it."
+    },
+    {
+      "id": "example.minimal:rel/question-raises-gap",
+      "source": "example.minimal:question/why-relationships-matter",
+      "target": "example.minimal:knowledge_gap/missing-relationship-evidence",
+      "type": "raises",
+      "weight": 4,
+      "visibility": "primary",
+      "asserted_by": "example.minimal:person/example-maintainer",
+      "asserted_at": "2026-01-01T00:00:00Z",
+      "confidence": "curatorial",
+      "summary": "The question makes a missing-evidence gap explicit instead of leaving it implicit."
+    },
+    {
+      "id": "example.minimal:rel/gap-requires-source",
+      "source": "example.minimal:knowledge_gap/missing-relationship-evidence",
+      "target": "example.minimal:source/as-we-may-think",
+      "type": "requires_source",
+      "weight": 4,
+      "visibility": "primary",
+      "asserted_by": "example.minimal:person/example-maintainer",
+      "asserted_at": "2026-01-01T00:00:00Z",
+      "confidence": "curatorial",
+      "summary": "The knowledge gap points to source evidence that may help resolve it."
+    },
+    {
+      "id": "example.minimal:rel/question-asked-in-communication",
+      "source": "example.minimal:question/why-relationships-matter",
+      "target": "example.minimal:communication/minimal-substrate-discussion",
+      "type": "asked_in",
+      "weight": 4,
+      "visibility": "primary",
+      "asserted_by": "example.minimal:person/example-maintainer",
+      "asserted_at": "2026-01-01T00:00:00Z",
+      "confidence": "high",
+      "summary": "The question is modeled as being asked inside a communication context."
+    },
+    {
+      "id": "example.minimal:rel/response-answers-question",
+      "source": "example.minimal:response/relationships-preserve-context",
+      "target": "example.minimal:question/why-relationships-matter",
+      "type": "answers",
+      "weight": 5,
+      "visibility": "primary",
+      "asserted_by": "example.minimal:person/example-maintainer",
+      "asserted_at": "2026-01-01T00:00:00Z",
+      "confidence": "interpretive",
+      "summary": "The response answers the question by connecting relationship structure to preserved context."
+    },
+    {
+      "id": "example.minimal:rel/response-answered-in-communication",
+      "source": "example.minimal:response/relationships-preserve-context",
+      "target": "example.minimal:communication/minimal-substrate-discussion",
+      "type": "answered_in",
+      "weight": 4,
+      "visibility": "primary",
+      "asserted_by": "example.minimal:person/example-maintainer",
+      "asserted_at": "2026-01-01T00:00:00Z",
+      "confidence": "high",
+      "summary": "The response belongs to the same communication context as the question."
+    },
+    {
+      "id": "example.minimal:rel/response-supports-claim",
+      "source": "example.minimal:response/relationships-preserve-context",
+      "target": "example.minimal:claim/substrate-is-structure",
+      "type": "supports",
+      "weight": 4,
+      "visibility": "primary",
+      "asserted_by": "example.minimal:person/example-maintainer",
+      "asserted_at": "2026-01-01T00:00:00Z",
+      "confidence": "interpretive",
+      "summary": "The response supports the existing claim that substrate structure changes epistemic capability."
     }
   ]
 }

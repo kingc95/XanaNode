@@ -28,7 +28,19 @@
           "description": { "type": "string" },
           "category": {
             "type": "string",
-            "enum": ["identity", "time", "space", "quantity", "money", "classification", "reference"]
+            "enum": [
+              "identity",
+              "time",
+              "space",
+              "quantity",
+              "money",
+              "classification",
+              "reference",
+              "epistemology",
+              "workflow",
+              "attention",
+              "communication"
+            ]
           },
           "aliases": {
             "type": "array",

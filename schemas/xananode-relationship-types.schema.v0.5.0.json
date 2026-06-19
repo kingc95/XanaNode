@@ -67,15 +67,23 @@
                   "historical",
                   "identity",
                   "influence",
+                  "inquiry",
+                  "knowledge_workflow",
                   "lineage",
                   "location",
                   "participation",
                   "reasoning",
+                  "research_workflow",
                   "representation",
                   "revision",
                   "schema_mapping",
                   "social",
-                  "temporal"
+                  "temporal",
+                  "uncertainty",
+                  "discovery",
+                  "cognition",
+                  "attention",
+                  "communication"
                 ]
               },
               {
