@@ -39,6 +39,7 @@ Packs use the same artifact shapes as a normal substrate:
 - optional `substrate.json`
 - `nodes/*.json` or any JSON file containing one node, an array of nodes, or `{ "nodes": [...] }`
 - `relationships.json` or any JSON file containing `{ "relationships": [...] }`
+- optional `assets/` files referenced by media node `asset_path` fields
 - optional schemas, reports, and companion metadata
 
 Packs may be used in three composition modes:
@@ -91,3 +92,18 @@ Pack ingress may declare namespace mappings:
 Namespace mappings are local federation rules. They do not rename the imported pack's own nodes unless `scope` is `all`; with `scope: "relationships"` they only rebase relationship endpoints so mounted records can connect to equivalent local substrate nodes. Implementations should report mappings in review or merge/intake output so authors can audit how a mounted pack is being interpreted.
 
 Implementations must not silently treat a mounted pack as imported or merged. If a tool copies mounted records into local artifacts, it should record that as an explicit import step with review metadata. If a tool reconciles identity, de-duplicates nodes, or resolves conflicting claims, it should record that as a merge step. This prevents two repositories from accidentally claiming canonical ownership of the same governed records.
+
+## Pack Media Portability
+
+Packs that include local media must include the media files alongside the node records. Media files belong under the pack root, normally in `assets/`. Media nodes reference those files with relative `asset_path` values.
+
+Pack builders must:
+
+- copy every file referenced by a media node `asset_path`
+- reject or warn on paths that escape the pack root
+- preserve `source_url`, `rights_status`, `license`, `source_snapshot`, and content identifiers when known
+- keep `primary_media` references pointing at media node ids, not raw file paths
+
+Pack consumers must resolve `asset_path` relative to the pack root for mounted packs and relative to the receiving substrate root for imported or merged assets after an explicit copy step.
+
+Live source URLs and captured media are different objects. A `source` node may point to `https://example.com`. A related `media` node with `subtype: "web_snapshot"` may carry a screenshot or Open Graph image captured from that URL. This lets renderers show rich previews while preserving source identity, capture time, rights, and provenance.
