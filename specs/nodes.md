@@ -129,11 +129,19 @@ Portable media nodes should use a relative `asset_path` when the file is part of
 
 `asset_path` is always relative to the substrate or pack root. It must not escape that root. Implementations that build packs must copy referenced assets into the pack and preserve the relative path, or rewrite the path and record that rewrite in pack metadata.
 
+Media nodes should include stable content identifiers, usually `content_id: "sha256:..."`, whenever a tool can compute them. Content identifiers let federation tools detect duplicate files, distinguish duplicate bytes from duplicate titles, and explain how a file moved through different substrates.
+
 Recommended asset layout:
 
 ```text
 assets/
   media/
+  projection/
+    node-types/
+      <type>.svg
+    node-subtypes/
+      <type>/
+        <subtype>.svg
   sources/
     <source-node-local-id>/
       snapshot.png
@@ -142,6 +150,35 @@ assets/
 ```
 
 Source page previews, Open Graph images, screenshots, transcripts, and archived copies should be captured as media nodes with provenance. The external `source_url` remains the live source. The media node records the captured representation and its rights status.
+
+## Type And Subtype Projection Media
+
+Node type registries may define projection media metadata under each node type's `projection` object. This lets projection layers draw a stable visual mark for a type without inventing renderer-local mappings.
+
+The canonical fields are:
+
+```json
+{
+  "type": "concept",
+  "projection": {
+    "icon": "concept",
+    "icon_label": "C",
+    "asset_path": "assets/projection/node-types/concept.svg",
+    "subtype_asset_path_template": "assets/projection/node-subtypes/concept/{subtype}.svg"
+  }
+}
+```
+
+When a substrate or pack includes the actual icon file, it should also include a `media` node for that file. The media node should use `asset_role: "node_type_projection_icon"` or `asset_role: "node_subtype_projection_icon"`, carry `asset_path`, `media_type`, `mime_type`, `alt`, `rights_status`, and provenance, and connect to the schema/type node when that type is represented as a node.
+
+Official XanaNode projections use this order for a node's center mark:
+
+1. primary media when the node has an explicit `primary_media` or resolved visual media
+2. subtype projection media when a subtype-specific asset is available
+3. node type projection media
+4. registry `icon` or `icon_label` fallback
+
+The node title remains the title and should be shown outside the center mark. Type and subtype labels may be shown as subtle chips, legends, tooltips, or inspector metadata. They should not replace the title.
 
 ## Branding As Knowledge
 

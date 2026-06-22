@@ -59,6 +59,11 @@ def validate_schema_sets(errors: list[str]) -> None:
         schema_dir / "xananode-property-registry.v0.1.0.json",
         errors,
     )
+    validate_json(
+        schema_dir / "substrate-layout.schema.json",
+        schema_dir / "xananode-substrate-layout.v0.1.0.json",
+        errors,
+    )
 
     for path in ROOT.glob("examples/**/schemas/node-types*.json"):
         validate_json(schema_dir / "xananode-node-types.schema.v0.3.0.json", path, errors)

@@ -7,6 +7,18 @@
       "schema": "../schemas/"
     },
     {
+      "id": "xananode.canonical",
+      "name": "XanaNode Canonical Substrate Namespace",
+      "description": "Namespace used by the standalone canonical XanaNode substrate.",
+      "federation_target": "xananode.canonical"
+    },
+    {
+      "id": "xananode.alphabet",
+      "name": "XanaNode Alphabet Example Namespace",
+      "description": "Namespace used by the tiny alphabet substrate for federation, media, and trail testing.",
+      "federation_target": "xananode.alphabet"
+    },
+    {
       "id": "example.minimal",
       "name": "Minimal Example Namespace",
       "description": "Namespace used by the minimal example substrate.",

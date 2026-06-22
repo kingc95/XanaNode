@@ -61,6 +61,57 @@
     },
     "schema_version": { "type": "string" },
     "license": { "type": "string" },
+    "sharing": {
+      "type": "object",
+      "description": "Substrate-level sharing policy. The default is shareable unless a node, trail, or explicit rule excludes records.",
+      "additionalProperties": false,
+      "properties": {
+        "default_shareable": {
+          "type": "boolean",
+          "description": "Whether nodes are shareable by default when they do not declare their own sharing rule."
+        },
+        "excluded_nodes": {
+          "type": "array",
+          "description": "Node ids that must not be included in shared exports or mounted public projections.",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "excluded_trails": {
+          "type": "array",
+          "description": "Trail node ids whose listed trail nodes should be excluded unless a node explicitly opts back in.",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "excluded_relationships": {
+          "type": "array",
+          "description": "Relationship ids that must not be included in shared exports or mounted public projections.",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "rules": {
+          "type": "array",
+          "description": "Named sharing rules for selectors a tool understands, such as type, subtype, tag, path, trail, or namespace.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["selector", "shareable"],
+            "properties": {
+              "selector": {
+                "type": "object",
+                "additionalProperties": true,
+                "description": "Selector interpreted by tools, commonly {type}, {subtype}, {tag}, {trail}, {path}, or {namespace}."
+              },
+              "shareable": { "type": "boolean" },
+              "scope": {
+                "type": "string",
+                "enum": ["public", "unlisted", "trusted", "private"]
+              },
+              "reason": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
     "maintainers": {
       "type": "array",
       "items": {
@@ -92,6 +143,30 @@
               "version": { "type": "string" },
               "description": { "type": "string" },
               "required": { "type": "boolean" },
+              "repository": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "type": {
+                    "type": "string",
+                    "enum": ["git"]
+                  },
+                  "url": { "type": "string" },
+                  "branch": { "type": "string" },
+                  "commit": { "type": "string" },
+                  "archive": { "type": "string" }
+                }
+              },
+              "archive": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "media_type": { "type": "string" },
+                  "file": { "type": "string" },
+                  "sha256": { "type": "string" },
+                  "created_at": { "type": "string", "format": "date-time" }
+                }
+              },
               "namespace_mappings": {
                 "type": "array",
                 "items": {
@@ -138,6 +213,8 @@
           "$ref": "#/$defs/build_metadata"
         },
         "portable": { "type": "boolean" },
+        "archive_name": { "type": "string" },
+        "archive_media_type": { "type": "string" },
         "source_manifests": {
           "type": "array",
           "items": {

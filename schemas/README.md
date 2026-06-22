@@ -15,6 +15,8 @@ Core files:
 - [substrate-relationships.schema.json](substrate-relationships.schema.json)
 - [property-registry.schema.json](property-registry.schema.json)
 - [xananode-property-registry.v0.1.0.json](xananode-property-registry.v0.1.0.json)
+- [substrate-layout.schema.json](substrate-layout.schema.json)
+- [xananode-substrate-layout.v0.1.0.json](xananode-substrate-layout.v0.1.0.json)
 - [namespace.schema.json](namespace.schema.json)
 - [merge-report.schema.json](merge-report.schema.json)
 - [compatibility-report.schema.json](compatibility-report.schema.json)
@@ -23,6 +25,6 @@ Core files:
 - [nanopublication.schema.json](nanopublication.schema.json)
 - [ro-crate-metadata.schema.json](ro-crate-metadata.schema.json)
 
-The versioned registry files define the canonical core node, relationship, and property types. The schema files describe the required structure of each registry plus related substrate and compatibility documents.
+The versioned registry files define the canonical core node, relationship, property, and substrate layout conventions. The schema files describe the required structure of each registry plus related substrate and compatibility documents.
 
 Schemas and schema registries are licensed under `Apache-2.0` so implementations can adopt them freely while preserving attribution and provenance.

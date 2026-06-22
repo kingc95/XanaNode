@@ -50,6 +50,27 @@
     "updated_at": { "type": "string", "format": "date-time" },
     "source_url": { "type": "string", "format": "uri" },
     "rights_status": { "type": "string" },
+    "sharing": {
+      "type": "object",
+      "description": "Node-level sharing policy. Nodes are shareable by default unless this object or a substrate-level rule says otherwise.",
+      "additionalProperties": false,
+      "properties": {
+        "shareable": {
+          "type": "boolean",
+          "description": "Whether this node may be included in exported, published, federated, or shared packs. Defaults to true."
+        },
+        "scope": {
+          "type": "string",
+          "description": "The intended sharing scope for tools that support private workspaces or limited review.",
+          "enum": ["public", "unlisted", "trusted", "private"]
+        },
+        "reason": { "type": "string" },
+        "review_status": {
+          "type": "string",
+          "enum": ["allowed", "blocked", "needs_review"]
+        }
+      }
+    },
     "asset_path": {
       "type": "string",
       "description": "Portable relative path to a local asset file inside the substrate or pack, usually used by media nodes."

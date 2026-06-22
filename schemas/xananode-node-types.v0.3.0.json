@@ -39,7 +39,13 @@
       "namespace": "xananode",
       "id": "xananode:person",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "person",
+        "icon_label": "P",
+        "asset_path": "assets/projection/node-types/person.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/person/{subtype}.svg"
+      }
     },
     {
       "type": "concept",
@@ -76,7 +82,13 @@
       "namespace": "xananode",
       "id": "xananode:concept",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "concept",
+        "icon_label": "C",
+        "asset_path": "assets/projection/node-types/concept.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/concept/{subtype}.svg"
+      }
     },
     {
       "type": "claim",
@@ -115,7 +127,13 @@
       "namespace": "xananode",
       "id": "xananode:claim",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "claim",
+        "icon_label": "C",
+        "asset_path": "assets/projection/node-types/claim.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/claim/{subtype}.svg"
+      }
     },
     {
       "type": "source",
@@ -141,6 +159,12 @@
         "social_profile",
         "support_page",
         "web_snapshot",
+        "radio_series",
+        "radio_episode",
+        "television_series",
+        "television_episode",
+        "stage_play",
+        "audio_drama",
         "archive",
         "license",
         "legal_policy",
@@ -165,7 +189,13 @@
       "namespace": "xananode",
       "id": "xananode:source",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "source",
+        "icon_label": "S",
+        "asset_path": "assets/projection/node-types/source.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/source/{subtype}.svg"
+      }
     },
     {
       "type": "essay",
@@ -201,7 +231,13 @@
       "namespace": "xananode",
       "id": "xananode:essay",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "essay",
+        "icon_label": "E",
+        "asset_path": "assets/projection/node-types/essay.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/essay/{subtype}.svg"
+      }
     },
     {
       "type": "observation",
@@ -237,7 +273,13 @@
       "namespace": "xananode",
       "id": "xananode:observation",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "observation",
+        "icon_label": "O",
+        "asset_path": "assets/projection/node-types/observation.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/observation/{subtype}.svg"
+      }
     },
     {
       "type": "media",
@@ -293,7 +335,64 @@
       "namespace": "xananode",
       "id": "xananode:media",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "media",
+        "icon_label": "M",
+        "asset_path": "assets/projection/node-types/media.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/media/{subtype}.svg"
+      }
+    },
+    {
+      "type": "item",
+      "label": "Item",
+      "color": {
+        "bg": "#f4b183",
+        "fg": "#25170a",
+        "outline": "#ffe8d6"
+      },
+      "purpose": "A discrete physical thing, product, ingredient, component, tool, or other tangible object that can be counted, assembled, consumed, used, or stored.",
+      "allowed_subtypes": [
+        "material",
+        "ingredient",
+        "component",
+        "tool",
+        "artifact",
+        "appliance",
+        "container",
+        "utensil",
+        "finished_item",
+        "spare_part"
+      ],
+      "required_frontmatter": [
+        "title",
+        "type",
+        "importance",
+        "summary",
+        "relationships"
+      ],
+      "recommended_frontmatter": [
+        "quantity",
+        "unit",
+        "weight",
+        "dimensions",
+        "condition",
+        "material_composition",
+        "components",
+        "ingredients",
+        "primary_media",
+        "source"
+      ],
+      "namespace": "xananode",
+      "id": "xananode:item",
+      "core": true,
+      "extends": null,
+      "projection": {
+        "icon": "item",
+        "icon_label": "I",
+        "asset_path": "assets/projection/node-types/item.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/item/{subtype}.svg"
+      }
     },
     {
       "type": "event",
@@ -332,7 +431,13 @@
       "namespace": "xananode",
       "id": "xananode:event",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "event",
+        "icon_label": "E",
+        "asset_path": "assets/projection/node-types/event.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/event/{subtype}.svg"
+      }
     },
     {
       "type": "place",
@@ -369,7 +474,13 @@
       "namespace": "xananode",
       "id": "xananode:place",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "place",
+        "icon_label": "P",
+        "asset_path": "assets/projection/node-types/place.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/place/{subtype}.svg"
+      }
     },
     {
       "type": "organization",
@@ -406,7 +517,13 @@
       "namespace": "xananode",
       "id": "xananode:organization",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "organization",
+        "icon_label": "O",
+        "asset_path": "assets/projection/node-types/organization.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/organization/{subtype}.svg"
+      }
     },
     {
       "type": "project",
@@ -442,7 +559,13 @@
       "namespace": "xananode",
       "id": "xananode:project",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "project",
+        "icon_label": "P",
+        "asset_path": "assets/projection/node-types/project.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/project/{subtype}.svg"
+      }
     },
     {
       "type": "technology",
@@ -479,7 +602,13 @@
       "namespace": "xananode",
       "id": "xananode:technology",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "technology",
+        "icon_label": "T",
+        "asset_path": "assets/projection/node-types/technology.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/technology/{subtype}.svg"
+      }
     },
     {
       "type": "publication",
@@ -496,7 +625,17 @@
         "article",
         "film",
         "episode",
+        "series",
+        "season",
+        "installment",
+        "trilogy",
+        "saga",
+        "omnibus",
+        "pilot",
         "talk",
+        "adaptation",
+        "edition",
+        "reissue",
         "podcast",
         "webpage"
       ],
@@ -518,7 +657,13 @@
       "namespace": "xananode",
       "id": "xananode:publication",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "publication",
+        "icon_label": "P",
+        "asset_path": "assets/projection/node-types/publication.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/publication/{subtype}.svg"
+      }
     },
     {
       "type": "community",
@@ -554,7 +699,13 @@
       "namespace": "xananode",
       "id": "xananode:community",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "community",
+        "icon_label": "C",
+        "asset_path": "assets/projection/node-types/community.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/community/{subtype}.svg"
+      }
     },
     {
       "type": "relationship",
@@ -594,7 +745,13 @@
       "namespace": "xananode",
       "id": "xananode:relationship",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "relationship",
+        "icon_label": "R",
+        "asset_path": "assets/projection/node-types/relationship.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/relationship/{subtype}.svg"
+      }
     },
     {
       "type": "revision",
@@ -630,7 +787,13 @@
       "namespace": "xananode",
       "id": "xananode:revision",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "revision",
+        "icon_label": "R",
+        "asset_path": "assets/projection/node-types/revision.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/revision/{subtype}.svg"
+      }
     },
     {
       "type": "trail",
@@ -666,7 +829,13 @@
       "namespace": "xananode",
       "id": "xananode:trail",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "trail",
+        "icon_label": "T",
+        "asset_path": "assets/projection/node-types/trail.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/trail/{subtype}.svg"
+      }
     },
     {
       "type": "schema",
@@ -710,7 +879,13 @@
       "namespace": "xananode",
       "id": "xananode:schema",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "schema",
+        "icon_label": "S",
+        "asset_path": "assets/projection/node-types/schema.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/schema/{subtype}.svg"
+      }
     },
     {
       "namespace": "xananode",
@@ -753,7 +928,13 @@
         "line_range",
         "time_range",
         "rights_status"
-      ]
+      ],
+      "projection": {
+        "icon": "fragment",
+        "icon_label": "F",
+        "asset_path": "assets/projection/node-types/fragment.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/fragment/{subtype}.svg"
+      }
     },
     {
       "type": "question",
@@ -792,7 +973,13 @@
       "namespace": "xananode",
       "id": "xananode:question",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "question",
+        "icon_label": "Q",
+        "asset_path": "assets/projection/node-types/question.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/question/{subtype}.svg"
+      }
     },
     {
       "type": "hypothesis",
@@ -831,7 +1018,13 @@
       "namespace": "xananode",
       "id": "xananode:hypothesis",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "hypothesis",
+        "icon_label": "H",
+        "asset_path": "assets/projection/node-types/hypothesis.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/hypothesis/{subtype}.svg"
+      }
     },
     {
       "type": "problem",
@@ -869,7 +1062,13 @@
       "namespace": "xananode",
       "id": "xananode:problem",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "problem",
+        "icon_label": "P",
+        "asset_path": "assets/projection/node-types/problem.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/problem/{subtype}.svg"
+      }
     },
     {
       "type": "knowledge_gap",
@@ -908,7 +1107,13 @@
       "namespace": "xananode",
       "id": "xananode:knowledge_gap",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "knowledge_gap",
+        "icon_label": "KG",
+        "asset_path": "assets/projection/node-types/knowledge_gap.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/knowledge_gap/{subtype}.svg"
+      }
     },
     {
       "type": "communication",
@@ -955,7 +1160,13 @@
       "namespace": "xananode",
       "id": "xananode:communication",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "communication",
+        "icon_label": "C",
+        "asset_path": "assets/projection/node-types/communication.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/communication/{subtype}.svg"
+      }
     },
     {
       "type": "response",
@@ -993,7 +1204,17 @@
       "namespace": "xananode",
       "id": "xananode:response",
       "core": true,
-      "extends": null
+      "extends": null,
+      "projection": {
+        "icon": "response",
+        "icon_label": "R",
+        "asset_path": "assets/projection/node-types/response.svg",
+        "subtype_asset_path_template": "assets/projection/node-subtypes/response/{subtype}.svg"
+      }
     }
-  ]
+  ],
+  "media_conventions": {
+    "node_type_asset_path_template": "assets/projection/node-types/{type}.svg",
+    "node_subtype_asset_path_template": "assets/projection/node-subtypes/{type}/{subtype}.svg"
+  }
 }

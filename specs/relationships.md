@@ -35,10 +35,28 @@ Relationship type registries define canonical projection style metadata:
 - `inverse_color`
 - `line_style`
 - `inverse_line_style`
+- optional `projection` media metadata
 
 Projection layers use these values for connective lines, arrows, trails, legends, and other relationship marks. This is not decoration only: visual stratification helps readers distinguish evidence, lineage, authorship, governance, uncertainty, communication, and other relationship families before reading every label.
 
 A protocol-compliant projection may adapt contrast for accessibility, theme, or media constraints, but it must preserve the registry-level distinction between relationship types and their inverse readings. If a renderer cannot display color, it should use line style, labels, or another accessible cue instead of flattening every relationship into the same visual treatment.
+
+Relationship type registries may also declare projection media:
+
+```json
+{
+  "type": "supports",
+  "category": "evidence",
+  "projection": {
+    "icon": "supports",
+    "icon_label": "->",
+    "asset_path": "assets/projection/relationship-types/supports.svg",
+    "category_asset_path": "assets/projection/relationship-categories/evidence.svg"
+  }
+}
+```
+
+Relationship projection assets should be carried as `media` nodes when bundled in a substrate or pack. Use `asset_role: "relationship_type_projection_icon"` for a specific relationship type and `asset_role: "relationship_category_projection_icon"` for category-level assets. Projection layers may use these assets in legends, path explainers, relationship catalogs, tooltips, and edge adornments, while edge color and line style still come from the relationship registry.
 
 ## Inquiry, Uncertainty, And Workflow
 

@@ -10,6 +10,10 @@ Rather than treating documents as the primary unit of knowledge, XanaNode treats
 
 XanaNode is designed to be both human-readable and machine-interpretable.
 
+XanaNode is also a working software stack. The protocol, Core SDK, Workspace engine, Hugo projection layer, Studio workbench, and canonical XanaNode.com substrate are designed to run together and to describe themselves as XanaNode data. The canonical substrate is not only documentation about the project; it is a living example of the protocol carrying its own schemas, registries, media assets, source snapshots, project history, implementation links, build metadata, governance notes, and unresolved work.
+
+That recursive quality is intentional. If XanaNode says relationships preserve knowledge, the XanaNode project itself must preserve the relationships that explain XanaNode: why files exist, where schemas came from, which tools consume them, what changed, what is pending, and how the public website was produced.
+
 Documentation is licensed under `CC-BY-4.0`. Schemas, validators, and reference code are licensed under `Apache-2.0`. The XanaNode name and logo are trademarks of the XanaNode project; see [LICENSE.md](LICENSE.md) and [TRADEMARK.md](TRADEMARK.md).
 
 Implementations should identify themselves as XanaNode-compatible and link to the canonical specification when accurate:
@@ -169,6 +173,8 @@ A knowledge substrate is an independently authored graph of knowledge.
 
 In XanaNode, a production substrate is backed by a Git repository. Git supplies history, branching, review, merge, and synchronization; XanaNode supplies the knowledge model, schemas, validation rules, and federation semantics.
 
+A substrate is portable. A hand-built substrate should be able to follow the standard folder tree, include its own files, and open in compatible tools without private state. A `.substrate` archive carries the whole substrate as data: manifest, nodes, relationships, media, source files, schemas, reports, and workspace metadata needed for round trips.
+
 Examples:
 
 * personal knowledge substrates
@@ -231,6 +237,13 @@ The relationship registry currently centers on core types such as defines, has_c
 
 The core property registry standardizes common open properties such as `uncertainty_level`, `review_status`, `research_priority`, `evidence_strength`, `communication_model`, and `communication_pattern`.
 
+The substrate layout registry defines the standard folder tree that compatible tools should understand:
+
+* [substrate-layout.schema.json](schemas/substrate-layout.schema.json)
+* [xananode-substrate-layout.v0.1.0.json](schemas/xananode-substrate-layout.v0.1.0.json)
+
+This makes the substrate format tight enough that someone can manually build a substrate outside the XanaNode tools, drop it into Core, Workspace, Studio, Hugo, or another compatible implementation, and expect the records and files to be discoverable.
+
 The core schema provides interoperability while still allowing extension schemas to define namespaced custom types.
 
 Validation tools live in [tools/](tools). The repository validator checks JSON Schema conformance plus XanaNode-specific integrity rules such as declared relationship types, registered namespaces, and resolvable relationship endpoints.
@@ -265,6 +278,50 @@ cd XanaNode-Studio
 npm install
 npm test
 ```
+
+---
+
+## How The Stack Fits Together
+
+XanaNode is designed so the same substrate can move through the whole stack without being reinvented at each layer.
+
+```text
+Protocol defines the rules
+Core reads, validates, analyzes, and exports substrates
+Workspace manages substrate folders, registry targets, working copies, and .substrate bundles
+Studio uses Workspace/Core for authoring and federation UX
+Hugo uses Core to validate and mount substrate sources, then projects them as a static site
+```
+
+Once you are past Core, the thing is still a substrate. Sometimes it is a Git-backed substrate folder. Sometimes it is a portable `.substrate` bundle. Sometimes it is a mounted registry target cloned locally. These are transport and governance forms of the same thing, not separate knowledge objects.
+
+The protocol registry can list known federation targets. Official tools should prefer that registry when offering online substrate choices, while still allowing federation with valid external substrates that are not yet listed there.
+
+## FAQ
+
+### Is this a real working stack?
+
+Yes. XanaNode is not just a schema set. The protocol, Core SDK, Workspace engine, Studio authoring tool, Hugo projection layer, and canonical XanaNode substrate are meant to run together right now.
+
+### What is a `.substrate` file?
+
+A `.substrate` file is a portable bundled substrate. It can carry the manifest, nodes, relationships, media, source snapshots, schemas, and supporting metadata needed to move a substrate between tools without losing pieces.
+
+### Is a `.substrate` different from a substrate folder?
+
+No. It is the same substrate in a packaged transmission form. A Git-backed folder is better for active authorship and history. A `.substrate` bundle is better for shipping, handoff, offline import, and archival release.
+
+### Where does federation happen?
+
+Federation begins at the protocol level and is enforced through Core. Workspace is the management layer that should clone, mount, compare, import, or merge external substrates. Studio is the human-facing authoring interface for that workflow. Hugo is a projection layer that can mount configured substrate sources at build time and render the result.
+
+### Do I have to rewrite imported substrate data as Markdown for Hugo?
+
+No. Markdown is an authoring convenience, not the only source form. Hugo should be able to mount or import validated substrate JSON through Core and render it directly.
+
+### Can substrates overlap?
+
+Yes. Overlap is expected. Independent substrates may describe the same people, organizations, concepts, or works differently. XanaNode is meant to preserve that overlap, carry the provenance, and let tools surface the comparison instead of flattening it away.
 
 ---
 
