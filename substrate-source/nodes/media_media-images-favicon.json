@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-images-favicon",
+  "title": "Media / Images / Favicon",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/images/favicon.ico is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/images/favicon.ico",
+  "artifact_path": "media/images/favicon.ico",
+  "asset_path": "assets/raw/repository/media/images/favicon.ico",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/x-icon",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:d831bab8ef316e4cb30b5e95e16e66662ecbfa3558dafa85db70f3c18eb194f8",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/images/favicon.ico",
+    "method": "archive",
+    "content_id": "sha256:d831bab8ef316e4cb30b5e95e16e66662ecbfa3558dafa85db70f3c18eb194f8",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

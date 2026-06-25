@@ -1,0 +1,26 @@
+{
+  "id": "xananode.protocol:source/artifact-examples-federation-example-readme",
+  "title": "Examples / Federation Example / README",
+  "type": "source",
+  "subtype": "protocol_document",
+  "importance": 3,
+  "summary": "examples/federation-example/README.md is preserved as a raw protocol document in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/examples/federation-example/README.md",
+  "artifact_path": "examples/federation-example/README.md",
+  "asset_path": "assets/raw/repository/examples/federation-example/README.md",
+  "asset_role": "repository_source",
+  "media_type": "document",
+  "mime_type": "text/markdown",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:2189af21476cb584b5115b722863a872ca3cee3645e28966d617cdb02747b603",
+  "content": "# Federation Example\n\nThis example shows how two independently authored substrates can be compared without forcing a single source of truth.\n\n- `substrate-a/` models \"knowledge substrate\" as a concept.\n- `substrate-b/` models \"memory substrate\" as a similar concept.\n- each substrate records an outbound `possible_match` relationship to the other substrate's local concept.\n- `merge-report.json` records the result of a federation/merge pass, including the decision not to collapse the two concepts.\n- `compatibility-report.json` records the practical compatibility level reached by the example.\n\nThe merge report does not overwrite either substrate. It creates mapping claims and compatibility notes so the two graphs can be analyzed together.\n",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/examples/federation-example/README.md",
+    "method": "archive",
+    "content_id": "sha256:2189af21476cb584b5115b722863a872ca3cee3645e28966d617cdb02747b603",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

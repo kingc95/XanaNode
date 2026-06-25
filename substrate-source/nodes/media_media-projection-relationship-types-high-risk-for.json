@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-relationship-types-high-risk-for",
+  "title": "Media / Projection / Relationship Types / High Risk For",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/relationship-types/high_risk_for.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/high_risk_for.svg",
+  "artifact_path": "media/projection/relationship-types/high_risk_for.svg",
+  "asset_path": "assets/raw/repository/media/projection/relationship-types/high_risk_for.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:9ee550d1d28b6e397a2046bad84eb42cc11f66910ad545943adff5ee75448f0f",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/high_risk_for.svg",
+    "method": "archive",
+    "content_id": "sha256:9ee550d1d28b6e397a2046bad84eb42cc11f66910ad545943adff5ee75448f0f",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

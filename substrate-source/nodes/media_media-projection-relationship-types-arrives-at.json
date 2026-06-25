@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-relationship-types-arrives-at",
+  "title": "Media / Projection / Relationship Types / Arrives At",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/relationship-types/arrives_at.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/arrives_at.svg",
+  "artifact_path": "media/projection/relationship-types/arrives_at.svg",
+  "asset_path": "assets/raw/repository/media/projection/relationship-types/arrives_at.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:cedf4cffe33b588d9163020d79275612dd0db4a2c3efe4d4d6158e620ef47b44",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/arrives_at.svg",
+    "method": "archive",
+    "content_id": "sha256:cedf4cffe33b588d9163020d79275612dd0db4a2c3efe4d4d6158e620ef47b44",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

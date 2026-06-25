@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-relationship-categories-definition",
+  "title": "Media / Projection / Relationship Categories / Definition",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/relationship-categories/definition.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-categories/definition.svg",
+  "artifact_path": "media/projection/relationship-categories/definition.svg",
+  "asset_path": "assets/raw/repository/media/projection/relationship-categories/definition.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:a89c48fa6a2a57cbfe6ab8525f7aed6c374f5300f4475600bc22c9a7569fc2f9",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-categories/definition.svg",
+    "method": "archive",
+    "content_id": "sha256:a89c48fa6a2a57cbfe6ab8525f7aed6c374f5300f4475600bc22c9a7569fc2f9",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

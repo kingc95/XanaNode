@@ -1,0 +1,26 @@
+{
+  "id": "xananode.protocol:source/artifact-examples-federation-example-compatibility-report",
+  "title": "Examples / Federation Example / Compatibility Report",
+  "type": "source",
+  "subtype": "protocol_document",
+  "importance": 3,
+  "summary": "examples/federation-example/compatibility-report.json is preserved as a raw protocol document in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/examples/federation-example/compatibility-report.json",
+  "artifact_path": "examples/federation-example/compatibility-report.json",
+  "asset_path": "assets/raw/repository/examples/federation-example/compatibility-report.json",
+  "asset_role": "repository_source",
+  "media_type": "document",
+  "mime_type": "application/json",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:13c556257221045ff9276bf42f1e3ff8bcad2cf3333838d23d5a5ebbef803491",
+  "content": "{\n  \"status\": \"merge-candidate\",\n  \"compatibility_level\": 4,\n  \"details\": \"Both federation example substrates declare manifests, namespaces, stable node IDs, core relationship types, and non-destructive possible-match mappings.\"\n}\n",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/examples/federation-example/compatibility-report.json",
+    "method": "archive",
+    "content_id": "sha256:13c556257221045ff9276bf42f1e3ff8bcad2cf3333838d23d5a5ebbef803491",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

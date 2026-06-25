@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-relationship-types-identified",
+  "title": "Media / Projection / Relationship Types / Identified",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/relationship-types/identified.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/identified.svg",
+  "artifact_path": "media/projection/relationship-types/identified.svg",
+  "asset_path": "assets/raw/repository/media/projection/relationship-types/identified.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:1254afdcc5c584b4f132d6a64b1e34ba751d341fb935ceff1e59372444a1e5b7",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/identified.svg",
+    "method": "archive",
+    "content_id": "sha256:1254afdcc5c584b4f132d6a64b1e34ba751d341fb935ceff1e59372444a1e5b7",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

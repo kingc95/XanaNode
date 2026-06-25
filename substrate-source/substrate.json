@@ -1,0 +1,32 @@
+{
+  "id": "xananode.protocol",
+  "name": "XanaNode Protocol Substrate",
+  "version": "0.1.0",
+  "namespace": "xananode.protocol",
+  "description": "A substrate source built directly from the XanaNode Protocol repository, preserving schemas, registries, specs, governance, raw source files, media assets, and protocol-defining documents as first-class XanaNode records.",
+  "schema_version": "xananode-core@0.5.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kingc95/XanaNode-Protocol.git",
+    "default_branch": "main"
+  },
+  "build_metadata": {
+    "built_at": "2026-06-25T14:22:34.826Z",
+    "git_commit": "9973dcfb1191a0dd55be6be5ec022aba7f7ee5c8",
+    "git_branch": "main",
+    "built_by": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "sharing": {
+    "default_shareable": true,
+    "rules": [
+      {
+        "selector": {
+          "namespace": "xananode.protocol"
+        },
+        "shareable": true,
+        "scope": "public",
+        "reason": "The protocol substrate is intended to be federated as a public canonical source."
+      }
+    ]
+  }
+}

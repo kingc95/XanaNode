@@ -1,0 +1,26 @@
+{
+  "id": "xananode.protocol:source/artifact-links-tools",
+  "title": "Links / Tools",
+  "type": "source",
+  "subtype": "protocol_document",
+  "importance": 3,
+  "summary": "links/tools.md is preserved as a raw protocol document in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/links/tools.md",
+  "artifact_path": "links/tools.md",
+  "asset_path": "assets/raw/repository/links/tools.md",
+  "asset_role": "repository_source",
+  "media_type": "document",
+  "mime_type": "text/markdown",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:aac2d030f5e3b4eb0b711cf93077972dc350be7153a7d670f4810b2819fc3e31",
+  "content": "# Tools\r\n\r\nPotential tool categories for XanaNode:\r\n\r\n- schema validators\r\n- index builders\r\n- merge validators\r\n- namespace resolvers\r\n- duplicate detectors\r\n- relationship suggesters\r\n- substrate importers/exporters\r\n- repository validator: `tools/validate.py`\r\n\r\nThis repository may link to tools here rather than include every implementation directly.\r\n",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/links/tools.md",
+    "method": "archive",
+    "content_id": "sha256:aac2d030f5e3b4eb0b711cf93077972dc350be7153a7d670f4810b2819fc3e31",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-relationship-types-validates",
+  "title": "Media / Projection / Relationship Types / Validates",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/relationship-types/validates.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/validates.svg",
+  "artifact_path": "media/projection/relationship-types/validates.svg",
+  "asset_path": "assets/raw/repository/media/projection/relationship-types/validates.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:c0848b7dbe307516c9a3cbb12a069b66c72f30d6df0d464187700b082332126e",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/validates.svg",
+    "method": "archive",
+    "content_id": "sha256:c0848b7dbe307516c9a3cbb12a069b66c72f30d6df0d464187700b082332126e",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

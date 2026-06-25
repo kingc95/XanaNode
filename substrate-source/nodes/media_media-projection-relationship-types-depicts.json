@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-relationship-types-depicts",
+  "title": "Media / Projection / Relationship Types / Depicts",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/relationship-types/depicts.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/depicts.svg",
+  "artifact_path": "media/projection/relationship-types/depicts.svg",
+  "asset_path": "assets/raw/repository/media/projection/relationship-types/depicts.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:99ab089f63f868042066dca7c16fd7c51a0faa9a990f61e8a0b8032cc7bdc8db",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/depicts.svg",
+    "method": "archive",
+    "content_id": "sha256:99ab089f63f868042066dca7c16fd7c51a0faa9a990f61e8a0b8032cc7bdc8db",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-relationship-types-broadcast-to",
+  "title": "Media / Projection / Relationship Types / Broadcast To",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/relationship-types/broadcast_to.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/broadcast_to.svg",
+  "artifact_path": "media/projection/relationship-types/broadcast_to.svg",
+  "asset_path": "assets/raw/repository/media/projection/relationship-types/broadcast_to.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:a0aa78b76672255b1f9315094f8a2642c1255afb9aac966221404f17e0ed3a26",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/broadcast_to.svg",
+    "method": "archive",
+    "content_id": "sha256:a0aa78b76672255b1f9315094f8a2642c1255afb9aac966221404f17e0ed3a26",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

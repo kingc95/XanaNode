@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-node-types-event",
+  "title": "Media / Projection / Node Types / Event",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/node-types/event.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/node-types/event.svg",
+  "artifact_path": "media/projection/node-types/event.svg",
+  "asset_path": "assets/raw/repository/media/projection/node-types/event.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:821724b7a2ee8d2d36d151d2ffb238cd2c0117eefe18b7aabb08d2ee1b982241",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/node-types/event.svg",
+    "method": "archive",
+    "content_id": "sha256:821724b7a2ee8d2d36d151d2ffb238cd2c0117eefe18b7aabb08d2ee1b982241",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

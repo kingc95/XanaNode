@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-node-types-question",
+  "title": "Media / Projection / Node Types / Question",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/node-types/question.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/node-types/question.svg",
+  "artifact_path": "media/projection/node-types/question.svg",
+  "asset_path": "assets/raw/repository/media/projection/node-types/question.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:423bf4ce6fba2d5c5474c4b7dfd76c92ef547ee0238ef0278e9b97e77245f425",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/node-types/question.svg",
+    "method": "archive",
+    "content_id": "sha256:423bf4ce6fba2d5c5474c4b7dfd76c92ef547ee0238ef0278e9b97e77245f425",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

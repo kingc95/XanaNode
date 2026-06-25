@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-relationship-types-under-review",
+  "title": "Media / Projection / Relationship Types / Under Review",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/relationship-types/under_review.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/under_review.svg",
+  "artifact_path": "media/projection/relationship-types/under_review.svg",
+  "asset_path": "assets/raw/repository/media/projection/relationship-types/under_review.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:9436d3411fafdb3581511a0fe50859def86b8409bece189318a1c9a401656359",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/under_review.svg",
+    "method": "archive",
+    "content_id": "sha256:9436d3411fafdb3581511a0fe50859def86b8409bece189318a1c9a401656359",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-relationship-types-abstraction-of",
+  "title": "Media / Projection / Relationship Types / Abstraction Of",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/relationship-types/abstraction_of.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/abstraction_of.svg",
+  "artifact_path": "media/projection/relationship-types/abstraction_of.svg",
+  "asset_path": "assets/raw/repository/media/projection/relationship-types/abstraction_of.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:702f8ab5c4f1ca26bd8611172c7122f3b404d09a224aab7706ddf633ca056af8",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/abstraction_of.svg",
+    "method": "archive",
+    "content_id": "sha256:702f8ab5c4f1ca26bd8611172c7122f3b404d09a224aab7706ddf633ca056af8",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

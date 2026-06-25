@@ -1,0 +1,26 @@
+{
+  "id": "xananode.protocol:source/artifact-examples-federation-example-substrate-diff",
+  "title": "Examples / Federation Example / Substrate Diff",
+  "type": "source",
+  "subtype": "protocol_document",
+  "importance": 3,
+  "summary": "examples/federation-example/substrate-diff.json is preserved as a raw protocol document in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/examples/federation-example/substrate-diff.json",
+  "artifact_path": "examples/federation-example/substrate-diff.json",
+  "asset_path": "assets/raw/repository/examples/federation-example/substrate-diff.json",
+  "asset_role": "repository_source",
+  "media_type": "document",
+  "mime_type": "application/json",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:b171629889cb8036138939eff5b98f5f1e147d0ae91adb26b028240874dcb78c",
+  "content": "{\n  \"id\": \"example.merge:diff/federation-example-001\",\n  \"base\": \"git:fba4906\",\n  \"head\": \"git:HEAD\",\n  \"generated_at\": \"2026-01-01T00:00:00Z\",\n  \"changes\": {\n    \"nodes\": {\n      \"added\": [\n        \"example.researcher_a:concept/knowledge-substrate\",\n        \"example.researcher_b:concept/memory-substrate\"\n      ],\n      \"removed\": [],\n      \"changed\": []\n    },\n    \"relationships\": {\n      \"added\": [\n        \"example.researcher_a:rel/knowledge-substrate-possible-match-memory-substrate\",\n        \"example.researcher_b:rel/memory-substrate-possible-match-knowledge-substrate\"\n      ],\n      \"removed\": [],\n      \"changed\": []\n    },\n    \"schemas\": {\n      \"added\": [],\n      \"removed\": [],\n      \"changed\": []\n    },\n    \"fragments\": {\n      \"added\": [],\n      \"removed\": [],\n      \"changed\": []\n    }\n  },\n  \"conflicts\": [\n    {\n      \"type\": \"identity_ambiguity\",\n      \"nodes\": [\n        \"example.researcher_a:concept/knowledge-substrate\",\n        \"example.researcher_b:concept/memory-substrate\"\n      ],\n      \"resolution\": \"preserve_both\",\n      \"summary\": \"The two concepts are close enough to map but not safe to collapse.\"\n    }\n  ]\n}\n",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/examples/federation-example/substrate-diff.json",
+    "method": "archive",
+    "content_id": "sha256:b171629889cb8036138939eff5b98f5f1e147d0ae91adb26b028240874dcb78c",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

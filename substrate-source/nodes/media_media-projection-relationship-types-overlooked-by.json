@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-relationship-types-overlooked-by",
+  "title": "Media / Projection / Relationship Types / Overlooked By",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/relationship-types/overlooked_by.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/overlooked_by.svg",
+  "artifact_path": "media/projection/relationship-types/overlooked_by.svg",
+  "asset_path": "assets/raw/repository/media/projection/relationship-types/overlooked_by.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:1255db01a5efbbeab2980b8a004ac458d6521a5cdca29197b460268535aa2bc6",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/overlooked_by.svg",
+    "method": "archive",
+    "content_id": "sha256:1255db01a5efbbeab2980b8a004ac458d6521a5cdca29197b460268535aa2bc6",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

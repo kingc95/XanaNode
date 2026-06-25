@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-relationship-types-adapted-into",
+  "title": "Media / Projection / Relationship Types / Adapted Into",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/relationship-types/adapted_into.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/adapted_into.svg",
+  "artifact_path": "media/projection/relationship-types/adapted_into.svg",
+  "asset_path": "assets/raw/repository/media/projection/relationship-types/adapted_into.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:fcd1e933f7b6877ba8af370be088d5b5bc8090a77def0e9c328489478470686a",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/adapted_into.svg",
+    "method": "archive",
+    "content_id": "sha256:fcd1e933f7b6877ba8af370be088d5b5bc8090a77def0e9c328489478470686a",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-relationship-types-refines",
+  "title": "Media / Projection / Relationship Types / Refines",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/relationship-types/refines.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/refines.svg",
+  "artifact_path": "media/projection/relationship-types/refines.svg",
+  "asset_path": "assets/raw/repository/media/projection/relationship-types/refines.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:a9cd515f38a2e428aee3d05f5b6d58b1ea4fdc155298b9f1f3db71c9633ce431",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/refines.svg",
+    "method": "archive",
+    "content_id": "sha256:a9cd515f38a2e428aee3d05f5b6d58b1ea4fdc155298b9f1f3db71c9633ce431",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

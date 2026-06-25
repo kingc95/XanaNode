@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-relationship-types-presented-to",
+  "title": "Media / Projection / Relationship Types / Presented To",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/relationship-types/presented_to.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/presented_to.svg",
+  "artifact_path": "media/projection/relationship-types/presented_to.svg",
+  "asset_path": "assets/raw/repository/media/projection/relationship-types/presented_to.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:a87f1e5f3844d15bb154880ca2bd10f7155d11ff777a2b0b335ac078f13883c9",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/presented_to.svg",
+    "method": "archive",
+    "content_id": "sha256:a87f1e5f3844d15bb154880ca2bd10f7155d11ff777a2b0b335ac078f13883c9",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

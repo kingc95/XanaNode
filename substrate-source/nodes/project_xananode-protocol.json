@@ -1,0 +1,11 @@
+{
+  "id": "xananode.protocol:project/xananode-protocol",
+  "title": "XanaNode Protocol",
+  "type": "project",
+  "subtype": "protocol",
+  "importance": 5,
+  "summary": "The canonical protocol repository defining XanaNode schemas, registries, specs, governance, and examples.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol",
+  "repository": "kingc95/XanaNode-Protocol",
+  "relationships": []
+}

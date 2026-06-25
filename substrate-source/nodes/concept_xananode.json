@@ -1,0 +1,9 @@
+{
+  "id": "xananode.protocol:concept/xananode",
+  "title": "XanaNode",
+  "type": "concept",
+  "importance": 5,
+  "summary": "The core protocol concept preserved by the protocol repository substrate.",
+  "content": "XanaNode is a protocol for independently authored knowledge substrates that preserve relationships, provenance, lineage, disagreement, and addressable fragments, so knowledge can move across tools and media without losing its structure.",
+  "relationships": []
+}

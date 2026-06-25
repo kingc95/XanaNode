@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-node-types-knowledge-gap",
+  "title": "Media / Projection / Node Types / Knowledge Gap",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/node-types/knowledge_gap.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/node-types/knowledge_gap.svg",
+  "artifact_path": "media/projection/node-types/knowledge_gap.svg",
+  "asset_path": "assets/raw/repository/media/projection/node-types/knowledge_gap.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:6f6e3a7ab6fb6481c2c6687d3b6aa61e9ba4f596c80ac5b120fc8ea58d215401",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/node-types/knowledge_gap.svg",
+    "method": "archive",
+    "content_id": "sha256:6f6e3a7ab6fb6481c2c6687d3b6aa61e9ba4f596c80ac5b120fc8ea58d215401",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

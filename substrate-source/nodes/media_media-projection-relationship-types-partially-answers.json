@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-relationship-types-partially-answers",
+  "title": "Media / Projection / Relationship Types / Partially Answers",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/relationship-types/partially_answers.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/partially_answers.svg",
+  "artifact_path": "media/projection/relationship-types/partially_answers.svg",
+  "asset_path": "assets/raw/repository/media/projection/relationship-types/partially_answers.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:c54c0b4ed397b5615f8b76a2968c41e881902fb4b95b6fb6ec3c7e3dfd23ffe9",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/partially_answers.svg",
+    "method": "archive",
+    "content_id": "sha256:c54c0b4ed397b5615f8b76a2968c41e881902fb4b95b6fb6ec3c7e3dfd23ffe9",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

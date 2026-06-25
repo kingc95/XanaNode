@@ -1,0 +1,12 @@
+{
+  "id": "xananode.protocol:source/repository-xananode-protocol",
+  "title": "XanaNode Protocol Repository",
+  "type": "source",
+  "subtype": "git_repository",
+  "importance": 5,
+  "summary": "Public Git repository for the XanaNode Protocol.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol",
+  "repository": "kingc95/XanaNode-Protocol",
+  "rights_status": "external",
+  "relationships": []
+}

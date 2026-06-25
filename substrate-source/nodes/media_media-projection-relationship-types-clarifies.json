@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-relationship-types-clarifies",
+  "title": "Media / Projection / Relationship Types / Clarifies",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/relationship-types/clarifies.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/clarifies.svg",
+  "artifact_path": "media/projection/relationship-types/clarifies.svg",
+  "asset_path": "assets/raw/repository/media/projection/relationship-types/clarifies.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:da88267b156becc111be411c9c2f2fdf82d61dfe0f52e0b936dce1023d86cb1c",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-types/clarifies.svg",
+    "method": "archive",
+    "content_id": "sha256:da88267b156becc111be411c9c2f2fdf82d61dfe0f52e0b936dce1023d86cb1c",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

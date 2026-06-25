@@ -1,0 +1,25 @@
+{
+  "id": "xananode.protocol:media/artifact-media-projection-relationship-categories-discovery",
+  "title": "Media / Projection / Relationship Categories / Discovery",
+  "type": "media",
+  "subtype": "protocol_media_asset",
+  "importance": 3,
+  "summary": "media/projection/relationship-categories/discovery.svg is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-categories/discovery.svg",
+  "artifact_path": "media/projection/relationship-categories/discovery.svg",
+  "asset_path": "assets/raw/repository/media/projection/relationship-categories/discovery.svg",
+  "asset_role": "repository_source",
+  "media_type": "image",
+  "mime_type": "image/svg+xml",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:6386db239ccd3bb475cf9340fdca205d364f17f4234459fdad986e44881cfb3d",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/projection/relationship-categories/discovery.svg",
+    "method": "archive",
+    "content_id": "sha256:6386db239ccd3bb475cf9340fdca205d364f17f4234459fdad986e44881cfb3d",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "xananode.protocol:source/artifact-examples-custom-extension-substrate-schemas-readme",
+  "title": "Examples / Custom Extension Substrate / Schemas / README",
+  "type": "source",
+  "subtype": "protocol_document",
+  "importance": 3,
+  "summary": "examples/custom-extension-substrate/schemas/README.md is preserved as a raw protocol document in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/examples/custom-extension-substrate/schemas/README.md",
+  "artifact_path": "examples/custom-extension-substrate/schemas/README.md",
+  "asset_path": "assets/raw/repository/examples/custom-extension-substrate/schemas/README.md",
+  "asset_role": "repository_source",
+  "media_type": "document",
+  "mime_type": "text/markdown",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:6b0984ace202d0a34d559a74809ac0630103f49ad6a33107115c17586a3cd4ec",
+  "content": "# Custom Schemas\n\nThese schema registry files define local extensions to XanaNode Core.\n\nCustom types should be:\n\n- namespaced\n- described in human-readable language\n- versioned\n- mappable to a core type when possible\n- safe to preserve even when another implementation does not fully understand them\n",
+  "source_snapshot": {
+    "captured_at": "2026-06-25T14:22:34.826Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/examples/custom-extension-substrate/schemas/README.md",
+    "method": "archive",
+    "content_id": "sha256:6b0984ace202d0a34d559a74809ac0630103f49ad6a33107115c17586a3cd4ec",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}
