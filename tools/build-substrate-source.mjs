@@ -95,6 +95,24 @@ function nodeKindFor(relativePath) {
   };
 }
 
+function shouldElevateRepositoryFileToNode(relativePath) {
+  const clean = safeAssetRelativePath(relativePath);
+  if (includeRootFiles.has(clean)) return true;
+  if (
+    clean.startsWith("contexts/") ||
+    clean.startsWith("examples/") ||
+    clean.startsWith("governance/") ||
+    clean.startsWith("proposals/") ||
+    clean.startsWith("registry/") ||
+    clean.startsWith("schemas/") ||
+    clean.startsWith("specs/")
+  ) {
+    return true;
+  }
+  if (clean === "media/images/xananode-icon.svg") return true;
+  return false;
+}
+
 function titleFor(relativePath) {
   const clean = safeAssetRelativePath(relativePath);
   if (clean === "README.md") return "XanaNode Protocol README";
@@ -111,9 +129,9 @@ function titleFor(relativePath) {
 
 function summaryFor(relativePath, kind) {
   const clean = safeAssetRelativePath(relativePath);
-  if (kind.type === "schema") return `${clean} is preserved as a protocol schema or registry artifact in the XanaNode Protocol substrate.`;
-  if (kind.type === "media") return `${clean} is preserved as a protocol media or branding asset in the XanaNode Protocol substrate.`;
-  return `${clean} is preserved as a raw protocol document in the XanaNode Protocol substrate.`;
+  if (kind.type === "schema") return `${clean} is elevated as a first-class protocol schema or registry artifact in the XanaNode Protocol substrate.`;
+  if (kind.type === "media") return `${clean} is elevated as a first-class protocol branding or media artifact in the XanaNode Protocol substrate.`;
+  return `${clean} is elevated as a first-class protocol document in the XanaNode Protocol substrate.`;
 }
 
 function listRepositoryFiles(dir = protocolRoot) {
@@ -158,7 +176,7 @@ export function buildProtocolSubstrateSource(outDir = defaultOutDir) {
     name: "XanaNode Protocol Substrate",
     version: "0.1.0",
     namespace: "xananode.protocol",
-    description: "A substrate source built directly from the XanaNode Protocol repository, preserving schemas, registries, specs, governance, raw source files, media assets, and protocol-defining documents as first-class XanaNode records.",
+    description: "A substrate source built directly from the XanaNode Protocol repository, preserving schemas, registries, specs, governance artifacts, and canonical protocol documents as first-class nodes while carrying lower-level repository files as attached assets when they do not deserve independent node status.",
     schema_version: "xananode-core@0.5.0",
     repository: {
       type: "git",
@@ -243,13 +261,14 @@ export function buildProtocolSubstrateSource(outDir = defaultOutDir) {
 
   for (const relativePath of listRepositoryFiles()) {
     const sourcePath = path.join(protocolRoot, relativePath);
-    const kind = nodeKindFor(relativePath);
-    const localSlug = slug(relativePath.replace(/\.[^.]+$/, "")) || "artifact";
-    const nodeId = `xananode.protocol:${kind.type}/${kind.type === "media" ? "artifact" : kind.type === "schema" ? "artifact" : "artifact"}-${localSlug}`;
     const assetPath = `assets/raw/repository/${safeAssetRelativePath(relativePath)}`;
     const assetTarget = path.join(outDir, assetPath);
     fs.mkdirSync(path.dirname(assetTarget), { recursive: true });
     fs.copyFileSync(sourcePath, assetTarget);
+    if (!shouldElevateRepositoryFileToNode(relativePath)) continue;
+    const kind = nodeKindFor(relativePath);
+    const localSlug = slug(relativePath.replace(/\.[^.]+$/, "")) || "artifact";
+    const nodeId = `xananode.protocol:${kind.type}/artifact-${localSlug}`;
     const content = readTextIfPossible(sourcePath);
 
     nodes.push({
@@ -262,7 +281,7 @@ export function buildProtocolSubstrateSource(outDir = defaultOutDir) {
       source_url: protocolSourceUrl(relativePath),
       artifact_path: relativePath,
       asset_path: assetPath,
-      asset_role: "repository_source",
+      asset_role: "repository_snapshot",
       media_type: kind.media_type,
       mime_type: kind.mime_type,
       rights_status: "canonical-public",

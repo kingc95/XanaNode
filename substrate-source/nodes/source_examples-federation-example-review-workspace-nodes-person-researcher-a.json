@@ -1,0 +1,26 @@
+{
+  "id": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-nodes-person-researcher-a",
+  "title": "Examples / Federation Example / Review Workspace / Nodes / Person Researcher A",
+  "type": "source",
+  "subtype": "protocol_document",
+  "importance": 3,
+  "summary": "examples/federation-example/review-workspace/nodes/person-researcher-a.json is elevated as a first-class protocol document in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/examples/federation-example/review-workspace/nodes/person-researcher-a.json",
+  "artifact_path": "examples/federation-example/review-workspace/nodes/person-researcher-a.json",
+  "asset_path": "assets/raw/repository/examples/federation-example/review-workspace/nodes/person-researcher-a.json",
+  "asset_role": "repository_snapshot",
+  "media_type": "document",
+  "mime_type": "application/json",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:38357a82fba476fd09cbb10dc0599789d07298959c125b4393d35b3ea67eed8c",
+  "content": "{\n  \"id\": \"example.researcher_a:person/researcher-a\",\n  \"title\": \"Researcher A\",\n  \"type\": \"person\",\n  \"importance\": 3,\n  \"summary\": \"The local actor responsible for assertions in federation example substrate A.\",\n  \"created_at\": \"2026-01-01T00:00:00Z\",\n  \"relationships\": []\n}\n",
+  "source_snapshot": {
+    "captured_at": "2026-06-27T07:05:44.385Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/examples/federation-example/review-workspace/nodes/person-researcher-a.json",
+    "method": "archive",
+    "content_id": "sha256:38357a82fba476fd09cbb10dc0599789d07298959c125b4393d35b3ea67eed8c",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-nodes-knowledge-substrate",
+  "title": "Examples / Federation Example / Review Workspace / Nodes / Knowledge Substrate",
+  "type": "source",
+  "subtype": "protocol_document",
+  "importance": 3,
+  "summary": "examples/federation-example/review-workspace/nodes/knowledge-substrate.json is elevated as a first-class protocol document in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/examples/federation-example/review-workspace/nodes/knowledge-substrate.json",
+  "artifact_path": "examples/federation-example/review-workspace/nodes/knowledge-substrate.json",
+  "asset_path": "assets/raw/repository/examples/federation-example/review-workspace/nodes/knowledge-substrate.json",
+  "asset_role": "repository_snapshot",
+  "media_type": "document",
+  "mime_type": "application/json",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:80f366bf254f94ec152db8ab38e79ac2c5afaa75450a782b269237076454ceac",
+  "content": "{\n  \"id\": \"example.researcher_a:concept/knowledge-substrate\",\n  \"title\": \"Knowledge Substrate\",\n  \"type\": \"concept\",\n  \"importance\": 4,\n  \"summary\": \"A structure for preserving relationships among knowledge objects.\",\n  \"aliases\": [\n    \"Memory Substrate\",\n    \"Relationship-Preserving Knowledge Structure\"\n  ],\n  \"relationships\": []\n}\n",
+  "source_snapshot": {
+    "captured_at": "2026-06-27T07:05:44.385Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/examples/federation-example/review-workspace/nodes/knowledge-substrate.json",
+    "method": "archive",
+    "content_id": "sha256:80f366bf254f94ec152db8ab38e79ac2c5afaa75450a782b269237076454ceac",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}

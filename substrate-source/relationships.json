@@ -6,7 +6,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "defines",
       "summary": "The protocol project defines the XanaNode concept.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-documents-protocol-project",
@@ -14,7 +14,7 @@
       "target": "xananode.protocol:project/xananode-protocol",
       "type": "documents",
       "summary": "The repository documents and carries the protocol project.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-contexts-xananode-context",
@@ -22,87 +22,7 @@
       "target": "xananode.protocol:source/artifact-contexts-xananode-context",
       "type": "contains",
       "summary": "The protocol repository contains contexts/xananode.context.jsonld.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-examples-custom-extension-substrate-nodes-memex-concept",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:source/artifact-examples-custom-extension-substrate-nodes-memex-concept",
-      "type": "contains",
-      "summary": "The protocol repository contains examples/custom-extension-substrate/nodes/memex-concept.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-examples-custom-extension-substrate-nodes-memex-illustration",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:source/artifact-examples-custom-extension-substrate-nodes-memex-illustration",
-      "type": "contains",
-      "summary": "The protocol repository contains examples/custom-extension-substrate/nodes/memex-illustration.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-examples-custom-extension-substrate-nodes-person-example-curator",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:source/artifact-examples-custom-extension-substrate-nodes-person-example-curator",
-      "type": "contains",
-      "summary": "The protocol repository contains examples/custom-extension-substrate/nodes/person-example-curator.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-examples-custom-extension-substrate-nodes-readme",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:source/artifact-examples-custom-extension-substrate-nodes-readme",
-      "type": "contains",
-      "summary": "The protocol repository contains examples/custom-extension-substrate/nodes/README.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-examples-custom-extension-substrate-readme",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:source/artifact-examples-custom-extension-substrate-readme",
-      "type": "contains",
-      "summary": "The protocol repository contains examples/custom-extension-substrate/README.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-examples-custom-extension-substrate-relationships",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:source/artifact-examples-custom-extension-substrate-relationships",
-      "type": "contains",
-      "summary": "The protocol repository contains examples/custom-extension-substrate/relationships.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-examples-custom-extension-substrate-schemas-node-types-example-museum",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:source/artifact-examples-custom-extension-substrate-schemas-node-types-example-museum",
-      "type": "contains",
-      "summary": "The protocol repository contains examples/custom-extension-substrate/schemas/node-types.example.museum.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-examples-custom-extension-substrate-schemas-readme",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:source/artifact-examples-custom-extension-substrate-schemas-readme",
-      "type": "contains",
-      "summary": "The protocol repository contains examples/custom-extension-substrate/schemas/README.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-examples-custom-extension-substrate-schemas-relationship-types-example-museum",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:source/artifact-examples-custom-extension-substrate-schemas-relationship-types-example-museum",
-      "type": "contains",
-      "summary": "The protocol repository contains examples/custom-extension-substrate/schemas/relationship-types.example.museum.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-examples-custom-extension-substrate-substrate",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:source/artifact-examples-custom-extension-substrate-substrate",
-      "type": "contains",
-      "summary": "The protocol repository contains examples/custom-extension-substrate/substrate.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-compatibility-report",
@@ -110,7 +30,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-compatibility-report",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/compatibility-report.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-merge-report",
@@ -118,7 +38,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-merge-report",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/merge-report.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-readme",
@@ -126,7 +46,79 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-readme",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/README.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
+    },
+    {
+      "id": "xananode.protocol:rel/repository-contains-examples-federation-example-review-workspace-nodes-federation-review-proof",
+      "source": "xananode.protocol:source/repository-xananode-protocol",
+      "target": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-nodes-federation-review-proof",
+      "type": "contains",
+      "summary": "The protocol repository contains examples/federation-example/review-workspace/nodes/federation-review-proof.json.",
+      "asserted_at": "2026-06-27T07:05:44.385Z"
+    },
+    {
+      "id": "xananode.protocol:rel/repository-contains-examples-federation-example-review-workspace-nodes-knowledge-substrate",
+      "source": "xananode.protocol:source/repository-xananode-protocol",
+      "target": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-nodes-knowledge-substrate",
+      "type": "contains",
+      "summary": "The protocol repository contains examples/federation-example/review-workspace/nodes/knowledge-substrate.json.",
+      "asserted_at": "2026-06-27T07:05:44.385Z"
+    },
+    {
+      "id": "xananode.protocol:rel/repository-contains-examples-federation-example-review-workspace-nodes-memory-substrate",
+      "source": "xananode.protocol:source/repository-xananode-protocol",
+      "target": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-nodes-memory-substrate",
+      "type": "contains",
+      "summary": "The protocol repository contains examples/federation-example/review-workspace/nodes/memory-substrate.json.",
+      "asserted_at": "2026-06-27T07:05:44.385Z"
+    },
+    {
+      "id": "xananode.protocol:rel/repository-contains-examples-federation-example-review-workspace-nodes-non-destructive-merge-review",
+      "source": "xananode.protocol:source/repository-xananode-protocol",
+      "target": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-nodes-non-destructive-merge-review",
+      "type": "contains",
+      "summary": "The protocol repository contains examples/federation-example/review-workspace/nodes/non-destructive-merge-review.json.",
+      "asserted_at": "2026-06-27T07:05:44.385Z"
+    },
+    {
+      "id": "xananode.protocol:rel/repository-contains-examples-federation-example-review-workspace-nodes-person-researcher-a",
+      "source": "xananode.protocol:source/repository-xananode-protocol",
+      "target": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-nodes-person-researcher-a",
+      "type": "contains",
+      "summary": "The protocol repository contains examples/federation-example/review-workspace/nodes/person-researcher-a.json.",
+      "asserted_at": "2026-06-27T07:05:44.385Z"
+    },
+    {
+      "id": "xananode.protocol:rel/repository-contains-examples-federation-example-review-workspace-nodes-person-researcher-b",
+      "source": "xananode.protocol:source/repository-xananode-protocol",
+      "target": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-nodes-person-researcher-b",
+      "type": "contains",
+      "summary": "The protocol repository contains examples/federation-example/review-workspace/nodes/person-researcher-b.json.",
+      "asserted_at": "2026-06-27T07:05:44.385Z"
+    },
+    {
+      "id": "xananode.protocol:rel/repository-contains-examples-federation-example-review-workspace-readme",
+      "source": "xananode.protocol:source/repository-xananode-protocol",
+      "target": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-readme",
+      "type": "contains",
+      "summary": "The protocol repository contains examples/federation-example/review-workspace/README.md.",
+      "asserted_at": "2026-06-27T07:05:44.385Z"
+    },
+    {
+      "id": "xananode.protocol:rel/repository-contains-examples-federation-example-review-workspace-relationships",
+      "source": "xananode.protocol:source/repository-xananode-protocol",
+      "target": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-relationships",
+      "type": "contains",
+      "summary": "The protocol repository contains examples/federation-example/review-workspace/relationships.json.",
+      "asserted_at": "2026-06-27T07:05:44.385Z"
+    },
+    {
+      "id": "xananode.protocol:rel/repository-contains-examples-federation-example-review-workspace-substrate",
+      "source": "xananode.protocol:source/repository-xananode-protocol",
+      "target": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-substrate",
+      "type": "contains",
+      "summary": "The protocol repository contains examples/federation-example/review-workspace/substrate.json.",
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-a-nodes-knowledge-substrate",
@@ -134,7 +126,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-a-nodes-knowledge-substrate",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-a/nodes/knowledge-substrate.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-a-nodes-person-researcher-a",
@@ -142,7 +134,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-a-nodes-person-researcher-a",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-a/nodes/person-researcher-a.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-a-readme",
@@ -150,7 +142,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-a-readme",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-a/README.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-a-relationships",
@@ -158,7 +150,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-a-relationships",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-a/relationships.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-a-substrate",
@@ -166,7 +158,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-a-substrate",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-a/substrate.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-b-nodes-memory-substrate",
@@ -174,7 +166,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-b-nodes-memory-substrate",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-b/nodes/memory-substrate.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-b-nodes-person-researcher-b",
@@ -182,7 +174,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-b-nodes-person-researcher-b",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-b/nodes/person-researcher-b.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-b-readme",
@@ -190,7 +182,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-b-readme",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-b/README.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-b-relationships",
@@ -198,7 +190,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-b-relationships",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-b/relationships.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-b-substrate",
@@ -206,7 +198,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-b-substrate",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-b/substrate.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-diff",
@@ -214,7 +206,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-diff",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-diff.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-assets-branding-xananode-icon",
@@ -222,7 +214,7 @@
       "target": "xananode.protocol:media/artifact-examples-minimal-substrate-assets-branding-xananode-icon",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/assets/branding/xananode-icon.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-author-profile",
@@ -230,7 +222,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-author-profile",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/author-profile.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nanopublication-substrate-claim",
@@ -238,7 +230,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nanopublication-substrate-claim",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nanopublication-substrate-claim.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-claim-substrate-structure",
@@ -246,7 +238,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-claim-substrate-structure",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/claim-substrate-structure.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-communication-minimal-substrate-discussion",
@@ -254,7 +246,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-communication-minimal-substrate-discussion",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/communication-minimal-substrate-discussion.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-concept-associative-trails",
@@ -262,7 +254,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-concept-associative-trails",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/concept-associative-trails.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-essay-relationship-navigation-intro",
@@ -270,7 +262,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-essay-relationship-navigation-intro",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/essay-relationship-navigation-intro.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-fragment-as-we-may-think-0004",
@@ -278,7 +270,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-fragment-as-we-may-think-0004",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/fragment-as-we-may-think-0004.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-knowledge-gap-missing-relationship-evidence",
@@ -286,7 +278,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-knowledge-gap-missing-relationship-evidence",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/knowledge-gap-missing-relationship-evidence.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-knowledge-substrate",
@@ -294,7 +286,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-knowledge-substrate",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/knowledge-substrate.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-media-xananode-icon",
@@ -302,7 +294,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-media-xananode-icon",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/media-xananode-icon.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-person-example-maintainer",
@@ -310,7 +302,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-person-example-maintainer",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/person-example-maintainer.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-question-why-relationships-matter",
@@ -318,7 +310,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-question-why-relationships-matter",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/question-why-relationships-matter.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-readme",
@@ -326,7 +318,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-readme",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/README.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-response-relationships-preserve-context",
@@ -334,7 +326,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-response-relationships-preserve-context",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/response-relationships-preserve-context.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-source-as-we-may-think",
@@ -342,7 +334,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-source-as-we-may-think",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/source-as-we-may-think.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-trail-start-here",
@@ -350,7 +342,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-trail-start-here",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/trail-start-here.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-readme",
@@ -358,7 +350,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-readme",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/README.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-relationships",
@@ -366,7 +358,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-relationships",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/relationships.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-ro-crate-metadata",
@@ -374,7 +366,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-ro-crate-metadata",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/ro-crate-metadata.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-substrate",
@@ -382,7 +374,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-substrate",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/substrate.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-readme",
@@ -390,7 +382,7 @@
       "target": "xananode.protocol:source/artifact-examples-readme",
       "type": "contains",
       "summary": "The protocol repository contains examples/README.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-governance-canonical-type-policy",
@@ -398,7 +390,7 @@
       "target": "xananode.protocol:source/artifact-governance-canonical-type-policy",
       "type": "contains",
       "summary": "The protocol repository contains governance/canonical-type-policy.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-governance-dispute-resolution",
@@ -406,7 +398,7 @@
       "target": "xananode.protocol:source/artifact-governance-dispute-resolution",
       "type": "contains",
       "summary": "The protocol repository contains governance/dispute-resolution.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-governance-federation-rules",
@@ -414,7 +406,7 @@
       "target": "xananode.protocol:source/artifact-governance-federation-rules",
       "type": "contains",
       "summary": "The protocol repository contains governance/federation-rules.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-governance-moderation-model",
@@ -422,7 +414,7 @@
       "target": "xananode.protocol:source/artifact-governance-moderation-model",
       "type": "contains",
       "summary": "The protocol repository contains governance/moderation-model.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-governance-readme",
@@ -430,7 +422,7 @@
       "target": "xananode.protocol:source/artifact-governance-readme",
       "type": "contains",
       "summary": "The protocol repository contains governance/README.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-governance-schema-extension-rules",
@@ -438,7 +430,7 @@
       "target": "xananode.protocol:source/artifact-governance-schema-extension-rules",
       "type": "contains",
       "summary": "The protocol repository contains governance/schema-extension-rules.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-governance-versioning-policy",
@@ -446,7 +438,7 @@
       "target": "xananode.protocol:source/artifact-governance-versioning-policy",
       "type": "contains",
       "summary": "The protocol repository contains governance/versioning-policy.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-license",
@@ -454,87 +446,7 @@
       "target": "xananode.protocol:source/artifact-license",
       "type": "contains",
       "summary": "The protocol repository contains LICENSE.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-links-implementations",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:source/artifact-links-implementations",
-      "type": "contains",
-      "summary": "The protocol repository contains links/implementations.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-links-readme",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:source/artifact-links-readme",
-      "type": "contains",
-      "summary": "The protocol repository contains links/README.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-links-related-projects",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:source/artifact-links-related-projects",
-      "type": "contains",
-      "summary": "The protocol repository contains links/related-projects.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-links-tools",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:source/artifact-links-tools",
-      "type": "contains",
-      "summary": "The protocol repository contains links/tools.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-images-android-chrome-192x192",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-images-android-chrome-192x192",
-      "type": "contains",
-      "summary": "The protocol repository contains media/images/android-chrome-192x192.png.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-images-android-chrome-512x512",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-images-android-chrome-512x512",
-      "type": "contains",
-      "summary": "The protocol repository contains media/images/android-chrome-512x512.png.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-images-apple-touch-icon",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-images-apple-touch-icon",
-      "type": "contains",
-      "summary": "The protocol repository contains media/images/apple-touch-icon.png.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-images-favicon-16x16",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-images-favicon-16x16",
-      "type": "contains",
-      "summary": "The protocol repository contains media/images/favicon-16x16.png.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-images-favicon-32x32",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-images-favicon-32x32",
-      "type": "contains",
-      "summary": "The protocol repository contains media/images/favicon-32x32.png.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-images-favicon",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-images-favicon",
-      "type": "contains",
-      "summary": "The protocol repository contains media/images/favicon.ico.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-media-images-xananode-icon",
@@ -542,1583 +454,7 @@
       "target": "xananode.protocol:media/artifact-media-images-xananode-icon",
       "type": "contains",
       "summary": "The protocol repository contains media/images/xananode-icon.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-claim",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-claim",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/claim.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-communication",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-communication",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/communication.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-community",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-community",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/community.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-concept",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-concept",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/concept.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-essay",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-essay",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/essay.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-event",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-event",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/event.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-fragment",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-fragment",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/fragment.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-hypothesis",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-hypothesis",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/hypothesis.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-item",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-item",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/item.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-knowledge-gap",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-knowledge-gap",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/knowledge_gap.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-media",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-media",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/media.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-observation",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-observation",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/observation.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-organization",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-organization",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/organization.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-person",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-person",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/person.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-place",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-place",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/place.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-problem",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-problem",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/problem.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-project",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-project",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/project.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-publication",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-publication",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/publication.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-question",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-question",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/question.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-relationship",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-relationship",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/relationship.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-response",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-response",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/response.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-revision",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-revision",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/revision.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-schema",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-schema",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/schema.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-source",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-source",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/source.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-technology",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-technology",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/technology.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-node-types-trail",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-node-types-trail",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/node-types/trail.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-attention",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-attention",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/attention.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-causation",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-causation",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/causation.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-citation",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-citation",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/citation.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-claim-structure",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-claim-structure",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/claim_structure.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-cognition",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-cognition",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/cognition.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-communication",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-communication",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/communication.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-comparison",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-comparison",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/comparison.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-composition",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-composition",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/composition.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-creation",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-creation",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/creation.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-definition",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-definition",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/definition.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-discovery",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-discovery",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/discovery.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-evidence",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-evidence",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/evidence.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-evolution",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-evolution",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/evolution.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-explanation",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-explanation",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/explanation.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-generic",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-generic",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/generic.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-governance",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-governance",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/governance.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-historical",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-historical",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/historical.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-identity",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-identity",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/identity.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-influence",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-influence",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/influence.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-inquiry",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-inquiry",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/inquiry.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-knowledge-workflow",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-knowledge-workflow",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/knowledge_workflow.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-lineage",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-lineage",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/lineage.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-location",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-location",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/location.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-participation",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-participation",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/participation.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-reasoning",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-reasoning",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/reasoning.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-representation",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-representation",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/representation.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-research-workflow",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-research-workflow",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/research_workflow.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-revision",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-revision",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/revision.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-schema-mapping",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-schema-mapping",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/schema_mapping.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-social",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-social",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/social.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-temporal",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-temporal",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/temporal.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-categories-uncertainty",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-categories-uncertainty",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-categories/uncertainty.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-abstraction-of",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-abstraction-of",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/abstraction_of.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-adapted-from",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-adapted-from",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/adapted_from.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-adapted-into",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-adapted-into",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/adapted_into.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-alias-of",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-alias-of",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/alias_of.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-alternative-to",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-alternative-to",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/alternative_to.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-analogous-to",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-analogous-to",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/analogous_to.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-announced",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-announced",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/announced.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-answered-in",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-answered-in",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/answered_in.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-answers",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-answers",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/answers.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-anticipated",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-anticipated",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/anticipated.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-anticipates",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-anticipates",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/anticipates.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-appears-in",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-appears-in",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/appears_in.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-approved",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-approved",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/approved.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-arrives-at",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-arrives-at",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/arrives_at.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-asked-in",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-asked-in",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/asked_in.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-asked",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-asked",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/asked.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-assembled-from",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-assembled-from",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/assembled_from.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-authored",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-authored",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/authored.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-broadcast-to",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-broadcast-to",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/broadcast_to.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-broader-than",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-broader-than",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/broader_than.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-cites",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-cites",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/cites.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-clarifies",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-clarifies",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/clarifies.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-co-authored-with",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-co-authored-with",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/co_authored_with.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-coined",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-coined",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/coined.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-collaborated-with",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-collaborated-with",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/collaborated_with.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-communicated-to",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-communicated-to",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/communicated_to.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-compatible-with",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-compatible-with",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/compatible_with.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-contains",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-contains",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/contains.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-contemporary-of",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-contemporary-of",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/contemporary_of.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-context-for",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-context-for",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/context_for.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-continues-to",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-continues-to",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/continues_to.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-contradicts",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-contradicts",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/contradicts.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-contrasts-with",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-contrasts-with",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/contrasts_with.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-created",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-created",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/created.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-critical-to",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-critical-to",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/critical_to.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-debated-with",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-debated-with",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/debated_with.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-deep-links-to",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-deep-links-to",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/deep_links_to.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-defines",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-defines",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/defines.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-demonstrates",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-demonstrates",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/demonstrates.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-depends-on",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-depends-on",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/depends_on.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-depicts",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-depicts",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/depicts.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-derived-from",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-derived-from",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/derived_from.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-discussed-with",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-discussed-with",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/discussed_with.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-discusses",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-discusses",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/discusses.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-disputed-identity",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-disputed-identity",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/disputed_identity.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-disputes",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-disputes",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/disputes.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-documents",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-documents",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/documents.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-enables",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-enables",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/enables.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-equivalent-to",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-equivalent-to",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/equivalent_to.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-evidence-for",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-evidence-for",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/evidence_for.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-example-of",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-example-of",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/example_of.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-explains",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-explains",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/explains.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-extends",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-extends",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/extends.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-extension-of",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-extension-of",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/extension_of.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-fails-to-answer",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-fails-to-answer",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/fails_to_answer.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-falsifies",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-falsifies",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/falsifies.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-features",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-features",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/features.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-format-translated-from",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-format-translated-from",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/format_translated_from.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-format-translated-into",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-format-translated-into",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/format_translated_into.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-frequently-misunderstood",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-frequently-misunderstood",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/frequently_misunderstood.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-friend-of",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-friend-of",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/friend_of.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-generalizes",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-generalizes",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/generalizes.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-generated",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-generated",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/generated.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-governed-by",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-governed-by",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/governed_by.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-has-claim",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-has-claim",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/has_claim.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-has-primary-media",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-has-primary-media",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/has_primary_media.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-high-risk-for",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-high-risk-for",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/high_risk_for.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-identified",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-identified",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/identified.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-implements",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-implements",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/implements.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-important-for",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-important-for",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/important_for.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-includes",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-includes",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/includes.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-influenced",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-influenced",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/influenced.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-ingredient-of",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-ingredient-of",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/ingredient_of.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-insufficient-evidence",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-insufficient-evidence",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/insufficient_evidence.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-interviewed",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-interviewed",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/interviewed.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-introduced-in",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-introduced-in",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/introduced_in.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-introduced",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-introduced",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/introduced.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-investigates",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-investigates",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/investigates.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-licensed-under",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-licensed-under",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/licensed_under.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-made-of",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-made-of",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/made_of.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-maps-to",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-maps-to",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/maps_to.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-medium-transition",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-medium-transition",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/medium_transition.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-medium-transitioned-from",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-medium-transitioned-from",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/medium_transitioned_from.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-memorializes",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-memorializes",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/memorializes.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-mentions",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-mentions",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/mentions.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-motivated-by",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-motivated-by",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/motivated_by.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-motivates-inquiry",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-motivates-inquiry",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/motivates_inquiry.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-negotiated-with",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-negotiated-with",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/negotiated_with.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-occurred-at",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-occurred-at",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/occurred_at.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-overlooked-by",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-overlooked-by",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/overlooked_by.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-parallel-to",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-parallel-to",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/parallel_to.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-partially-answers",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-partially-answers",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/partially_answers.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-participated-in",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-participated-in",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/participated_in.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-popularized",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-popularized",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/popularized.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-possible-match",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-possible-match",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/possible_match.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-possibly-related-to",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-possibly-related-to",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/possibly_related_to.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-preceded",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-preceded",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/preceded.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-presented-to",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-presented-to",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/presented_to.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-presented",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-presented",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/presented.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-preserves",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-preserves",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/preserves.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-proposed",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-proposed",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/proposed.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-quotes",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-quotes",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/quotes.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-raises",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-raises",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/raises.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-refines",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-refines",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/refines.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-related-to",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-related-to",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/related_to.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-replied-to",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-replied-to",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/replied_to.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-reported-to",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-reported-to",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/reported_to.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-represents",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-represents",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/represents.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-requires-attribution",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-requires-attribution",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/requires_attribution.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-requires-context",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-requires-context",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/requires_context.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-requires-information",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-requires-information",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/requires_information.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-requires-review",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-requires-review",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/requires_review.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-requires-source",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-requires-source",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/requires_source.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-requires-validation",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-requires-validation",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/requires_validation.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-requires",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-requires",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/requires.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-resonates-with",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-resonates-with",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/resonates_with.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-results-from",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-results-from",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/results_from.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-same-concept",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-same-concept",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/same_concept.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-same-entity",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-same-entity",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/same_entity.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-same-person",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-same-person",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/same_person.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-same-source",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-same-source",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/same_source.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-shapes",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-shapes",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/shapes.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-shares-pattern-with",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-shares-pattern-with",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/shares_pattern_with.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-specializes",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-specializes",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/specializes.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-speculative",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-speculative",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/speculative.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-spoke-at",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-spoke-at",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/spoke_at.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-starts-with",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-starts-with",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/starts_with.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-supersedes",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-supersedes",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/supersedes.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-supports",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-supports",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/supports.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-tests",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-tests",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/tests.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-threatens",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-threatens",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/threatens.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-trademarked-by",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-trademarked-by",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/trademarked_by.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-trained-on",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-trained-on",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/trained_on.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-transcludes",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-transcludes",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/transcludes.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-under-review",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-under-review",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/under_review.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-unresolved",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-unresolved",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/unresolved.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-uses",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-uses",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/uses.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-projection-relationship-types-validates",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-projection-relationship-types-validates",
-      "type": "contains",
-      "summary": "The protocol repository contains media/projection/relationship-types/validates.svg.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
-    },
-    {
-      "id": "xananode.protocol:rel/repository-contains-media-web-manifests-site",
-      "source": "xananode.protocol:source/repository-xananode-protocol",
-      "target": "xananode.protocol:media/artifact-media-web-manifests-site",
-      "type": "contains",
-      "summary": "The protocol repository contains media/web-manifests/site.webmanifest.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-notice",
@@ -2126,7 +462,7 @@
       "target": "xananode.protocol:source/artifact-notice",
       "type": "contains",
       "summary": "The protocol repository contains NOTICE.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-readme",
@@ -2134,7 +470,7 @@
       "target": "xananode.protocol:source/artifact-proposals-readme",
       "type": "contains",
       "summary": "The protocol repository contains proposals/README.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0001-namespaces",
@@ -2142,7 +478,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0001-namespaces",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0001-namespaces.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0002-extension-schemas",
@@ -2150,7 +486,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0002-extension-schemas",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0002-extension-schemas.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0003-federation",
@@ -2158,7 +494,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0003-federation",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0003-federation.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0004-merge-validation",
@@ -2166,7 +502,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0004-merge-validation",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0004-merge-validation.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0005-transclusion",
@@ -2174,7 +510,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0005-transclusion",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0005-transclusion.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0006-tumbler-addressing",
@@ -2182,7 +518,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0006-tumbler-addressing",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0006-tumbler-addressing.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0007-git-backed-substrates",
@@ -2190,7 +526,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0007-git-backed-substrates",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0007-git-backed-substrates.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0008-derived-inverse-relationships",
@@ -2198,7 +534,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0008-derived-inverse-relationships",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0008-derived-inverse-relationships.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0009-standards-alignment",
@@ -2206,7 +542,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0009-standards-alignment",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0009-standards-alignment.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0010-federation-discovery-and-trust",
@@ -2214,7 +550,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0010-federation-discovery-and-trust",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0010-federation-discovery-and-trust.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0011-studio-local-first-authoring",
@@ -2222,7 +558,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0011-studio-local-first-authoring",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0011-studio-local-first-authoring.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0012-executable-tool-contract",
@@ -2230,7 +566,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0012-executable-tool-contract",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0012-executable-tool-contract.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-readme",
@@ -2238,7 +574,7 @@
       "target": "xananode.protocol:source/artifact-readme",
       "type": "contains",
       "summary": "The protocol repository contains README.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/readme-documents-xananode",
@@ -2246,7 +582,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "XanaNode Protocol README documents XanaNode.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-registry-canonical-schemas",
@@ -2254,7 +590,7 @@
       "target": "xananode.protocol:schema/artifact-registry-canonical-schemas",
       "type": "contains",
       "summary": "The protocol repository contains registry/canonical-schemas.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-registry-federation-targets",
@@ -2262,7 +598,7 @@
       "target": "xananode.protocol:schema/artifact-registry-federation-targets",
       "type": "contains",
       "summary": "The protocol repository contains registry/federation-targets.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-registry-federation-targets-schema",
@@ -2270,7 +606,7 @@
       "target": "xananode.protocol:schema/artifact-registry-federation-targets-schema",
       "type": "contains",
       "summary": "The protocol repository contains registry/federation-targets.schema.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-registry-known-implementations",
@@ -2278,7 +614,7 @@
       "target": "xananode.protocol:schema/artifact-registry-known-implementations",
       "type": "contains",
       "summary": "The protocol repository contains registry/known-implementations.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-registry-namespaces",
@@ -2286,7 +622,7 @@
       "target": "xananode.protocol:schema/artifact-registry-namespaces",
       "type": "contains",
       "summary": "The protocol repository contains registry/namespaces.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-registry-readme",
@@ -2294,7 +630,7 @@
       "target": "xananode.protocol:schema/artifact-registry-readme",
       "type": "contains",
       "summary": "The protocol repository contains registry/README.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-author-profile-schema",
@@ -2302,7 +638,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-author-profile-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/author-profile.schema.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-compatibility-report-schema",
@@ -2310,7 +646,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-compatibility-report-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/compatibility-report.schema.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-merge-report-schema",
@@ -2318,7 +654,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-merge-report-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/merge-report.schema.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-namespace-schema",
@@ -2326,7 +662,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-namespace-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/namespace.schema.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-nanopublication-schema",
@@ -2334,7 +670,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-nanopublication-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/nanopublication.schema.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-property-registry-schema",
@@ -2342,7 +678,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-property-registry-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/property-registry.schema.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-readme",
@@ -2350,7 +686,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-readme",
       "type": "contains",
       "summary": "The protocol repository contains schemas/README.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-ro-crate-metadata-schema",
@@ -2358,7 +694,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-ro-crate-metadata-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/ro-crate-metadata.schema.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-substrate-diff-schema",
@@ -2366,7 +702,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-substrate-diff-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/substrate-diff.schema.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-substrate-layout-schema",
@@ -2374,7 +710,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-substrate-layout-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/substrate-layout.schema.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-substrate-manifest-schema",
@@ -2382,7 +718,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-substrate-manifest-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/substrate-manifest.schema.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-substrate-node-schema",
@@ -2390,7 +726,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-substrate-node-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/substrate-node.schema.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-substrate-relationships-schema",
@@ -2398,7 +734,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-substrate-relationships-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/substrate-relationships.schema.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-xananode-node-types-schema-v0-3-0",
@@ -2406,7 +742,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-xananode-node-types-schema-v0-3-0",
       "type": "contains",
       "summary": "The protocol repository contains schemas/xananode-node-types.schema.v0.3.0.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-xananode-node-types-v0-3-0",
@@ -2414,7 +750,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-xananode-node-types-v0-3-0",
       "type": "contains",
       "summary": "The protocol repository contains schemas/xananode-node-types.v0.3.0.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-xananode-property-registry-v0-1-0",
@@ -2422,7 +758,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-xananode-property-registry-v0-1-0",
       "type": "contains",
       "summary": "The protocol repository contains schemas/xananode-property-registry.v0.1.0.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-xananode-relationship-types-schema-v0-5-0",
@@ -2430,7 +766,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-xananode-relationship-types-schema-v0-5-0",
       "type": "contains",
       "summary": "The protocol repository contains schemas/xananode-relationship-types.schema.v0.5.0.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-xananode-relationship-types-v0-5-0",
@@ -2438,7 +774,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-xananode-relationship-types-v0-5-0",
       "type": "contains",
       "summary": "The protocol repository contains schemas/xananode-relationship-types.v0.5.0.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-xananode-substrate-layout-v0-1-0",
@@ -2446,7 +782,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-xananode-substrate-layout-v0-1-0",
       "type": "contains",
       "summary": "The protocol repository contains schemas/xananode-substrate-layout.v0.1.0.json.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-compatibility-levels",
@@ -2454,7 +790,7 @@
       "target": "xananode.protocol:source/artifact-specs-compatibility-levels",
       "type": "contains",
       "summary": "The protocol repository contains specs/compatibility-levels.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/specs-compatibility-levels-documents-xananode",
@@ -2462,7 +798,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Compatibility Levels documents XanaNode.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-federation",
@@ -2470,7 +806,7 @@
       "target": "xananode.protocol:source/artifact-specs-federation",
       "type": "contains",
       "summary": "The protocol repository contains specs/federation.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/specs-federation-documents-xananode",
@@ -2478,7 +814,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Federation documents XanaNode.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-implementation-compatibility",
@@ -2486,7 +822,7 @@
       "target": "xananode.protocol:source/artifact-specs-implementation-compatibility",
       "type": "contains",
       "summary": "The protocol repository contains specs/implementation-compatibility.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/specs-implementation-compatibility-documents-xananode",
@@ -2494,7 +830,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Implementation Compatibility documents XanaNode.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-interoperability",
@@ -2502,7 +838,7 @@
       "target": "xananode.protocol:source/artifact-specs-interoperability",
       "type": "contains",
       "summary": "The protocol repository contains specs/interoperability.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/specs-interoperability-documents-xananode",
@@ -2510,7 +846,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Interoperability documents XanaNode.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-merge-validation",
@@ -2518,7 +854,7 @@
       "target": "xananode.protocol:source/artifact-specs-merge-validation",
       "type": "contains",
       "summary": "The protocol repository contains specs/merge-validation.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/specs-merge-validation-documents-xananode",
@@ -2526,7 +862,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Merge Validation documents XanaNode.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-namespaces",
@@ -2534,7 +870,7 @@
       "target": "xananode.protocol:source/artifact-specs-namespaces",
       "type": "contains",
       "summary": "The protocol repository contains specs/namespaces.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/specs-namespaces-documents-xananode",
@@ -2542,7 +878,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Namespaces documents XanaNode.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-nodes",
@@ -2550,7 +886,7 @@
       "target": "xananode.protocol:source/artifact-specs-nodes",
       "type": "contains",
       "summary": "The protocol repository contains specs/nodes.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/specs-nodes-documents-xananode",
@@ -2558,7 +894,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Nodes documents XanaNode.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-readme",
@@ -2566,7 +902,7 @@
       "target": "xananode.protocol:source/artifact-specs-readme",
       "type": "contains",
       "summary": "The protocol repository contains specs/README.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/specs-readme-documents-xananode",
@@ -2574,7 +910,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / README documents XanaNode.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-relationships",
@@ -2582,7 +918,7 @@
       "target": "xananode.protocol:source/artifact-specs-relationships",
       "type": "contains",
       "summary": "The protocol repository contains specs/relationships.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/specs-relationships-documents-xananode",
@@ -2590,7 +926,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Relationships documents XanaNode.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-studio",
@@ -2598,7 +934,7 @@
       "target": "xananode.protocol:source/artifact-specs-studio",
       "type": "contains",
       "summary": "The protocol repository contains specs/studio.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/specs-studio-documents-xananode",
@@ -2606,7 +942,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Studio documents XanaNode.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-substrates",
@@ -2614,7 +950,7 @@
       "target": "xananode.protocol:source/artifact-specs-substrates",
       "type": "contains",
       "summary": "The protocol repository contains specs/substrates.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/specs-substrates-documents-xananode",
@@ -2622,7 +958,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Substrates documents XanaNode.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-transclusion",
@@ -2630,7 +966,7 @@
       "target": "xananode.protocol:source/artifact-specs-transclusion",
       "type": "contains",
       "summary": "The protocol repository contains specs/transclusion.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/specs-transclusion-documents-xananode",
@@ -2638,7 +974,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Transclusion documents XanaNode.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-tumbler-addressing",
@@ -2646,7 +982,7 @@
       "target": "xananode.protocol:source/artifact-specs-tumbler-addressing",
       "type": "contains",
       "summary": "The protocol repository contains specs/tumbler-addressing.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/specs-tumbler-addressing-documents-xananode",
@@ -2654,7 +990,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Tumbler Addressing documents XanaNode.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-xananode-core",
@@ -2662,7 +998,7 @@
       "target": "xananode.protocol:source/artifact-specs-xananode-core",
       "type": "contains",
       "summary": "The protocol repository contains specs/xananode-core.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/specs-xananode-core-documents-xananode",
@@ -2670,7 +1006,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Xananode Core documents XanaNode.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-trademark",
@@ -2678,7 +1014,7 @@
       "target": "xananode.protocol:source/artifact-trademark",
       "type": "contains",
       "summary": "The protocol repository contains TRADEMARK.md.",
-      "asserted_at": "2026-06-25T14:24:42.947Z"
+      "asserted_at": "2026-06-27T07:05:44.385Z"
     }
   ]
 }

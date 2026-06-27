@@ -132,7 +132,6 @@ def is_versioned_fragment_tumbler(value: str) -> bool:
 def substrate_dirs() -> list[Path]:
     return [
         ROOT / "examples" / "minimal-substrate",
-        ROOT / "examples" / "custom-extension-substrate",
         ROOT / "examples" / "federation-example" / "substrate-a",
         ROOT / "examples" / "federation-example" / "substrate-b",
     ]

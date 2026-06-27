@@ -1,0 +1,26 @@
+{
+  "id": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-nodes-memory-substrate",
+  "title": "Examples / Federation Example / Review Workspace / Nodes / Memory Substrate",
+  "type": "source",
+  "subtype": "protocol_document",
+  "importance": 3,
+  "summary": "examples/federation-example/review-workspace/nodes/memory-substrate.json is elevated as a first-class protocol document in the XanaNode Protocol substrate.",
+  "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/examples/federation-example/review-workspace/nodes/memory-substrate.json",
+  "artifact_path": "examples/federation-example/review-workspace/nodes/memory-substrate.json",
+  "asset_path": "assets/raw/repository/examples/federation-example/review-workspace/nodes/memory-substrate.json",
+  "asset_role": "repository_snapshot",
+  "media_type": "document",
+  "mime_type": "application/json",
+  "rights_status": "canonical-public",
+  "content_id": "sha256:deeee5b2de2a247eb195e8737cf6bca85783dde01c669164f4dd0ed4d45d2dba",
+  "content": "{\n  \"id\": \"example.researcher_b:concept/memory-substrate\",\n  \"title\": \"Memory Substrate\",\n  \"type\": \"concept\",\n  \"importance\": 4,\n  \"summary\": \"A system for preserving context, lineage, and navigable memory over time.\",\n  \"aliases\": [\n    \"Knowledge Substrate\",\n    \"Relationship-Preserving Memory Structure\"\n  ],\n  \"relationships\": []\n}\n",
+  "source_snapshot": {
+    "captured_at": "2026-06-27T07:05:44.385Z",
+    "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/examples/federation-example/review-workspace/nodes/memory-substrate.json",
+    "method": "archive",
+    "content_id": "sha256:deeee5b2de2a247eb195e8737cf6bca85783dde01c669164f4dd0ed4d45d2dba",
+    "rights_status": "canonical-public",
+    "tool": "xananode-protocol/tools/build-substrate-source.mjs"
+  },
+  "relationships": []
+}
