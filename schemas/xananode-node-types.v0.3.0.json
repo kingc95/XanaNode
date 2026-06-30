@@ -581,18 +581,54 @@
           "label": "Taxon rank",
           "value_kind": "enum",
           "options": [
-            "individual",
-            "specimen",
-            "species",
-            "genus",
-            "family",
-            "order",
-            "class",
-            "phylum",
-            "kingdom",
-            "clade",
-            "breed",
-            "cultivar"
+            {
+              "value": "individual",
+              "label": "Individual"
+            },
+            {
+              "value": "specimen",
+              "label": "Specimen"
+            },
+            {
+              "value": "species",
+              "label": "Species"
+            },
+            {
+              "value": "genus",
+              "label": "Genus"
+            },
+            {
+              "value": "family",
+              "label": "Family"
+            },
+            {
+              "value": "order",
+              "label": "Order"
+            },
+            {
+              "value": "class",
+              "label": "Class"
+            },
+            {
+              "value": "phylum",
+              "label": "Phylum"
+            },
+            {
+              "value": "kingdom",
+              "label": "Kingdom"
+            },
+            {
+              "value": "clade",
+              "label": "Clade"
+            },
+            {
+              "value": "breed",
+              "label": "Breed"
+            },
+            {
+              "value": "cultivar",
+              "label": "Cultivar"
+            }
           ],
           "help": "The taxonomic or classification rank represented by this node."
         },
@@ -601,11 +637,26 @@
           "label": "Biological sex",
           "value_kind": "enum",
           "options": [
-            "female",
-            "male",
-            "hermaphroditic",
-            "asexual",
-            "unknown"
+            {
+              "value": "female",
+              "label": "Female"
+            },
+            {
+              "value": "male",
+              "label": "Male"
+            },
+            {
+              "value": "hermaphroditic",
+              "label": "Hermaphroditic"
+            },
+            {
+              "value": "asexual",
+              "label": "Asexual"
+            },
+            {
+              "value": "unknown",
+              "label": "Unknown"
+            }
           ],
           "help": "The biological sex when it matters to the record or lineage."
         },

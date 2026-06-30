@@ -143,21 +143,6 @@ def validate_xananode_integrity(errors: list[str]) -> None:
         "relationship_types"
     ]
 
-
-def parse_datetime(value: str) -> datetime:
-    if value.endswith("Z"):
-        value = f"{value[:-1]}+00:00"
-    return datetime.fromisoformat(value)
-    core_types = {item["type"] for item in core_relationships}
-
-    for item in core_relationships:
-        inverse = item.get("inverse")
-        if inverse and inverse != item["type"] and inverse in core_types:
-            errors.append(
-                "schemas/xananode-relationship-types.v0.5.0.json: "
-                f"inverse relationship type should be derived, not separately registered: {item['type']} / {inverse}"
-            )
-
     for manifest_path in ROOT.glob("examples/**/substrate.json"):
         manifest = load_json(manifest_path)
         namespace = manifest["namespace"]
@@ -198,6 +183,12 @@ def parse_datetime(value: str) -> datetime:
                     errors.append(f"{node_path.relative_to(ROOT)}: fragment tumbler must include source_version_id")
                 if node.get("version_id") not in tumbler:
                     errors.append(f"{node_path.relative_to(ROOT)}: fragment tumbler must include fragment version_id")
+
+
+def parse_datetime(value: str) -> datetime:
+    if value.endswith("Z"):
+        value = f"{value[:-1]}+00:00"
+    return datetime.fromisoformat(value)
 
 
 def main() -> int:
