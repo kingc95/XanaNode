@@ -11,8 +11,8 @@
     "default_branch": "main"
   },
   "build_metadata": {
-    "built_at": "2026-06-27T16:35:32.291Z",
-    "git_commit": "0cc604ced94bcbf4a3d157791ab21273f2b0491d",
+    "built_at": "2026-06-30T05:09:29.990Z",
+    "git_commit": "d5e40b5d6eef650dca2282ae32fed417350b0f46",
     "git_branch": "main",
     "built_by": "xananode-protocol/tools/build-substrate-source.mjs"
   },

@@ -15,7 +15,7 @@
   "content_id": "sha256:40ef6943fe330dcfbc0a27ac6f0ebce4341f378663bcaf682d8cdb1436ecef4f",
   "content": "{\n  \"id\": \"example.researcher_b:concept/memory-substrate\",\n  \"title\": \"Memory Substrate\",\n  \"type\": \"concept\",\n  \"importance\": 4,\n  \"summary\": \"A system for preserving context, lineage, and navigable memory over time.\",\n  \"aliases\": [\n    \"Knowledge Substrate\",\n    \"Relationship-Preserving Memory Structure\"\n  ],\n  \"relationships\": [\n    {\n      \"id\": \"example.researcher_b:rel/memory-substrate-possible-match-knowledge-substrate\",\n      \"type\": \"possible_match\",\n      \"target\": \"example.researcher_a:concept/knowledge-substrate\",\n      \"direction\": \"outgoing\",\n      \"external\": true,\n      \"target_substrate\": \"example.researcher_a\"\n    }\n  ]\n}\n",
   "source_snapshot": {
-    "captured_at": "2026-06-27T16:35:32.291Z",
+    "captured_at": "2026-06-30T05:09:29.990Z",
     "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/examples/federation-example/substrate-b/nodes/memory-substrate.json",
     "method": "archive",
     "content_id": "sha256:40ef6943fe330dcfbc0a27ac6f0ebce4341f378663bcaf682d8cdb1436ecef4f",

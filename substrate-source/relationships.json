@@ -6,7 +6,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "defines",
       "summary": "The protocol project defines the XanaNode concept.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-documents-protocol-project",
@@ -14,7 +14,7 @@
       "target": "xananode.protocol:project/xananode-protocol",
       "type": "documents",
       "summary": "The repository documents and carries the protocol project.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-contexts-xananode-context",
@@ -22,7 +22,7 @@
       "target": "xananode.protocol:source/artifact-contexts-xananode-context",
       "type": "contains",
       "summary": "The protocol repository contains contexts/xananode.context.jsonld.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-compatibility-report",
@@ -30,7 +30,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-compatibility-report",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/compatibility-report.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-merge-report",
@@ -38,7 +38,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-merge-report",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/merge-report.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-readme",
@@ -46,7 +46,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-readme",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/README.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-review-workspace-nodes-federation-review-proof",
@@ -54,7 +54,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-nodes-federation-review-proof",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/review-workspace/nodes/federation-review-proof.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-review-workspace-nodes-knowledge-substrate",
@@ -62,7 +62,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-nodes-knowledge-substrate",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/review-workspace/nodes/knowledge-substrate.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-review-workspace-nodes-memory-substrate",
@@ -70,7 +70,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-nodes-memory-substrate",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/review-workspace/nodes/memory-substrate.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-review-workspace-nodes-non-destructive-merge-review",
@@ -78,7 +78,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-nodes-non-destructive-merge-review",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/review-workspace/nodes/non-destructive-merge-review.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-review-workspace-nodes-person-researcher-a",
@@ -86,7 +86,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-nodes-person-researcher-a",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/review-workspace/nodes/person-researcher-a.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-review-workspace-nodes-person-researcher-b",
@@ -94,7 +94,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-nodes-person-researcher-b",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/review-workspace/nodes/person-researcher-b.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-review-workspace-readme",
@@ -102,7 +102,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-readme",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/review-workspace/README.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-review-workspace-relationships",
@@ -110,7 +110,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-relationships",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/review-workspace/relationships.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-review-workspace-substrate",
@@ -118,7 +118,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-review-workspace-substrate",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/review-workspace/substrate.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-a-nodes-knowledge-substrate",
@@ -126,7 +126,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-a-nodes-knowledge-substrate",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-a/nodes/knowledge-substrate.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-a-nodes-person-researcher-a",
@@ -134,7 +134,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-a-nodes-person-researcher-a",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-a/nodes/person-researcher-a.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-a-readme",
@@ -142,7 +142,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-a-readme",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-a/README.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-a-relationships",
@@ -150,7 +150,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-a-relationships",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-a/relationships.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-a-substrate",
@@ -158,7 +158,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-a-substrate",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-a/substrate.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-b-nodes-memory-substrate",
@@ -166,7 +166,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-b-nodes-memory-substrate",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-b/nodes/memory-substrate.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-b-nodes-person-researcher-b",
@@ -174,7 +174,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-b-nodes-person-researcher-b",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-b/nodes/person-researcher-b.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-b-readme",
@@ -182,7 +182,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-b-readme",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-b/README.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-b-relationships",
@@ -190,7 +190,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-b-relationships",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-b/relationships.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-b-substrate",
@@ -198,7 +198,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-b-substrate",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-b/substrate.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-federation-example-substrate-diff",
@@ -206,7 +206,7 @@
       "target": "xananode.protocol:source/artifact-examples-federation-example-substrate-diff",
       "type": "contains",
       "summary": "The protocol repository contains examples/federation-example/substrate-diff.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-assets-branding-xananode-icon",
@@ -214,7 +214,7 @@
       "target": "xananode.protocol:media/artifact-examples-minimal-substrate-assets-branding-xananode-icon",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/assets/branding/xananode-icon.svg.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-author-profile",
@@ -222,7 +222,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-author-profile",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/author-profile.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nanopublication-substrate-claim",
@@ -230,7 +230,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nanopublication-substrate-claim",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nanopublication-substrate-claim.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-claim-substrate-structure",
@@ -238,7 +238,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-claim-substrate-structure",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/claim-substrate-structure.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-communication-minimal-substrate-discussion",
@@ -246,7 +246,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-communication-minimal-substrate-discussion",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/communication-minimal-substrate-discussion.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-concept-associative-trails",
@@ -254,7 +254,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-concept-associative-trails",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/concept-associative-trails.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-essay-relationship-navigation-intro",
@@ -262,7 +262,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-essay-relationship-navigation-intro",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/essay-relationship-navigation-intro.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-fragment-as-we-may-think-0004",
@@ -270,7 +270,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-fragment-as-we-may-think-0004",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/fragment-as-we-may-think-0004.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-knowledge-gap-missing-relationship-evidence",
@@ -278,7 +278,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-knowledge-gap-missing-relationship-evidence",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/knowledge-gap-missing-relationship-evidence.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-knowledge-substrate",
@@ -286,7 +286,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-knowledge-substrate",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/knowledge-substrate.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-media-xananode-icon",
@@ -294,7 +294,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-media-xananode-icon",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/media-xananode-icon.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-person-example-maintainer",
@@ -302,7 +302,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-person-example-maintainer",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/person-example-maintainer.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-question-why-relationships-matter",
@@ -310,7 +310,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-question-why-relationships-matter",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/question-why-relationships-matter.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-readme",
@@ -318,7 +318,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-readme",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/README.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-response-relationships-preserve-context",
@@ -326,7 +326,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-response-relationships-preserve-context",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/response-relationships-preserve-context.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-source-as-we-may-think",
@@ -334,7 +334,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-source-as-we-may-think",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/source-as-we-may-think.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-nodes-trail-start-here",
@@ -342,7 +342,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-nodes-trail-start-here",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/nodes/trail-start-here.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-readme",
@@ -350,7 +350,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-readme",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/README.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-relationships",
@@ -358,7 +358,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-relationships",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/relationships.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-ro-crate-metadata",
@@ -366,7 +366,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-ro-crate-metadata",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/ro-crate-metadata.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-minimal-substrate-substrate",
@@ -374,7 +374,7 @@
       "target": "xananode.protocol:source/artifact-examples-minimal-substrate-substrate",
       "type": "contains",
       "summary": "The protocol repository contains examples/minimal-substrate/substrate.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-examples-readme",
@@ -382,7 +382,7 @@
       "target": "xananode.protocol:source/artifact-examples-readme",
       "type": "contains",
       "summary": "The protocol repository contains examples/README.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-governance-canonical-type-policy",
@@ -390,7 +390,7 @@
       "target": "xananode.protocol:source/artifact-governance-canonical-type-policy",
       "type": "contains",
       "summary": "The protocol repository contains governance/canonical-type-policy.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-governance-dispute-resolution",
@@ -398,7 +398,7 @@
       "target": "xananode.protocol:source/artifact-governance-dispute-resolution",
       "type": "contains",
       "summary": "The protocol repository contains governance/dispute-resolution.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-governance-federation-rules",
@@ -406,7 +406,7 @@
       "target": "xananode.protocol:source/artifact-governance-federation-rules",
       "type": "contains",
       "summary": "The protocol repository contains governance/federation-rules.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-governance-moderation-model",
@@ -414,7 +414,7 @@
       "target": "xananode.protocol:source/artifact-governance-moderation-model",
       "type": "contains",
       "summary": "The protocol repository contains governance/moderation-model.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-governance-readme",
@@ -422,7 +422,7 @@
       "target": "xananode.protocol:source/artifact-governance-readme",
       "type": "contains",
       "summary": "The protocol repository contains governance/README.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-governance-schema-extension-rules",
@@ -430,7 +430,7 @@
       "target": "xananode.protocol:source/artifact-governance-schema-extension-rules",
       "type": "contains",
       "summary": "The protocol repository contains governance/schema-extension-rules.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-governance-versioning-policy",
@@ -438,7 +438,7 @@
       "target": "xananode.protocol:source/artifact-governance-versioning-policy",
       "type": "contains",
       "summary": "The protocol repository contains governance/versioning-policy.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-license",
@@ -446,7 +446,7 @@
       "target": "xananode.protocol:source/artifact-license",
       "type": "contains",
       "summary": "The protocol repository contains LICENSE.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-media-images-xananode-icon",
@@ -454,7 +454,7 @@
       "target": "xananode.protocol:media/artifact-media-images-xananode-icon",
       "type": "contains",
       "summary": "The protocol repository contains media/images/xananode-icon.svg.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-notice",
@@ -462,7 +462,7 @@
       "target": "xananode.protocol:source/artifact-notice",
       "type": "contains",
       "summary": "The protocol repository contains NOTICE.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-readme",
@@ -470,7 +470,7 @@
       "target": "xananode.protocol:source/artifact-proposals-readme",
       "type": "contains",
       "summary": "The protocol repository contains proposals/README.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0001-namespaces",
@@ -478,7 +478,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0001-namespaces",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0001-namespaces.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0002-extension-schemas",
@@ -486,7 +486,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0002-extension-schemas",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0002-extension-schemas.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0003-federation",
@@ -494,7 +494,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0003-federation",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0003-federation.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0004-merge-validation",
@@ -502,7 +502,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0004-merge-validation",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0004-merge-validation.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0005-transclusion",
@@ -510,7 +510,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0005-transclusion",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0005-transclusion.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0006-tumbler-addressing",
@@ -518,7 +518,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0006-tumbler-addressing",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0006-tumbler-addressing.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0007-git-backed-substrates",
@@ -526,7 +526,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0007-git-backed-substrates",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0007-git-backed-substrates.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0008-derived-inverse-relationships",
@@ -534,7 +534,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0008-derived-inverse-relationships",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0008-derived-inverse-relationships.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0009-standards-alignment",
@@ -542,7 +542,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0009-standards-alignment",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0009-standards-alignment.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0010-federation-discovery-and-trust",
@@ -550,7 +550,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0010-federation-discovery-and-trust",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0010-federation-discovery-and-trust.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0011-studio-local-first-authoring",
@@ -558,7 +558,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0011-studio-local-first-authoring",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0011-studio-local-first-authoring.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-proposals-xnp-0012-executable-tool-contract",
@@ -566,7 +566,7 @@
       "target": "xananode.protocol:source/artifact-proposals-xnp-0012-executable-tool-contract",
       "type": "contains",
       "summary": "The protocol repository contains proposals/XNP-0012-executable-tool-contract.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-readme",
@@ -574,7 +574,7 @@
       "target": "xananode.protocol:source/artifact-readme",
       "type": "contains",
       "summary": "The protocol repository contains README.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/readme-documents-xananode",
@@ -582,7 +582,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "XanaNode Protocol README documents XanaNode.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-registry-canonical-schemas",
@@ -590,7 +590,7 @@
       "target": "xananode.protocol:schema/artifact-registry-canonical-schemas",
       "type": "contains",
       "summary": "The protocol repository contains registry/canonical-schemas.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-registry-federation-targets",
@@ -598,7 +598,7 @@
       "target": "xananode.protocol:schema/artifact-registry-federation-targets",
       "type": "contains",
       "summary": "The protocol repository contains registry/federation-targets.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-registry-federation-targets-schema",
@@ -606,7 +606,7 @@
       "target": "xananode.protocol:schema/artifact-registry-federation-targets-schema",
       "type": "contains",
       "summary": "The protocol repository contains registry/federation-targets.schema.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-registry-known-implementations",
@@ -614,7 +614,7 @@
       "target": "xananode.protocol:schema/artifact-registry-known-implementations",
       "type": "contains",
       "summary": "The protocol repository contains registry/known-implementations.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-registry-namespaces",
@@ -622,7 +622,7 @@
       "target": "xananode.protocol:schema/artifact-registry-namespaces",
       "type": "contains",
       "summary": "The protocol repository contains registry/namespaces.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-registry-readme",
@@ -630,7 +630,7 @@
       "target": "xananode.protocol:schema/artifact-registry-readme",
       "type": "contains",
       "summary": "The protocol repository contains registry/README.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-author-profile-schema",
@@ -638,7 +638,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-author-profile-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/author-profile.schema.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-compatibility-report-schema",
@@ -646,7 +646,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-compatibility-report-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/compatibility-report.schema.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-merge-report-schema",
@@ -654,7 +654,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-merge-report-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/merge-report.schema.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-namespace-schema",
@@ -662,7 +662,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-namespace-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/namespace.schema.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-nanopublication-schema",
@@ -670,7 +670,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-nanopublication-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/nanopublication.schema.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-property-registry-schema",
@@ -678,7 +678,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-property-registry-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/property-registry.schema.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-readme",
@@ -686,7 +686,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-readme",
       "type": "contains",
       "summary": "The protocol repository contains schemas/README.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-ro-crate-metadata-schema",
@@ -694,7 +694,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-ro-crate-metadata-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/ro-crate-metadata.schema.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-substrate-diff-schema",
@@ -702,7 +702,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-substrate-diff-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/substrate-diff.schema.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-substrate-layout-schema",
@@ -710,7 +710,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-substrate-layout-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/substrate-layout.schema.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-substrate-manifest-schema",
@@ -718,7 +718,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-substrate-manifest-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/substrate-manifest.schema.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-substrate-node-schema",
@@ -726,7 +726,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-substrate-node-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/substrate-node.schema.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-substrate-relationships-schema",
@@ -734,7 +734,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-substrate-relationships-schema",
       "type": "contains",
       "summary": "The protocol repository contains schemas/substrate-relationships.schema.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-xananode-node-types-schema-v0-3-0",
@@ -742,7 +742,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-xananode-node-types-schema-v0-3-0",
       "type": "contains",
       "summary": "The protocol repository contains schemas/xananode-node-types.schema.v0.3.0.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-xananode-node-types-v0-3-0",
@@ -750,7 +750,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-xananode-node-types-v0-3-0",
       "type": "contains",
       "summary": "The protocol repository contains schemas/xananode-node-types.v0.3.0.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-xananode-property-registry-v0-1-0",
@@ -758,7 +758,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-xananode-property-registry-v0-1-0",
       "type": "contains",
       "summary": "The protocol repository contains schemas/xananode-property-registry.v0.1.0.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-xananode-relationship-types-schema-v0-5-0",
@@ -766,7 +766,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-xananode-relationship-types-schema-v0-5-0",
       "type": "contains",
       "summary": "The protocol repository contains schemas/xananode-relationship-types.schema.v0.5.0.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-xananode-relationship-types-v0-5-0",
@@ -774,7 +774,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-xananode-relationship-types-v0-5-0",
       "type": "contains",
       "summary": "The protocol repository contains schemas/xananode-relationship-types.v0.5.0.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-schemas-xananode-substrate-layout-v0-1-0",
@@ -782,7 +782,7 @@
       "target": "xananode.protocol:schema/artifact-schemas-xananode-substrate-layout-v0-1-0",
       "type": "contains",
       "summary": "The protocol repository contains schemas/xananode-substrate-layout.v0.1.0.json.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-compatibility-levels",
@@ -790,7 +790,7 @@
       "target": "xananode.protocol:source/artifact-specs-compatibility-levels",
       "type": "contains",
       "summary": "The protocol repository contains specs/compatibility-levels.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/specs-compatibility-levels-documents-xananode",
@@ -798,7 +798,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Compatibility Levels documents XanaNode.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-federation",
@@ -806,7 +806,7 @@
       "target": "xananode.protocol:source/artifact-specs-federation",
       "type": "contains",
       "summary": "The protocol repository contains specs/federation.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/specs-federation-documents-xananode",
@@ -814,7 +814,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Federation documents XanaNode.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-implementation-compatibility",
@@ -822,7 +822,7 @@
       "target": "xananode.protocol:source/artifact-specs-implementation-compatibility",
       "type": "contains",
       "summary": "The protocol repository contains specs/implementation-compatibility.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/specs-implementation-compatibility-documents-xananode",
@@ -830,7 +830,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Implementation Compatibility documents XanaNode.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-interoperability",
@@ -838,7 +838,7 @@
       "target": "xananode.protocol:source/artifact-specs-interoperability",
       "type": "contains",
       "summary": "The protocol repository contains specs/interoperability.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/specs-interoperability-documents-xananode",
@@ -846,7 +846,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Interoperability documents XanaNode.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-merge-validation",
@@ -854,7 +854,7 @@
       "target": "xananode.protocol:source/artifact-specs-merge-validation",
       "type": "contains",
       "summary": "The protocol repository contains specs/merge-validation.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/specs-merge-validation-documents-xananode",
@@ -862,7 +862,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Merge Validation documents XanaNode.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-namespaces",
@@ -870,7 +870,7 @@
       "target": "xananode.protocol:source/artifact-specs-namespaces",
       "type": "contains",
       "summary": "The protocol repository contains specs/namespaces.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/specs-namespaces-documents-xananode",
@@ -878,7 +878,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Namespaces documents XanaNode.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-nodes",
@@ -886,7 +886,7 @@
       "target": "xananode.protocol:source/artifact-specs-nodes",
       "type": "contains",
       "summary": "The protocol repository contains specs/nodes.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/specs-nodes-documents-xananode",
@@ -894,7 +894,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Nodes documents XanaNode.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-readme",
@@ -902,7 +902,7 @@
       "target": "xananode.protocol:source/artifact-specs-readme",
       "type": "contains",
       "summary": "The protocol repository contains specs/README.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/specs-readme-documents-xananode",
@@ -910,7 +910,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / README documents XanaNode.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-relationships",
@@ -918,7 +918,7 @@
       "target": "xananode.protocol:source/artifact-specs-relationships",
       "type": "contains",
       "summary": "The protocol repository contains specs/relationships.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/specs-relationships-documents-xananode",
@@ -926,7 +926,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Relationships documents XanaNode.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-studio",
@@ -934,7 +934,7 @@
       "target": "xananode.protocol:source/artifact-specs-studio",
       "type": "contains",
       "summary": "The protocol repository contains specs/studio.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/specs-studio-documents-xananode",
@@ -942,7 +942,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Studio documents XanaNode.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-substrates",
@@ -950,7 +950,7 @@
       "target": "xananode.protocol:source/artifact-specs-substrates",
       "type": "contains",
       "summary": "The protocol repository contains specs/substrates.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/specs-substrates-documents-xananode",
@@ -958,7 +958,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Substrates documents XanaNode.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-transclusion",
@@ -966,7 +966,7 @@
       "target": "xananode.protocol:source/artifact-specs-transclusion",
       "type": "contains",
       "summary": "The protocol repository contains specs/transclusion.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/specs-transclusion-documents-xananode",
@@ -974,7 +974,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Transclusion documents XanaNode.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-tumbler-addressing",
@@ -982,7 +982,7 @@
       "target": "xananode.protocol:source/artifact-specs-tumbler-addressing",
       "type": "contains",
       "summary": "The protocol repository contains specs/tumbler-addressing.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/specs-tumbler-addressing-documents-xananode",
@@ -990,7 +990,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Tumbler Addressing documents XanaNode.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-specs-xananode-core",
@@ -998,7 +998,7 @@
       "target": "xananode.protocol:source/artifact-specs-xananode-core",
       "type": "contains",
       "summary": "The protocol repository contains specs/xananode-core.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/specs-xananode-core-documents-xananode",
@@ -1006,7 +1006,7 @@
       "target": "xananode.protocol:concept/xananode",
       "type": "documents",
       "summary": "Specs / Xananode Core documents XanaNode.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     },
     {
       "id": "xananode.protocol:rel/repository-contains-trademark",
@@ -1014,7 +1014,7 @@
       "target": "xananode.protocol:source/artifact-trademark",
       "type": "contains",
       "summary": "The protocol repository contains TRADEMARK.md.",
-      "asserted_at": "2026-06-27T16:35:32.291Z"
+      "asserted_at": "2026-06-30T05:09:29.990Z"
     }
   ]
 }

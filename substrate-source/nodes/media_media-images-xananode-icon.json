@@ -11,14 +11,14 @@
   "asset_role": "repository_snapshot",
   "media_type": "image",
   "mime_type": "image/svg+xml",
-  "rights_status": "canonical-public",
+  "rights_status": "trademarked - see TRADEMARK.md for permissions and reuse restrictions",
   "content_id": "sha256:d7b60a3f9a05156041dae523790d3465e7909a54425dfbeea3e112eace5f9c9a",
   "source_snapshot": {
-    "captured_at": "2026-06-27T16:35:32.291Z",
+    "captured_at": "2026-06-30T05:09:29.990Z",
     "source_url": "https://github.com/kingc95/XanaNode-Protocol/blob/main/media/images/xananode-icon.svg",
     "method": "archive",
     "content_id": "sha256:d7b60a3f9a05156041dae523790d3465e7909a54425dfbeea3e112eace5f9c9a",
-    "rights_status": "canonical-public",
+    "rights_status": "trademarked - see TRADEMARK.md for permissions and reuse restrictions",
     "tool": "xananode-protocol/tools/build-substrate-source.mjs"
   },
   "relationships": []

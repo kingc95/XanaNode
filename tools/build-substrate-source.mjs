@@ -56,6 +56,14 @@ function protocolSourceUrl(relativePath) {
   return `https://github.com/kingc95/XanaNode-Protocol/blob/main/${safeAssetRelativePath(relativePath)}`;
 }
 
+function protocolArtifactRightsStatus(relativePath) {
+  const clean = safeAssetRelativePath(relativePath);
+  if (clean === "media/images/xananode-icon.svg") {
+    return "trademarked - see TRADEMARK.md for permissions and reuse restrictions";
+  }
+  return "canonical-public";
+}
+
 function nodeKindFor(relativePath) {
   const clean = safeAssetRelativePath(relativePath);
   const ext = path.extname(clean).toLowerCase();
@@ -284,7 +292,7 @@ export function buildProtocolSubstrateSource(outDir = defaultOutDir) {
       asset_role: "repository_snapshot",
       media_type: kind.media_type,
       mime_type: kind.mime_type,
-      rights_status: "canonical-public",
+      rights_status: protocolArtifactRightsStatus(relativePath),
       content_id: sha256File(sourcePath),
       ...(content ? { content } : {}),
       source_snapshot: {
@@ -292,7 +300,7 @@ export function buildProtocolSubstrateSource(outDir = defaultOutDir) {
         source_url: protocolSourceUrl(relativePath),
         method: "archive",
         content_id: sha256File(sourcePath),
-        rights_status: "canonical-public",
+        rights_status: protocolArtifactRightsStatus(relativePath),
         tool: "xananode-protocol/tools/build-substrate-source.mjs"
       },
       relationships: []
